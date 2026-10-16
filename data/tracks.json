@@ -1,0 +1,72 @@
+{
+  "platformName": "GradIndex",
+  "lastSystemSync": "October 2026",
+  "tracks": [
+    {
+      "id": "ai-ml",
+      "code": "TRK-01",
+      "title": "Artificial Intelligence & Machine Learning",
+      "shortDesc": "Foundational ML, Applied AI, Data Science, Computer Vision & Intelligent Systems.",
+      "active": true,
+      "universitiesCount": 125,
+      "countriesCount": 5,
+      "lastUpdated": "October 2026",
+      "dataFile": "data/ai-ml.json"
+    },
+    {
+      "id": "cybersecurity",
+      "code": "TRK-02",
+      "title": "Cybersecurity & Network Defense",
+      "shortDesc": "Cryptography, Cloud Security, Zero-Trust Architecture & Digital Forensics.",
+      "active": false,
+      "universitiesCount": 0,
+      "countriesCount": 5,
+      "lastUpdated": "Pending Q4 2026",
+      "dataFile": "data/cybersecurity.json"
+    },
+    {
+      "id": "power-systems",
+      "code": "TRK-03",
+      "title": "Smart Grids & Renewable Power Systems",
+      "shortDesc": "High-Voltage Engineering, Power Electronics, SCADA Telemetry & Sustainable Grids.",
+      "active": false,
+      "universitiesCount": 0,
+      "countriesCount": 5,
+      "lastUpdated": "Pending Q4 2026",
+      "dataFile": "data/power-systems.json"
+    },
+    {
+      "id": "robotics",
+      "code": "TRK-04",
+      "title": "Robotics, Mechatronics & Embedded Control",
+      "shortDesc": "Autonomous Hardware, ROS, Control Theory, Sensor Fusion & Industrial Automation.",
+      "active": false,
+      "universitiesCount": 0,
+      "countriesCount": 5,
+      "lastUpdated": "Pending Q1 2027",
+      "dataFile": "data/robotics.json"
+    },
+    {
+      "id": "software-eng",
+      "code": "TRK-05",
+      "title": "Cloud Computing & Distributed Systems",
+      "shortDesc": "Scalable Microservices, DevOps Architecture, High-Performance Computing & SRE.",
+      "active": false,
+      "universitiesCount": 0,
+      "countriesCount": 5,
+      "lastUpdated": "Pending Q1 2027",
+      "dataFile": "data/software-eng.json"
+    },
+    {
+      "id": "fintech",
+      "code": "TRK-06",
+      "title": "Quantitative Finance & Financial Engineering",
+      "shortDesc": "Algorithmic Trading, Risk Modeling, Econometrics & Blockchain Infrastructure.",
+      "active": false,
+      "universitiesCount": 0,
+      "countriesCount": 5,
+      "lastUpdated": "Pending Q1 2027",
+      "dataFile": "data/fintech.json"
+    }
+  ]
+}

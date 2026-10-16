@@ -1,0 +1,3391 @@
+{
+  "trackId": "ai-ml",
+  "trackTitle": "Artificial Intelligence, Machine Learning & Data Science",
+  "lastUpdated": "October 2026",
+  "totalUniversities": 125,
+  "countries": [
+    "USA",
+    "UK",
+    "Canada",
+    "Ireland",
+    "Australia"
+  ],
+  "candidateBaseline": "B.Eng Electrical/Electronics (Second Class) + SQL, Tableau & Excel Foundations",
+  "universities": [
+    {
+      "id": "UNI-001",
+      "name": "Northeastern University",
+      "country": "USA",
+      "city": "Boston, MA",
+      "program": "MS in Artificial Intelligence",
+      "monthlyLivingCostUSD": 1950,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Dean's Scholarship (up to 33% tuition discount) + Paid Co-op earnings ($30-$45/hr)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Top #1 US Co-op pipeline with Amazon Robotics, Bose, Raytheon & MIT Lincoln Lab.",
+      "coreModules": [
+        "Foundations of AI",
+        "Algorithms",
+        "Linear Algebra & Probability",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Robotic Science & Systems",
+        "Computer Vision",
+        "NLP",
+        "6-Month Paid Industry Co-op"
+      ],
+      "eeeFitNote": "Strong fit for B.Eng EEE (2nd Class Upper/Lower with strong math & SQL portfolio).",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-002",
+      "name": "Arizona State University",
+      "country": "USA",
+      "city": "Tempe, AZ",
+      "program": "MS in Robotics and Autonomous Systems (AI Track)",
+      "monthlyLivingCostUSD": 1350,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Teaching/Research Assistantships (GTA/GRA) + New American University Merit Award",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Direct pipeline to Intel Ocotillo Fab, Taiwan Semiconductor (TSMC Arizona), Honeywell & Waymo.",
+      "coreModules": [
+        "Mathematical Foundations of ML",
+        "Linear Systems Theory",
+        "Statistical Learning",
+        "Optimization"
+      ],
+      "appliedModules": [
+        "Perception in Robotics",
+        "Deep Learning on Edge Hardware",
+        "Autonomous Control",
+        "Applied Capstone"
+      ],
+      "eeeFitNote": "Explicitly welcomes Electrical/Electronics engineers; no strict CS undergrad required.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-003",
+      "name": "University at Buffalo (SUNY)",
+      "country": "USA",
+      "city": "Buffalo, NY",
+      "program": "MS in Engineering Science (Artificial Intelligence)",
+      "monthlyLivingCostUSD": 1050,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "SUNY Graduate Fellowships & Departmental Grader/TA Stipends",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Partnerships with Moog Inc., ACV Auctions, M&T Tech Hub & IBM Research NY.",
+      "coreModules": [
+        "Pattern Recognition",
+        "Introduction to Machine Learning",
+        "Probability for Engineers",
+        "Deep Learning"
+      ],
+      "appliedModules": [
+        "Computer Vision & Image Processing",
+        "Reinforcement Learning",
+        "Big Data Analytics",
+        "AI Practicum"
+      ],
+      "eeeFitNote": "Designed specifically as an engineering bridge for EEE/Mechanical graduates into AI.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-004",
+      "name": "University of Texas at Dallas",
+      "country": "USA",
+      "city": "Richardson, TX",
+      "program": "MS in Computer Science (Intelligent Systems Track)",
+      "monthlyLivingCostUSD": 1280,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Jonsson School $1,000 Competitive Scholarship (grants in-state tuition rate to internationals!)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located in the 'Telecom Corridor' alongside Texas Instruments, Samsung, AT&T & Ericsson.",
+      "coreModules": [
+        "Design & Analysis of Algorithms",
+        "Machine Learning",
+        "Statistical Methods for Data Science",
+        "Artificial Intelligence"
+      ],
+      "appliedModules": [
+        "Natural Language Processing",
+        "Big Data Management",
+        "Video Analytics",
+        "Industrial Internship"
+      ],
+      "eeeFitNote": "High admission rate for EEE graduates; competitive scholarship cuts tuition by ~50%.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-005",
+      "name": "Rochester Institute of Technology (RIT)",
+      "country": "USA",
+      "city": "Rochester, NY",
+      "program": "MS in Artificial Intelligence",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "RIT Graduate Merit Scholarship (20% to 40% automatic tuition fee waiver)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Mandatory/Optional Cooperative Education with BorgWarner, L3Harris, Kodak Alaris & NVIDIA partners.",
+      "coreModules": [
+        "Foundations of Intelligent Systems",
+        "Math for Deep Learning",
+        "Statistical Machine Learning",
+        "Evolutionary Computation"
+      ],
+      "appliedModules": [
+        "Edge AI & IoT",
+        "Human-Centered AI",
+        "Computer Vision",
+        "Paid Graduate Co-op"
+      ],
+      "eeeFitNote": "Values hardware + data backgrounds (EEE + SQL/Tableau is an ideal match).",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-006",
+      "name": "Drexel University",
+      "country": "USA",
+      "city": "Philadelphia, PA",
+      "program": "MS in Artificial Intelligence and Machine Learning",
+      "monthlyLivingCostUSD": 1480,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Drexel Graduate Dean's Fellowship + Graduate Co-op Placement Income",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Graduate Co-op program integrated with Comcast AI Labs, Lockheed Martin, Vanguard & SAP America.",
+      "coreModules": [
+        "Mathematical Foundations of AI",
+        "Machine Learning",
+        "Deep Learning",
+        "Knowledge Representation"
+      ],
+      "appliedModules": [
+        "Applied AI Capstone",
+        "Data Mining",
+        "Trusted AI Systems",
+        "6-Month Industry Co-op"
+      ],
+      "eeeFitNote": "Accepts 3.0/4.0 GPA (~2nd Class) in Electrical Engineering with foundational programming.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-007",
+      "name": "North Carolina State University",
+      "country": "USA",
+      "city": "Raleigh, NC",
+      "program": "MS in Electrical & Computer Engineering (AI & ML Track)",
+      "monthlyLivingCostUSD": 1320,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Research Assistantships via Centennial Campus labs + Industry Consortium fellowships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Situated in Research Triangle Park (RTP) with Red Hat, IBM, Cisco, SAS Institute & Cree/Wolfspeed.",
+      "coreModules": [
+        "Stochastic Models",
+        "Neural Networks",
+        "Digital Signal Processing",
+        "Linear Systems"
+      ],
+      "appliedModules": [
+        "High-Performance Machine Learning",
+        "Computer Vision",
+        "Hardware Accelerators for AI",
+        "RTP Industry Internship"
+      ],
+      "eeeFitNote": "Your B.Eng EEE gives you direct entry without needing CS prerequisite remedial courses.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-008",
+      "name": "Illinois Institute of Technology",
+      "country": "USA",
+      "city": "Chicago, IL",
+      "program": "MAS in Artificial Intelligence",
+      "monthlyLivingCostUSD": 1420,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Access Path to Success Scholarship ($5,000 - $14,000 automatic tuition reduction)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Chicago tech loop internships with Motorola Solutions, CME Group, Discover & Argonne National Lab.",
+      "coreModules": [
+        "Math with Python for AI",
+        "Machine Learning",
+        "Probabilistic Graphical Models",
+        "Deep Learning"
+      ],
+      "appliedModules": [
+        "Natural Language Processing",
+        "AI in Production (MLOps)",
+        "Big Data Technologies",
+        "Chicago Industry Practicum"
+      ],
+      "eeeFitNote": "Very welcoming to Second Class Engineering degrees; includes built-in Python/Math bootcamps.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-009",
+      "name": "University of Cincinnati",
+      "country": "USA",
+      "city": "Cincinnati, OH",
+      "program": "MS in Engineering (Artificial Intelligence Track)",
+      "monthlyLivingCostUSD": 1100,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "University Graduate Scholarship (UGS) partial/full tuition waiver + Co-op pay",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Birthplace of Cooperative Education; partners with Procter & Gamble (P&G), GE Aerospace & Kroger Digital.",
+      "coreModules": [
+        "Advanced Engineering Mathematics",
+        "Intelligent Data Analysis",
+        "Machine Learning",
+        "Deep Neural Networks"
+      ],
+      "appliedModules": [
+        "Autonomous Systems",
+        "Industrial AI Deployment",
+        "Cloud Data Pipelines",
+        "Paid Co-op Rotation"
+      ],
+      "eeeFitNote": "Low living cost in Ohio + world-class engineering co-op infrastructure.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-010",
+      "name": "San Jose State University",
+      "country": "USA",
+      "city": "San Jose, CA",
+      "program": "MS in Artificial Intelligence",
+      "monthlyLivingCostUSD": 2150,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "California State Graduate Equity Fellowship + Campus ISA/Grader positions",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Heart of Silicon Valley; #1 supplier of engineering interns to Apple, Cisco, Western Digital & Adobe.",
+      "coreModules": [
+        "Mathematical Foundations for AI",
+        "Machine Learning",
+        "Deep Learning",
+        "Search & Optimization"
+      ],
+      "appliedModules": [
+        "Autonomous Driving Algorithms",
+        "Reinforcement Learning",
+        "Large Language Models",
+        "Silicon Valley CPT Internship"
+      ],
+      "eeeFitNote": "Unmatched Silicon Valley location; EEE degrees accepted with foundational coding coursework.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-011",
+      "name": "Wayne State University",
+      "country": "USA",
+      "city": "Detroit, MI",
+      "program": "MS in AI (Industrial & Autonomous Systems)",
+      "monthlyLivingCostUSD": 1080,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Research Assistantships + Good Neighbor/International Merit Waivers",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Direct R&D partnerships with General Motors (GM), Ford Autonomous Vehicles, Bosch & Stellantis.",
+      "coreModules": [
+        "Probability & Random Processes",
+        "Foundations of Machine Learning",
+        "Deep Learning",
+        "Convex Optimization"
+      ],
+      "appliedModules": [
+        "Connected & Autonomous Vehicles",
+        "Edge AI for Manufacturing",
+        "Smart Grid Analytics",
+        "Automotive AI Internship"
+      ],
+      "eeeFitNote": "Very low cost of living ($1,080/mo) and tailored for Electrical/Control engineers.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-012",
+      "name": "University of North Texas",
+      "country": "USA",
+      "city": "Denton, TX",
+      "program": "MS in Artificial Intelligence",
+      "monthlyLivingCostUSD": 1120,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "UNT Toulouse Graduate Scholarship ($1,000 award unlocks in-state tuition rates!) + TA roles",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Dallas-Fort Worth tech metro access (American Airlines, Toyota North America, Fidelity, Capital One).",
+      "coreModules": [
+        "Foundations of AI",
+        "Machine Learning",
+        "Statistical Data Analysis",
+        "Methods in Empirical Analysis"
+      ],
+      "appliedModules": [
+        "Biomedical AI",
+        "Autonomous Robotics",
+        "Natural Language Processing",
+        "AI Capstone Project"
+      ],
+      "eeeFitNote": "One of the most affordable AI Master's in the US when combined with the in-state tuition waiver.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-013",
+      "name": "George Mason University",
+      "country": "USA",
+      "city": "Fairfax, VA",
+      "program": "MS in Data Analytics Engineering (AI Concentration)",
+      "monthlyLivingCostUSD": 1680,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Inclusion & Merit Fellowships + Teaching Assistantships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Northern Virginia Tech Corridor (Amazon HQ2, Capital One, Booz Allen Hamilton, Northrop Grumman).",
+      "coreModules": [
+        "Analytics & Decision Analysis",
+        "Statistics for Data Analytics",
+        "Database Systems (SQL)",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Predictive Modeling",
+        "Visual Analytics (Tableau/BI)",
+        "NoVA Tech Capstone"
+      ],
+      "eeeFitNote": "Directly leverages your MySQL and Tableau skills while building advanced ML foundations.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-014",
+      "name": "Worcester Polytechnic Institute (WPI)",
+      "country": "USA",
+      "city": "Worcester, MA",
+      "program": "MS in Artificial Intelligence",
+      "monthlyLivingCostUSD": 1380,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "WPI Global Provost Merit Scholarship ($5,000 - $10,000) + Graduate Assistantships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Project-based curriculum with MassRobotics, Boston Dynamics, MathWorks & National Grid.",
+      "coreModules": [
+        "Foundations of Applied AI",
+        "Linear Algebra for Data Science",
+        "Statistical Learning",
+        "Deep Learning"
+      ],
+      "appliedModules": [
+        "AI for Robotics & Control",
+        "Graduate Qualifying Project (GQP) with Industry",
+        "Ethics & Safe AI",
+        "Edge ML"
+      ],
+      "eeeFitNote": "WPI is famous for hands-on engineering; EEE background is highly prized here.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-015",
+      "name": "University of Maryland, Baltimore County (UMBC)",
+      "country": "USA",
+      "city": "Baltimore, MD",
+      "program": "MPS in Data Science & Applied AI",
+      "monthlyLivingCostUSD": 1390,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Departmental Grader/TAships + Peaceworker/International Graduate Assistantships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "BW Tech Research Park on campus; ties to Johns Hopkins APL, NASA Goddard & Lockheed Martin.",
+      "coreModules": [
+        "Data Science Foundations",
+        "Platforms for Big Data",
+        "Machine Learning",
+        "Ethical AI"
+      ],
+      "appliedModules": [
+        "Practical Deep Learning",
+        "Spatial & Time-Series Analytics",
+        "Financial & Energy Analytics",
+        "Industry Capstone"
+      ],
+      "eeeFitNote": "Accepts Second Class degrees (3.0 GPA equivalent) and bridges analytics into core ML.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-016",
+      "name": "University of Houston",
+      "country": "USA",
+      "city": "Houston, TX",
+      "program": "MS in Engineering Data Science & AI",
+      "monthlyLivingCostUSD": 1190,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Cullen College of Engineering Fellowship ($1,000+ unlocks Texas in-state tuition)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Energy Capital of the World: Chevron, Shell, SLB (Schlumberger), Halliburton & NASA Johnson Space Center.",
+      "coreModules": [
+        "Mathematical Methods for Data Science",
+        "Probability & Statistics",
+        "Scientific Computing",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Smart Grid & Energy Analytics",
+        "Deep Learning for Sensor Data",
+        "Process Control AI",
+        "Houston Energy Internship"
+      ],
+      "eeeFitNote": "Ideal bridge for an Electrical Engineer with grid/regulatory exposure moving into AI.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-017",
+      "name": "Clemson University",
+      "country": "USA",
+      "city": "Clemson, SC",
+      "program": "MS in Computer Engineering (Intelligent Systems Track)",
+      "monthlyLivingCostUSD": 1090,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Research/Teaching Assistantships (over 50% of MS students receive lab support)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Partnerships with BMW Manufacturing Research Center (CU-ICAR), Michelin, Siemens & GE Vernova.",
+      "coreModules": [
+        "Pattern Recognition",
+        "Random Signal Processing",
+        "Machine Learning",
+        "Parallel Architecture"
+      ],
+      "appliedModules": [
+        "Autonomous Vehicle Perception",
+        "Computer Vision",
+        "Hardware Security & AI",
+        "CU-ICAR Practicum"
+      ],
+      "eeeFitNote": "Housed in the ECE department—your B.Eng EEE is a 100% direct match.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-018",
+      "name": "Michigan Technological University",
+      "country": "USA",
+      "city": "Houghton, MI",
+      "program": "MS in Applied Statistics & Data Science / Mechatronics AI",
+      "monthlyLivingCostUSD": 980,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Teaching Assistantships + International Alumni Merit Grants",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Strong Midwest engineering recruitment from Ford, John Deere, Cummins, Eaton & Dow.",
+      "coreModules": [
+        "Statistical Foundations",
+        "Predictive Modeling",
+        "Linear Models",
+        "Machine Learning Foundations"
+      ],
+      "appliedModules": [
+        "Time Series & Signal Analytics",
+        "Autonomous Systems Control",
+        "Big Data SQL Systems",
+        "Industry Practicum"
+      ],
+      "eeeFitNote": "Under $1,000/month living cost and exceptional hiring rates for electrical/data engineers.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-019",
+      "name": "University of South Florida",
+      "country": "USA",
+      "city": "Tampa, FL",
+      "program": "MS in Artificial Intelligence and Krigsman Data Analytics",
+      "monthlyLivingCostUSD": 1290,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Assistantships (tuition waiver + stipend) + Latin/Global Merit Waivers",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Tampa Bay Tech corridor: Citi Tech Hub, Jabil Circuit, Verizon, HoneyWell & CAE Defense.",
+      "coreModules": [
+        "Foundations of AI",
+        "Statistical Data Mining",
+        "Machine Learning",
+        "Algorithms for Massive Datasets"
+      ],
+      "appliedModules": [
+        "Deep Learning Vision",
+        "Reinforcement Learning",
+        "Affective Computing",
+        "Tampa Tech Internship"
+      ],
+      "eeeFitNote": "Very affordable Florida tuition + high volume of funded GA positions across campus.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-020",
+      "name": "Binghamton University (SUNY)",
+      "country": "USA",
+      "city": "Binghamton, NY",
+      "program": "MS in Systems Science & Industrial AI",
+      "monthlyLivingCostUSD": 1020,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Watson College Dean's Fellowship + Graduate Assistantships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Founded with IBM; close collaboration with BAE Systems, Lockheed Martin, Raymond Corp & Universal Instruments.",
+      "coreModules": [
+        "Complex Systems Foundations",
+        "Applied Probability",
+        "Computational Intelligence",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Neural Networks & Fuzzy Systems",
+        "Evolutionary Optimization",
+        "Healthcare & Energy Systems AI",
+        "Industrial Project"
+      ],
+      "eeeFitNote": "Low tuition, $1,020/mo living cost, and flexible entry for 2nd Class Engineering graduates.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-021",
+      "name": "Oklahoma State University",
+      "country": "USA",
+      "city": "Stillwater, OK",
+      "program": "MS in Business Analytics & Data Science / ECE AI",
+      "monthlyLivingCostUSD": 950,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Teaching/Research Assistantships (waives 100% of out-of-state tuition + monthly stipend)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Corporate partnerships with ConocoPhillips, Paycom, Boeing, Love's & Devon Energy.",
+      "coreModules": [
+        "Descriptive & Predictive Analytics",
+        "Programming for Data Science",
+        "Statistics for Engineers",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Enterprise Data Warehousing (SQL)",
+        "Tableau & BI Storytelling",
+        "Deep Learning Applications",
+        "Corporate Practicum"
+      ],
+      "eeeFitNote": "Lowest living cost in the US cohort ($950/mo) and builds directly on SQL/Tableau skills.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-022",
+      "name": "Kansas State University",
+      "country": "USA",
+      "city": "Manhattan, KS",
+      "program": "MS in Data Analytics & Intelligent Systems",
+      "monthlyLivingCostUSD": 990,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Research Assistantships + Engineering Excellence Scholarships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Partnerships with Garmin International HQ, Collins Aerospace, Textron Aviation & Burns & McDonnell.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Applied Regression",
+        "Machine Learning",
+        "Optimization Methods"
+      ],
+      "appliedModules": [
+        "Deep Neural Networks",
+        "Geospatial & Sensor Analytics",
+        "Precision Ag & Grid AI",
+        "Industry Capstone"
+      ],
+      "eeeFitNote": "Garmin and Burns & McDonnell heavily recruit EEE + Data Analytics graduates from K-State.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-023",
+      "name": "DePaul University",
+      "country": "USA",
+      "city": "Chicago, IL",
+      "program": "MS in Artificial Intelligence",
+      "monthlyLivingCostUSD": 1450,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "CDM Graduate Presidential Scholarship (automatic merit reduction up to $9,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located inside Chicago's financial/tech district; internships at Allstate, Walgreens Boots Alliance & United Airlines.",
+      "coreModules": [
+        "Python for Data Analysis",
+        "Probability & Statistics for AI",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "appliedModules": [
+        "Natural Language Processing",
+        "Computer Vision",
+        "Reinforcement Learning",
+        "Real-World AI Lab"
+      ],
+      "eeeFitNote": "Designed with built-in introductory bridge courses for non-CS STEM graduates.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-024",
+      "name": "Stevens Institute of Technology",
+      "country": "USA",
+      "city": "Hoboken, NJ",
+      "program": "MS in Applied Artificial Intelligence",
+      "monthlyLivingCostUSD": 1850,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Stevens Provost Master's Scholarship ($6,000 - $12,000 automatic award)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "5 minutes across the river from Manhattan (NYC); pipelines to Goldman Sachs, JPMorgan, Bell Labs & Verizon.",
+      "coreModules": [
+        "Mathematical Foundations of ML",
+        "Applied Machine Learning",
+        "Deep Learning",
+        "Time Series Analytics"
+      ],
+      "appliedModules": [
+        "AI in Finance & Energy",
+        "IoT & Smart Grid Systems",
+        "Computer Vision",
+        "NYC Industry Capstone"
+      ],
+      "eeeFitNote": "Housed in the Electrical & Computer Engineering department—tailor-made for your B.Eng EEE.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-025",
+      "name": "Oregon State University",
+      "country": "USA",
+      "city": "Corvallis, OR",
+      "program": "MS in Artificial Intelligence",
+      "monthlyLivingCostUSD": 1260,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Research/Teaching Assistantships (full tuition remission + healthcare + stipend)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Direct pipeline to the 'Silicon Forest': Intel (Hillsboro mega-site), NVIDIA (Corvallis office), HP & Daimler Trucks.",
+      "coreModules": [
+        "Foundations of AI",
+        "Machine Learning",
+        "Probabilistic Graphical Models",
+        "Convex Optimization"
+      ],
+      "appliedModules": [
+        "Robotics & Autonomous Control",
+        "Deep Learning",
+        "Safe Reinforcement Learning",
+        "Silicon Forest Internship"
+      ],
+      "eeeFitNote": "NVIDIA co-Founder Jensen Huang is an OSU alumnus and funded the new $200M AI Supercomputing center here.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-026",
+      "name": "University of Salford",
+      "country": "UK",
+      "city": "Greater Manchester",
+      "program": "MSc Artificial Intelligence (with Placement)",
+      "monthlyLivingCostUSD": 1080,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Global Gold Excellence Scholarship (£3,500) + Commonwealth/Chevening Eligible",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located at MediaCityUK; 12-month industrial placement track with BBC R&D, NHS Digital, BT & GCHQ Manchester.",
+      "coreModules": [
+        "Principles of Data Science",
+        "Applied Mathematics for AI",
+        "Machine Learning & Data Mining",
+        "Research Methods"
+      ],
+      "appliedModules": [
+        "Deep Learning Landscapes",
+        "Natural Language Processing",
+        "Big Data & Cloud Tools",
+        "12-Month Industrial Placement"
+      ],
+      "eeeFitNote": "Accepts 2:2 or 2:1 honours in Engineering; super practical syllabus with SQL, Python, and BI integration.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-027",
+      "name": "Teesside University",
+      "country": "UK",
+      "city": "Middlesbrough",
+      "program": "MSc Artificial Intelligence with Advanced Practice (2 Years)",
+      "monthlyLivingCostUSD": 890,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Global Excellence Scholarship + £10,000 Office for Students (OfS) AI Conversion Scholarship",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "2-Year degree includes a built-in 1-semester Internship or Applied Industry Consultancy Project (CPI, NetZero Teesside).",
+      "coreModules": [
+        "Foundations of AI",
+        "Statistical Methods for Data Analytics",
+        "Machine Learning",
+        "Ethical AI Governance"
+      ],
+      "appliedModules": [
+        "Computer Vision",
+        "Intelligent Autonomous Systems",
+        "Big Data Visualization",
+        "Advanced Practice Internship (1 Year)"
+      ],
+      "eeeFitNote": "One of the lowest living costs in the UK ($890/mo), accepts 2:2/2:1 EEE degrees, and includes an internship year.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-028",
+      "name": "Aston University",
+      "country": "UK",
+      "city": "Birmingham",
+      "program": "MSc Applied Artificial Intelligence (with Professional Practice)",
+      "monthlyLivingCostUSD": 1120,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "£10,000 OfS AI Scholarship + Aston Vice-Chancellor International Scholarship (up to £10,000)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "22-month Professional Practice route; partnerships with Jaguar Land Rover (JLR), HSBC UK HQ, Capgemini & E.ON.",
+      "coreModules": [
+        "Programming Foundations for AI",
+        "Mathematical Foundations of ML",
+        "Computational Intelligence",
+        "Database Systems"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Autonomous Systems",
+        "Multi-Agent Systems",
+        "Professional Practice Placement"
+      ],
+      "eeeFitNote": "Explicitly built for STEM graduates transitioning into AI; strong Birmingham industrial network.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-029",
+      "name": "University of Strathclyde",
+      "country": "UK",
+      "city": "Glasgow, Scotland",
+      "program": "MSc Artificial Intelligence & Applications",
+      "monthlyLivingCostUSD": 1100,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Faculty of Science International Masters Scholarship (£5,000 - £7,000 automatic deduction)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the Scottish Power Energy Networks hub, Fraunhofer UK, Morgan Stanley Glasgow & National Manufacturing Institute.",
+      "coreModules": [
+        "Foundations of AI & ML",
+        "Data Analytics in R & Python",
+        "Mathematical Optimization",
+        "Database & Big Data Tools"
+      ],
+      "appliedModules": [
+        "Deep Learning for Engineers",
+        "AI for Energy & Smart Grids",
+        "Evolutionary Computation",
+        "Industry-Sponsored Dissertation"
+      ],
+      "eeeFitNote": "Strathclyde is one of Europe's top Electrical Power & AI hubs—perfect match for your NERC/EEE background.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-030",
+      "name": "Sheffield Hallam University",
+      "country": "UK",
+      "city": "Sheffield",
+      "program": "MSc Big Data Analytics & AI (Work Experience Route)",
+      "monthlyLivingCostUSD": 960,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Transform Together Scholarship (50% tuition fee waiver for high-potential internationals)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Up to 12 months paid work placement with Boeing Sheffield, McLaren Automotive, Siemens & Rolls-Royce.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Relational & NoSQL Databases (SQL)",
+        "Statistical Modeling",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Business Intelligence (Tableau/PowerBI)",
+        "Deep Learning",
+        "IoT Data Pipelines",
+        "12-Month Paid Work Placement"
+      ],
+      "eeeFitNote": "Directly leverages your MySQL and Tableau background while adding heavy ML and a 1-year work placement.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-031",
+      "name": "University of the West of England (UWE Bristol)",
+      "country": "UK",
+      "city": "Bristol",
+      "program": "MSc Artificial Intelligence",
+      "monthlyLivingCostUSD": 1250,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "£10,000 OfS AI Scholarship for underrepresented groups + Chancellor's International Scholarship (50%)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located inside the Bristol Robotics Laboratory (largest in the UK); ties to Airbus, Dyson, Graphcore & Rolls-Royce.",
+      "coreModules": [
+        "Foundations of AI",
+        "Statistical Inference",
+        "Machine Learning Algorithms",
+        "Data Management"
+      ],
+      "appliedModules": [
+        "Deep Learning & Computer Vision",
+        "Hybrid Intelligent Systems",
+        "Robotics & Autonomous AI",
+        "Industry Dissertation"
+      ],
+      "eeeFitNote": "Bristol is the UK's #1 DeepTech/Silicon Gorge hub outside London; accepts 2:2/2:1 in Electrical Engineering.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-032",
+      "name": "Northumbria University",
+      "country": "UK",
+      "city": "Newcastle upon Tyne",
+      "program": "MSc Artificial Intelligence with Advanced Practice (2 Years)",
+      "monthlyLivingCostUSD": 980,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Northumbria International Academic Scholarship (£3,000 - £6,000 automatic fee discount)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "2-year track with mandatory internship/consultancy term; partners with Sage HQ, Proctor & Gamble Newcastle & Accenture.",
+      "coreModules": [
+        "AI & Machine Learning Foundations",
+        "Big Data & Cloud Computing",
+        "Statistical Programming",
+        "Research & Ethics"
+      ],
+      "appliedModules": [
+        "Neural Networks & Deep Learning",
+        "Natural Language Processing",
+        "Human-AI Interaction",
+        "Semester-Long Industry Internship"
+      ],
+      "eeeFitNote": "Low cost of living in Newcastle, 2-year visa coverage during study, and accepts 2nd Class EEE.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-033",
+      "name": "Nottingham Trent University (NTU)",
+      "country": "UK",
+      "city": "Nottingham",
+      "program": "MSc Artificial Intelligence / Data Science (2-Year Placement)",
+      "monthlyLivingCostUSD": 1020,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "NTU International Merit Scholarship (up to 50% tuition fee waiver) + £10,000 OfS AI Grants",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Awarded UK University of the Year for Employment; 1-year industrial placement with Boots, Experian HQ & E.ON.",
+      "coreModules": [
+        "Foundations of AI & Data Science",
+        "Linear Algebra & Statistics",
+        "Software Engineering for AI",
+        "SQL & Data Warehousing"
+      ],
+      "appliedModules": [
+        "Applied Deep Learning",
+        "Predictive Analytics",
+        "Computer Vision",
+        "1-Year Paid Industrial Placement"
+      ],
+      "eeeFitNote": "Experian and E.ON Energy have massive data hubs in Nottingham that recruit NTU placement students.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-034",
+      "name": "Loughborough University",
+      "country": "UK",
+      "city": "Loughborough",
+      "program": "MSc Artificial Intelligence",
+      "monthlyLivingCostUSD": 1040,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Loughborough Global Excellence Scholarship (20%-90% tuition discount) + £10k OfS Bursaries",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Loughborough Science & Enterprise Park on campus (Intelligent Energy, Caterpillar, Rolls-Royce University Tech Centre).",
+      "coreModules": [
+        "AI Foundations",
+        "Mathematics for Data Science",
+        "Machine Learning",
+        "Data Mining & Warehousing"
+      ],
+      "appliedModules": [
+        "Computer Vision & Embedded AI",
+        "Natural Language Processing",
+        "Robotics & Autonomous Systems",
+        "Industry Capstone"
+      ],
+      "eeeFitNote": "Consistently Top 10 UK university with low town living costs and unmatched engineering employer prestige.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-035",
+      "name": "University of Hull",
+      "country": "UK",
+      "city": "Hull",
+      "program": "MSc Artificial Intelligence and Data Science",
+      "monthlyLivingCostUSD": 850,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "£10,000 OfS AI & Data Science Scholarship + Fairer Future Global Scholarship (50% tuition)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the Aura Innovation Centre and VIPER High-Performance Supercomputer; partnerships with Siemens Gamesa & Spencer Group.",
+      "coreModules": [
+        "Python & Math Foundations for AI",
+        "Fundamentals of Data Science",
+        "Understanding Artificial Intelligence",
+        "Big Data & SQL"
+      ],
+      "appliedModules": [
+        "Applied Machine Learning",
+        "Deep Learning Applications",
+        "Data Visualization & Dashboards",
+        "Industrial Case Study Project"
+      ],
+      "eeeFitNote": "Lowest cost of living in the UK ($850/mo) and specifically designed for STEM graduates with 2:2 or 2:1 degrees.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-036",
+      "name": "Swansea University",
+      "country": "UK",
+      "city": "Swansea, Wales",
+      "program": "MSc Artificial Intelligence",
+      "monthlyLivingCostUSD": 970,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Swansea International Excellence Scholarship (up to £6,000) + Computation Foundry Bursaries",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Backed by the £31m Computational Foundry; industry research placements with Tata Steel, Admiral Group & DVLA Tech.",
+      "coreModules": [
+        "Foundations of Machine Learning",
+        "Mathematical Methods for AI",
+        "Data Visualization & SQL",
+        "Logic & Automated Reasoning"
+      ],
+      "appliedModules": [
+        "Deep Learning & Computer Vision",
+        "Human-Centered Visual Analytics",
+        "Optimization",
+        "Industry Foundry Project"
+      ],
+      "eeeFitNote": "Accepts 2:2/2:1 in Electrical Engineering; beaches + low Welsh living cost + elite Computational Foundry.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-037",
+      "name": "Queen's University Belfast",
+      "country": "UK",
+      "city": "Belfast, Northern Ireland",
+      "program": "MSc Artificial Intelligence",
+      "monthlyLivingCostUSD": 990,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Queen's Vice-Chancellor's International Attainment Scholarship (50% tuition waiver) + Early Bird (£4,000)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Russell Group university; Belfast is #1 globally for US FinTech/Cyber/AI FDI (Citi, Allstate NI, Kainos, PwC largest UK hub).",
+      "coreModules": [
+        "Foundations of AI",
+        "Programming & Math for ML",
+        "Applied Machine Learning",
+        "Data Mining"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Natural Language Processing",
+        "AI for Health & Smart Infrastructure",
+        "Industry Collaborated Thesis"
+      ],
+      "eeeFitNote": "Russell Group prestige at under $1,000/month living cost; Kainos and PwC Belfast hire hundreds of AI grads.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-038",
+      "name": "University of Liverpool",
+      "country": "UK",
+      "city": "Liverpool",
+      "program": "MSc Data Science and Artificial Intelligence (with Year in Industry)",
+      "monthlyLivingCostUSD": 1050,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "£10,000 OfS AI Conversion Scholarship + Liverpool Vice-Chancellor International Attainment Award",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Russell Group; 2-year 'Year in Industry' track partnered with IBM Research (Hartree Centre), Unilever & AstraZeneca.",
+      "coreModules": [
+        "Maths & Statistics for AI",
+        "Programming Fundamentals",
+        "Database & Information Systems (SQL)",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Applied AI & Deep Learning",
+        "Data Visualization",
+        "Bio-Inspired Optimization",
+        "1-Year Industrial Placement"
+      ],
+      "eeeFitNote": "Direct access to the STFC Hartree Supercomputing & IBM Research Center right outside Liverpool.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-039",
+      "name": "University of Essex",
+      "country": "UK",
+      "city": "Colchester",
+      "program": "MSc Artificial Intelligence and its Applications",
+      "monthlyLivingCostUSD": 1090,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Essex Africa Regional Scholarship (£4,000 - £5,000 automatic tuition discount) + Chevening Partner",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Knowledge Transfer Partnerships (KTP) #1 in the UK; placements with BT Adastral Park, Willis Towers Watson & CEFAS.",
+      "coreModules": [
+        "Foundations of AI",
+        "Mathematical Research Methods",
+        "Machine Learning & Data Mining",
+        "Information Retrieval"
+      ],
+      "appliedModules": [
+        "Neural Networks & Deep Learning",
+        "Reinforcement Learning",
+        "Evolutionary Computation",
+        "Industry KTP Capstone"
+      ],
+      "eeeFitNote": "Automatic £4,000-£5,000 scholarship for Nigerian graduates with a Second Class Upper/Lower degree.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-040",
+      "name": "Coventry University",
+      "country": "UK",
+      "city": "Coventry",
+      "program": "MSc Data Science and Computational Intelligence (with Professional Work Placement)",
+      "monthlyLivingCostUSD": 1030,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Vice-Chancellor Postgraduate Scholarship (£3,000) + £10,000 OfS AI Scholarship",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "2-year Work Placement option; ties to National Energy System Operator (NESO), Severn Trent, JLR & Horiba MIRA.",
+      "coreModules": [
+        "Mathematical Foundations for Data Science",
+        "Machine Learning",
+        "Big Data Management (SQL/NoSQL)",
+        "Statistical Inference"
+      ],
+      "appliedModules": [
+        "Artificial Neural Networks",
+        "Information Retrieval & NLP",
+        "Cloud & Edge Analytics",
+        "1-Year Professional Placement"
+      ],
+      "eeeFitNote": "Located right beside the UK's National Energy System Operator (NESO) HQ in Midlands—huge plus for your NERC background.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-041",
+      "name": "Heriot-Watt University",
+      "country": "UK",
+      "city": "Edinburgh, Scotland",
+      "program": "MSc Artificial Intelligence (with Industry Placement)",
+      "monthlyLivingCostUSD": 1290,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Heriot-Watt Global Merit Scholarship (up to £5,000) + National Robotarium Fellowships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the £22.4M UK National Robotarium on campus; industry links with Amazon Development Centre Scotland, Skyscanner & Baillie Gifford.",
+      "coreModules": [
+        "Foundations of AI",
+        "Statistical Modelling & Analysis",
+        "Machine Learning",
+        "Data Mining"
+      ],
+      "appliedModules": [
+        "Biologically Inspired Computation",
+        "Conversational Agents & NLP",
+        "Robotics & Autonomous Systems",
+        "Industry Placement / Thesis"
+      ],
+      "eeeFitNote": "Founded as the world's first Mechanics Institute; deeply respected by electrical, robotics, and energy employers.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-042",
+      "name": "University of Surrey",
+      "country": "UK",
+      "city": "Guildford",
+      "program": "MSc Artificial Intelligence",
+      "monthlyLivingCostUSD": 1380,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Surrey International Excellence Award (£5,000) + Institute for People-Centred AI Fellowships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to CVSSP (top UK Computer Vision lab) and 5G/6G Innovation Centre; Sony, Samsung AI, BAE Systems & McLaren partners.",
+      "coreModules": [
+        "Foundations of AI & Python",
+        "Mathematical & Statistical Methods",
+        "Machine Learning",
+        "Database & Big Data Systems"
+      ],
+      "appliedModules": [
+        "Deep Learning & Advanced Vision",
+        "Speech & Audio Processing",
+        "AI in 5G/6G Networks",
+        "Industry Lab Dissertation"
+      ],
+      "eeeFitNote": "Born inside Surrey's Electronic Engineering Department (CVSSP)—ideal for an Electrical/Electronics graduate.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-043",
+      "name": "Brunel University London",
+      "country": "UK",
+      "city": "Uxbridge (West London)",
+      "program": "MSc Artificial Intelligence (with Placement)",
+      "monthlyLivingCostUSD": 1420,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "£10,000 OfS AI Scholarship + Brunel International Excellence Scholarship (£6,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "1-Year Work Placement route; campus next to Heathrow/Stockley Park tech corridor (Canon, Apple UK, GSK, Marks & Spencer Digital).",
+      "coreModules": [
+        "Foundations of Artificial Intelligence",
+        "Quantitative Data Analysis",
+        "Machine Learning",
+        "High-Performance Computing"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Intelligent Signal Processing",
+        "Data Visualization & Dashboards",
+        "6-to-12 Month Industry Placement"
+      ],
+      "eeeFitNote": "Gives you London tech access on the Metropolitan tube line with lower outer-borough accommodation costs.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-044",
+      "name": "University of Exeter",
+      "country": "UK",
+      "city": "Exeter",
+      "program": "MSc Applied Data Science and AI (2-Year Industrial Placement)",
+      "monthlyLivingCostUSD": 1190,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Exeter Global Excellence Scholarship (£5,000 - £10,000) + Alan Turing Institute Partner Grants",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Russell Group & Alan Turing Institute partner; co-located with the UK Met Office Supercomputing Hub (world's largest climate/grid AI center).",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Mathematical & Statistical Modelling",
+        "Machine Learning",
+        "Relational & Spatial Databases"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "AI for Climate, Energy & Environment",
+        "Applied Visual Analytics",
+        "1-Year Industrial Placement"
+      ],
+      "eeeFitNote": "Russell Group prestige + 2-year industrial placement option + accepts 2:1/strong 2:2 STEM backgrounds.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-045",
+      "name": "Birmingham City University (BCU)",
+      "country": "UK",
+      "city": "Birmingham",
+      "program": "MSc Artificial Intelligence (with 18-Month Professional Placement)",
+      "monthlyLivingCostUSD": 1100,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "£10,000 OfS AI Scholarship + £2,000 International Merit Discount",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Housed in the £70M STEAMhouse tech incubator; placements with Cisco Academy, Microsoft Partner Network, Deutsche Bank Birmingham & Gymshark.",
+      "coreModules": [
+        "Foundations of AI & Data",
+        "Applied Statistics",
+        "Machine Learning",
+        "Data Warehousing & SQL"
+      ],
+      "appliedModules": [
+        "Deep Learning & Computer Vision",
+        "Business Intelligence (Tableau/PowerBI)",
+        "Cloud AI Deployment",
+        "Professional Placement Year"
+      ],
+      "eeeFitNote": "STEAMhouse incubator gives you hands-on startup & corporate co-working right inside your classroom building.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-046",
+      "name": "Oxford Brookes University",
+      "country": "UK",
+      "city": "Oxford",
+      "program": "MSc Artificial Intelligence (with Placement)",
+      "monthlyLivingCostUSD": 1350,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Oxford Brookes International Engagement Scholarship (£2,000 - £4,000) + £10k OfS AI Grants",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "1-year paid work placement in the Oxfordshire Science Vale (Harwell Campus, UK Atomic Energy Authority, BMW Mini Plant, Williams F1).",
+      "coreModules": [
+        "Foundations of AI",
+        "Statistical Programming",
+        "Machine Learning",
+        "Research & Commercialisation"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Autonomous Vehicles & Motorsport AI",
+        "Cognitive Systems",
+        "1-Year Sandwich Placement"
+      ],
+      "eeeFitNote": "Access to the Oxford DeepTech ecosystem with a 1-year paid industry placement.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-047",
+      "name": "University of Aberdeen",
+      "country": "UK",
+      "city": "Aberdeen, Scotland",
+      "program": "MSc Artificial Intelligence",
+      "monthlyLivingCostUSD": 990,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Aberdeen Global Scholarship (£8,000 automatic tuition fee waiver for Nigerian students!)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Over 30 years of AI research (Arria NLG spun out here); deep ties to the global Energy Transition (Shell, Equinor, Wood Group, NetZero Tech Centre).",
+      "coreModules": [
+        "Foundations of AI",
+        "Principles of Machine Learning",
+        "Symbolic & Sub-Symbolic AI",
+        "Data Mining & Visualization"
+      ],
+      "appliedModules": [
+        "Natural Language Generation (NLG)",
+        "Autonomous Agents",
+        "Energy & Industrial AI",
+        "Applied AI Project"
+      ],
+      "eeeFitNote": "The automatic £8,000 Africa scholarship drops tuition significantly, and Aberdeen is Europe's Energy capital.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-048",
+      "name": "Manchester Metropolitan University (MMU)",
+      "country": "UK",
+      "city": "Manchester",
+      "program": "MSc Artificial Intelligence (with Industrial Placement)",
+      "monthlyLivingCostUSD": 1140,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "£10,000 OfS AI Scholarship + International Postgraduate Merit Award (£3,500)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "2-year route with 36-week industry placement; partners with Booking.com Tech Hub, AutoTrader, AstraZeneca & GCHQ Manchester.",
+      "coreModules": [
+        "Foundations of AI",
+        "Principles of Data Science",
+        "Machine Learning Concepts",
+        "High-Performance Databases"
+      ],
+      "appliedModules": [
+        "Deep Learning & Neural Nets",
+        "Natural Language Processing",
+        "Computer Vision",
+        "36-Week Industry Placement"
+      ],
+      "eeeFitNote": "Central Manchester tech scene is booming; 2-year placement route gives real UK work experience before graduation.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-049",
+      "name": "University of Portsmouth",
+      "country": "UK",
+      "city": "Portsmouth",
+      "program": "MSc Data Analytics and Artificial Intelligence (with Placement)",
+      "monthlyLivingCostUSD": 1070,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Chancellor's Global Academic Merit Scholarship (£5,000 tuition fee reduction)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "2-year Connected Degree with industrial placement; partners with Airbus Defence and Space, IBM UK Labs (Hursley) & BAE Systems.",
+      "coreModules": [
+        "Foundations of Data Analytics",
+        "Statistical Learning",
+        "Database Design & SQL",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Big Data & Business Intelligence",
+        "Deep Learning",
+        "Predictive Maintenance AI",
+        "Industrial Placement Year"
+      ],
+      "eeeFitNote": "IBM's major UK development lab at Hursley is just up the road and recruits Portsmouth placement students.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-050",
+      "name": "Cranfield University",
+      "country": "UK",
+      "city": "Cranfield (Bedfordshire)",
+      "program": "MSc Applied Artificial Intelligence",
+      "monthlyLivingCostUSD": 1130,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Cranfield Manufacturing/Aerospace Industry Bursaries (up to 40% fee waiver) + Chevening/Commonwealth",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "100% Postgraduate-only university (has its own airport & autonomous test track); courses co-designed with Airbus, Rolls-Royce, Dyson, Thales & BP.",
+      "coreModules": [
+        "Foundations of AI & Optimization",
+        "Statistical Learning",
+        "Signal & Image Processing",
+        "Computational Intelligence"
+      ],
+      "appliedModules": [
+        "Deep Learning & Computer Vision",
+        "Autonomous Systems & Robotics",
+        "Group Industrial Consultancy Project",
+        "Sponsored Industry Thesis"
+      ],
+      "eeeFitNote": "Over 50% of MSc theses at Cranfield are directly sponsored by engineering corporations; unmatched for EEE graduates.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-051",
+      "name": "University of Waterloo",
+      "country": "Canada",
+      "city": "Waterloo, ON",
+      "program": "MMath / MEng in Electrical & Computer Engineering (Pattern Analysis & Machine Intelligence - Co-op)",
+      "monthlyLivingCostUSD": 1350,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Vector Institute AI Scholarship ($17,500 CAD) + Paid Co-op earnings ($25,000+ CAD/term)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "World's #1 Co-op program; Vector Institute Recognized AI Master's with Google Canada, OpenText, Shopify & AMD.",
+      "coreModules": [
+        "Statistical Learning",
+        "Linear Algebra & Optimization",
+        "Pattern Recognition",
+        "Foundations of Machine Intelligence"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Reinforcement Learning",
+        "Computer Vision & Image Processing",
+        "Paid Graduate Co-op Work Term"
+      ],
+      "eeeFitNote": "Housed directly in the ECE department (PAMI track)—your B.Eng EEE is the exact degree they look for.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-052",
+      "name": "University of Ottawa",
+      "country": "Canada",
+      "city": "Ottawa, ON",
+      "program": "MEng in Electrical and Computer Engineering (Applied Artificial Intelligence Concentration + Co-op)",
+      "monthlyLivingCostUSD": 1320,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Faculty of Engineering Memorial Scholarship + Paid Co-op placements ($22,000+ CAD)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Kanata North Tech Park (Canada's largest tech park with 500+ companies: Nokia, Ericsson, Ciena, BlackBerry QNX, Ross Video) + Federal Gov AI.",
+      "coreModules": [
+        "Applied Machine Learning",
+        "Mathematical Foundations for Engineers",
+        "Stochastic Processes",
+        "Data Mining"
+      ],
+      "appliedModules": [
+        "Deep Learning Systems",
+        "Computer Vision",
+        "Natural Language Processing",
+        "8-Month Paid Co-op Placement"
+      ],
+      "eeeFitNote": "Explicitly an ECE Applied AI degree with Co-op in Canada's capital; accepts Second Class Upper (~70%+).",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-053",
+      "name": "Concordia University",
+      "country": "Canada",
+      "city": "Montreal, QC",
+      "program": "MEng in Electrical & Computer Engineering / Applied AI & Data",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Concordia Merit Awards + Co-op Institute paid placements in Montreal's AI hub",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located in Montreal (home to MILA, Meta AI Lab, Google Brain Montreal, Microsoft Research, CAE & Bombardier).",
+      "coreModules": [
+        "Pattern Recognition",
+        "Foundations of Machine Learning",
+        "Optimization for Engineers",
+        "Probability & Stochastic Systems"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Smart Grids & Power Systems AI",
+        "Computer Vision",
+        "Industrial Co-op Internship"
+      ],
+      "eeeFitNote": "Montreal has the highest concentration of deep learning researchers on earth alongside affordable rent ($1,180/mo).",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-054",
+      "name": "Memorial University of Newfoundland",
+      "country": "Canada",
+      "city": "St. John's, NL",
+      "program": "MASc in Computer Engineering / Master of Artificial Intelligence (MAI)",
+      "monthlyLivingCostUSD": 890,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "School of Graduate Studies Baseline Fellowship + Lowest international tuition in Canada (~$7,000-$12,000 CAD)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Partnerships with Verafin (Nasdaq/FinTech AI unicorn), Kraken Robotics, C-CORE & Newfoundland Hydro.",
+      "coreModules": [
+        "Foundations of Artificial Intelligence",
+        "Machine Learning",
+        "Algorithmic Techniques for AI",
+        "Statistical Data Analysis"
+      ],
+      "appliedModules": [
+        "Computer Vision",
+        "Robotics & Autonomous Marine Systems",
+        "Deep Learning",
+        "Industry Capstone / Work Term"
+      ],
+      "eeeFitNote": "Most affordable university in Canada for international students + thriving ocean/fintech AI industry.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-055",
+      "name": "Simon Fraser University (SFU)",
+      "country": "Canada",
+      "city": "Burnaby (Vancouver), BC",
+      "program": "MPCS in Big Data & Machine Learning (with Mandatory Co-op)",
+      "monthlyLivingCostUSD": 1580,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "SFU Special Graduate Entrance Scholarship + Mandatory Paid Co-op ($15,000-$25,000 CAD earnings)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "100% placement rate in the mandatory 4-to-8 month paid Co-op with Amazon Vancouver, Microsoft, SAP, EA Sports & Tesla Canada.",
+      "coreModules": [
+        "Programming for Big Data",
+        "Machine Learning Foundations",
+        "Statistical Data Analysis",
+        "Distributed & Cloud Systems"
+      ],
+      "appliedModules": [
+        "Deep Learning Lab",
+        "Natural Language Processing",
+        "Visual Analytics & Dashboards",
+        "Mandatory Paid Industry Co-op"
+      ],
+      "eeeFitNote": "SFU's Big Data/ML Lab is legendary for practical systems engineering and guarantees paid Co-op work experience.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-056",
+      "name": "University of Alberta",
+      "country": "Canada",
+      "city": "Edmonton, AB",
+      "program": "MSc in Electrical & Computer Engineering (Intelligent Systems) / Multimedia & AI",
+      "monthlyLivingCostUSD": 1100,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Research/Teaching Assistantships ($25,000+ CAD/yr) + Amii (Alberta Machine Intelligence Institute) Fellowships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to Amii (one of Canada's 3 National AI Institutes alongside Rich Sutton, father of Reinforcement Learning) & DeepMind Edmonton alumni.",
+      "coreModules": [
+        "Foundations of Machine Learning",
+        "Reinforcement Learning I",
+        "Statistical Learning Theory",
+        "Optimization"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Intelligent Control Systems",
+        "Smart Grid & Energy AI",
+        "Amii Industry Internship"
+      ],
+      "eeeFitNote": "Top 3 in the world for Reinforcement Learning, housed in low-cost Edmonton ($1,100/mo) with ECE entry pathways.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-057",
+      "name": "Queen's University",
+      "country": "Canada",
+      "city": "Kingston, ON",
+      "program": "MASc / MEng in Electrical and Computer Engineering (Ingenious AI Track)",
+      "monthlyLivingCostUSD": 1220,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Vector Scholarship in Artificial Intelligence ($17,500 CAD) + Queen's Graduate Award",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Vector Institute Recognized AI program; partnerships with IBM Canada, Ericsson, Kinaxis & Ontario Power Generation.",
+      "coreModules": [
+        "Foundations of Machine Learning",
+        "Probability & Random Processes",
+        "Linear Systems",
+        "Data Analytics"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Robotics & Computer Vision",
+        "AI for Cyber-Physical Systems",
+        "Vector Institute Networking & Internship"
+      ],
+      "eeeFitNote": "Official Vector Institute partner program right inside the Electrical & Computer Engineering department.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-058",
+      "name": "Western University",
+      "country": "Canada",
+      "city": "London, ON",
+      "program": "Master of Data Analytics (MDA - Artificial Intelligence Track with Co-op)",
+      "monthlyLivingCostUSD": 1190,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Vector Scholarship in AI ($17,500 CAD) + Paid Summer Co-op / Internship",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Vector-recognized 1-year intensive program including a mandatory summer industry internship (RBC, TD Bank, Deloitte, 3M Canada, Hydro One).",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Statistical Modeling",
+        "Databases & SQL Architecture",
+        "Unstructured Data & ML"
+      ],
+      "appliedModules": [
+        "Artificial Intelligence & Deep Learning",
+        "Business Intelligence & Visualization",
+        "NLP",
+        "1-Term Paid Industry Internship"
+      ],
+      "eeeFitNote": "Specifically built to take candidates with SQL/Analytics foundations and launch them into AI roles in 12 months.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-059",
+      "name": "McMaster University",
+      "country": "Canada",
+      "city": "Hamilton, ON",
+      "program": "MEng in Computing and Software / ECE (AI & Machine Learning Stream + Co-op)",
+      "monthlyLivingCostUSD": 1160,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "McMaster Engineering Graduate Scholarship + Paid Co-op work terms (4 to 12 months)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located at McMaster Innovation Park; partners with ArcelorMittal Dofasco, L3Harris Wescam, Siemens Energy & General Motors Canada.",
+      "coreModules": [
+        "Foundations of Machine Learning",
+        "Applied Statistics & Optimization",
+        "Signal Processing",
+        "Data Management"
+      ],
+      "appliedModules": [
+        "Deep Neural Networks",
+        "Autonomous Vehicles & Mechatronics",
+        "Predictive Analytics",
+        "Paid Industry Co-op"
+      ],
+      "eeeFitNote": "Strong engineering school 45 minutes from Toronto with much lower living costs and paid Co-op.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-060",
+      "name": "Carleton University",
+      "country": "Canada",
+      "city": "Ottawa, ON",
+      "program": "MEng in Electrical and Computer Engineering (Data Science & AI Collaborative Specialization)",
+      "monthlyLivingCostUSD": 1300,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Carleton Domestic-Tuition Equivalence Bursaries + Paid Co-op in Kanata Tech Park",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Direct pipeline into Ottawa's 5G, Telecom, and Autonomous Vehicle R&D hub (Nokia, BlackBerry QNX, Lockheed Martin Canada, Shopify).",
+      "coreModules": [
+        "Data Science Foundations",
+        "Pattern Classification & Experiment Design",
+        "Machine Learning",
+        "Stochastic Processes"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "AI for Wireless & 6G Systems",
+        "Autonomous Robotics",
+        "Ottawa Tech Co-op"
+      ],
+      "eeeFitNote": "Collaborative AI specialization allows you to earn an ECE Master's with an official Data Science/AI credential.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-061",
+      "name": "Dalhousie University",
+      "country": "Canada",
+      "city": "Halifax, NS",
+      "program": "Master of Applied Computer Science (MACS - AI & Data Stream with Internship)",
+      "monthlyLivingCostUSD": 1240,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Dalhousie Entrance Scholarship + Paid 4-to-8 Month Industry Internship ($18,000+ CAD)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Atlantic Canada's #1 Tech Hub; mandatory internship track with IBM Client Innovation Centre Halifax, RBC Tech, CGI, Lockheed Martin & DeepSense (Ocean AI).",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Communications & Software Engineering",
+        "Data Management & Warehousing (SQL)",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Visual Analytics",
+        "Ocean & Energy Data Analytics",
+        "Paid 8-Month Industry Internship"
+      ],
+      "eeeFitNote": "Atlantic Immigration Program (AIP) in Nova Scotia makes post-graduation permanent residency much faster.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-062",
+      "name": "University of Calgary",
+      "country": "Canada",
+      "city": "Calgary, AB",
+      "program": "MEng in Electrical & Software Engineering (Data Science & AI Specialization)",
+      "monthlyLivingCostUSD": 1210,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Alberta Graduate Excellence Scholarship (AGES - $11,000 to $15,000 CAD) + Mitacs Accelerate Internships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Energy & FinTech hub of Western Canada: Enbridge, TC Energy, Suncor, Neo Financial, Benevity & AWS Calgary Region HQ.",
+      "coreModules": [
+        "Engineering Data Analysis",
+        "Foundations of Machine Learning",
+        "Big Data Systems",
+        "Optimization"
+      ],
+      "appliedModules": [
+        "Deep Learning for Engineers",
+        "Smart Grid & Energy Informatics",
+        "Computer Vision",
+        "Mitacs Industry Internship"
+      ],
+      "eeeFitNote": "AWS recently invested $4.3B in its Calgary Cloud hub; huge demand for Electrical + AI engineers in energy tech.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-063",
+      "name": "University of Windsor",
+      "country": "Canada",
+      "city": "Windsor, ON",
+      "program": "Master of Applied Computing (Artificial Intelligence Stream with Co-op)",
+      "monthlyLivingCostUSD": 1050,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Vector Scholarship in AI ($17,500 CAD) + Paid Co-op Placement",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Vector-recognized AI track located right across the bridge from Detroit; partners with Stellantis, NextStar EV Battery Plant, Ford & Rocket Innovation Studio.",
+      "coreModules": [
+        "Advanced Software Concepts",
+        "Foundations of AI",
+        "Advanced Database Topics (SQL)",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning & Neural Networks",
+        "Computer Vision",
+        "Natural Language Processing",
+        "4-to-8 Month Paid Co-op"
+      ],
+      "eeeFitNote": "Vector Institute recognition + affordable Windsor living costs ($1,050/mo) + mandatory industry project/co-op.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-064",
+      "name": "Lakehead University",
+      "country": "Canada",
+      "city": "Thunder Bay, ON",
+      "program": "MSc in Electrical and Computer Engineering / Computer Science (AI Specialization + Co-op)",
+      "monthlyLivingCostUSD": 980,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Vector Scholarship in AI ($17,500 CAD) + Graduate Assistantships ($10,500 CAD)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Vector Institute Recognized AI program + Northern Ontario RNIP/RCIP immigration advantage; partners with Tbaytel, Resolute & Ontario Hydro.",
+      "coreModules": [
+        "Foundations of Artificial Intelligence",
+        "Machine Learning",
+        "Advanced Engineering Math",
+        "Pattern Recognition"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Medical & Industrial Image Processing",
+        "IoT & Smart Systems",
+        "8-Month Paid Co-op"
+      ],
+      "eeeFitNote": "One of the few low-cost universities ($980/mo) whose AI program is officially accredited by the Vector Institute.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-065",
+      "name": "University of Victoria (UVic)",
+      "country": "Canada",
+      "city": "Victoria, BC",
+      "program": "MEng in Applied Data Science & Artificial Intelligence (with Co-op)",
+      "monthlyLivingCostUSD": 1420,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UVic Graduate Donor Awards + Mandatory Co-op earnings across BC Tech sector",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "One of Canada's largest Co-op programs; placements with Microsoft Victoria, Workday, GitHub, BC Hydro & Defence R&D Canada.",
+      "coreModules": [
+        "Matrix Algebra & Optimization for Data Science",
+        "Probability & Statistics",
+        "Data Mining",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Large-Scale Data Engineering (SQL/Spark)",
+        "AI Security & Privacy",
+        "2 Paid Co-op Work Terms"
+      ],
+      "eeeFitNote": "Jointly run by Electrical & Computer Engineering and Computer Science—ideal for B.Eng EEE transitions.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-066",
+      "name": "Toronto Metropolitan University (TMU)",
+      "country": "Canada",
+      "city": "Toronto, ON",
+      "program": "MSc in Data Science and Analytics / MEng ECE (AI Stream)",
+      "monthlyLivingCostUSD": 1680,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Vector Scholarship in AI ($17,500 CAD) + Mitacs Paid Industry Fellowships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Downtown Toronto core; home to the DMZ (#1 University Tech Incubator in North America) + RBC, Scotiabank, Bell & Hydro One.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Algorithms for Data Science",
+        "Statistical Learning",
+        "Data Warehousing & SQL"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Natural Language Processing",
+        "Visual Analytics (Tableau/PowerBI)",
+        "Industry Practicum / MRP"
+      ],
+      "eeeFitNote": "Vector-recognized 12-month program in the heart of downtown Toronto that builds directly on SQL & Tableau.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-067",
+      "name": "University of Manitoba",
+      "country": "Canada",
+      "city": "Winnipeg, MB",
+      "program": "MSc / MEng in Electrical and Computer Engineering (AI & Machine Learning)",
+      "monthlyLivingCostUSD": 960,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "University of Manitoba Graduate Fellowship (UMGF - $14,000/yr) + Mitacs Accelerate ($15,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Partnerships with Manitoba Hydro International (world leader in power systems simulation/PSCAD), Boeing Canada, Bell MTS & Pollard Banknote.",
+      "coreModules": [
+        "Foundations of Machine Learning",
+        "Digital Signal & Image Processing",
+        "Stochastic Processes",
+        "Linear Control Systems"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Power Systems & Smart Grid AI",
+        "Biomedical Signal Analytics",
+        "Mitacs Industry Internship"
+      ],
+      "eeeFitNote": "Winnipeg is home to Manitoba Hydro International (makers of PSCAD)—dream match for an EEE power/data engineer.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-068",
+      "name": "University of Saskatchewan",
+      "country": "Canada",
+      "city": "Saskatoon, SK",
+      "program": "MSc / MEng in Electrical Engineering (Intelligent Systems & Data Analytics)",
+      "monthlyLivingCostUSD": 940,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Teaching Fellowship ($18,000+ CAD) + Dean's Scholarship",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located at Innovation Place Research Park (Siemens EDA/Mentor Graphics major R&D hub, Vecima Networks, Nutrien, SaskPower).",
+      "coreModules": [
+        "Pattern Recognition",
+        "Foundations of Machine Learning",
+        "Statistical Signal Processing",
+        "Optimization"
+      ],
+      "appliedModules": [
+        "Deep Neural Networks",
+        "Hardware Accelerators & FPGA AI",
+        "Smart Ag & Grid Telemetry",
+        "Research Park Co-op"
+      ],
+      "eeeFitNote": "Siemens' major chip-design & AI verification division (formerly Solido) was born at USask and hires heavily here.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-069",
+      "name": "York University",
+      "country": "Canada",
+      "city": "Toronto, ON",
+      "program": "MSc in Artificial Intelligence / MASc Civil & Electrical Intelligent Systems",
+      "monthlyLivingCostUSD": 1590,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Vector Scholarship in AI ($17,500 CAD) + York Graduate Fellowship",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Vector-recognized AI track; home to the VISTA (Vision: Science to Applications) $100M research hub with AMD, Qualcomm & Samsung Toronto.",
+      "coreModules": [
+        "Foundations of AI",
+        "Mathematical & Statistical Methods",
+        "Machine Learning",
+        "Optimization"
+      ],
+      "appliedModules": [
+        "Computer Vision & Image Understanding",
+        "Deep Learning",
+        "Reinforcement Learning",
+        "Vector Industry Internship"
+      ],
+      "eeeFitNote": "York's VISTA lab is a global powerhouse in Computer Vision with direct hiring lines into AMD and Samsung.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-070",
+      "name": "University of Guelph",
+      "country": "Canada",
+      "city": "Guelph, ON",
+      "program": "Master of Data Science / MASc Engineering (Artificial Intelligence Field)",
+      "monthlyLivingCostUSD": 1190,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Vector Scholarship in AI ($17,500 CAD) + CARE-AI Industry Fellowships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Vector Institute Recognized; home to CARE-AI (Centre for Advancing Responsible and Ethical AI) with Linamar, RBC & Loblaw Digital.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Applied Statistics",
+        "Database & SQL Systems",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Spatial & Time-Series Modeling",
+        "Responsible & Ethical AI",
+        "Industry Case Study Portfolio"
+      ],
+      "eeeFitNote": "Guelph was one of the very first Canadian universities to establish an dedicated Collaborative AI Master's for engineers.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-071",
+      "name": "Ontario Tech University",
+      "country": "Canada",
+      "city": "Oshawa (GTA), ON",
+      "program": "MEng in Electrical and Computer Engineering (AI & Software Field + Co-op)",
+      "monthlyLivingCostUSD": 1210,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Vector Scholarship in AI ($17,500 CAD) + Co-op Industry Income",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the ACE Climatic Aerodynamic Wind Tunnel and Energy Research Centre; partners with Ontario Power Generation (OPG), GM Canada & Celestica.",
+      "coreModules": [
+        "Foundations of Machine Learning",
+        "Mathematical Methods in Engineering",
+        "Intelligent Control Systems",
+        "Data Mining"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "AI for Nuclear & Clean Energy Systems",
+        "Autonomous Vehicles",
+        "Paid Industry Co-op"
+      ],
+      "eeeFitNote": "Combine Toronto-corridor job access with lower Oshawa rent and Vector Institute AI recognition.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-072",
+      "name": "École de technologie supérieure (ÉTS)",
+      "country": "Canada",
+      "city": "Montreal, QC",
+      "program": "MEng in Automated Manufacturing / Electrical Engineering (Applied AI & Vision)",
+      "monthlyLivingCostUSD": 1150,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Mitacs Accelerate Fellowships ($15,000+ CAD) + Differential Tuition Fee Exemptions",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "100% Applied Engineering university; #1 in Quebec for industry-sponsored R&D (Hydro-Québec IREQ, Pratt & Whitney, Thales, Ubisoft, Ericsson).",
+      "coreModules": [
+        "Applied Machine Learning",
+        "Statistical Pattern Recognition",
+        "Optimization for Engineers",
+        "Signal & Image Processing"
+      ],
+      "appliedModules": [
+        "Deep Learning for Medical & Industrial Vision",
+        "Embedded Edge AI",
+        "Smart Grid Automation",
+        "Paid 4-to-8 Month Industrial Internship"
+      ],
+      "eeeFitNote": "ÉTS is purely for engineers; nearly every project is co-supervised by an industrial partner like Hydro-Québec or Thales.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-073",
+      "name": "University of New Brunswick (UNB)",
+      "country": "Canada",
+      "city": "Fredericton, NB",
+      "program": "MCSC / MEng in Electrical & Computer Engineering (Data Science & AI)",
+      "monthlyLivingCostUSD": 990,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "UNB Graduate Research Assistantships + New Brunswick AI/Cyber Fellowships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the Canadian Institute for Cybersecurity & Research Rim; partners with IBM Security HQ (QRadar), Siemens Smart Grid R&D & Introhive.",
+      "coreModules": [
+        "Foundations of Machine Learning",
+        "Probability & Stochastic Processes",
+        "Data Mining",
+        "Optimization"
+      ],
+      "appliedModules": [
+        "AI for Cybersecurity & Smart Grids",
+        "Deep Learning",
+        "Big Data Analytics",
+        "Siemens/IBM Industry Practicum"
+      ],
+      "eeeFitNote": "Siemens chose UNB as its global Smart Grid R&D center in Canada—perfect alignment with your NERC background.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-074",
+      "name": "Thompson Rivers University (TRU)",
+      "country": "Canada",
+      "city": "Kamloops, BC",
+      "program": "MSc in Data Science & Machine Learning",
+      "monthlyLivingCostUSD": 1080,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "TRU Graduate Research/Teaching Assistantships + BC Tech Internships",
+      "industryScore": 3,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Small cohort sizes with direct faculty mentorship and regional industry projects in BC's resource, healthcare, and hydro sectors.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Linear Models & Regression",
+        "Database Management (SQL)",
+        "Statistical Learning"
+      ],
+      "appliedModules": [
+        "Machine Learning & Deep Learning",
+        "Big Data Cloud Pipelines",
+        "Data Visualization",
+        "Applied Industry Project / Thesis"
+      ],
+      "eeeFitNote": "Accessible admission for Second Class Engineering graduates with strong SQL/Analytics foundations.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-075",
+      "name": "Wilfrid Laurier University",
+      "country": "Canada",
+      "city": "Waterloo, ON",
+      "program": "Master of Applied Computing (AI & Data Analytics Track + Co-op)",
+      "monthlyLivingCostUSD": 1310,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Laurier Graduate Entrance Scholarship + Paid 8-Month Co-op in Waterloo Tech Corridor",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located in the same Waterloo-Kitchener tech corridor as Google, OpenText, Manulife, Communitech & D2L.",
+      "coreModules": [
+        "Foundations of Applied Computing",
+        "Data Analysis & Statistical Inference",
+        "Machine Learning",
+        "Advanced SQL & Big Data"
+      ],
+      "appliedModules": [
+        "Deep Learning Applications",
+        "Natural Language Processing",
+        "Parallel Programming for AI",
+        "8-Month Paid Co-op"
+      ],
+      "eeeFitNote": "Gives you access to the booming Waterloo tech ecosystem with accessible admission requirements for 2nd Class STEM grads.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-076",
+      "name": "Dublin City University (DCU)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "MSc in Computing (Artificial Intelligence Track)",
+      "monthlyLivingCostUSD": 1620,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "DCU International Merit Scholarship (€2,000 automatic reduction) + Government of Ireland (GOI-IES €10,000 + 100% fee waiver)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Co-hosts the Insight SFI Research Centre for Data Analytics and ADAPT Centre; partners with AWS Dublin, Microsoft, Accenture The Dock & Workday.",
+      "coreModules": [
+        "Foundations of AI",
+        "Statistical Data Analysis",
+        "Machine Learning",
+        "Data Management & Visualization"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Industry-Linked Practicum"
+      ],
+      "eeeFitNote": "DCU is famous for industry integration; the ADAPT & Insight research centers sit right on campus.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-077",
+      "name": "University of Galway",
+      "country": "Ireland",
+      "city": "Galway",
+      "program": "MSc in Computer Science (Artificial Intelligence) / Adaptive Intelligent Systems",
+      "monthlyLivingCostUSD": 1290,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Global Achievement Scholarship (€2,000) + Hardiman/SFI Insight Bursaries + GOI-IES (100% tuition + €10k)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the Data Science Institute (DSI) and Insight SFI Centre; direct pipelines to Fidelity Investments, Cisco Galway, Genesys AI & Medtronic.",
+      "coreModules": [
+        "Principles of Machine Learning",
+        "Foundations of AI",
+        "Tools & Techniques for Large Scale Data",
+        "Statistics for AI"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Natural Language Processing",
+        "Reinforcement Learning & Multi-Agent Systems",
+        "Industry Collaborative Project"
+      ],
+      "eeeFitNote": "Lower living cost than Dublin ($1,290/mo) while hosting Cisco and Fidelity's major Irish AI engineering hubs.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-078",
+      "name": "University of Limerick (UL)",
+      "country": "Ireland",
+      "city": "Limerick",
+      "program": "MSc in Artificial Intelligence & Machine Learning",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UL Faculty of Science & Engineering Merit Scholarship (€2,000 - €4,000) + Lero SFI Fellowships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to Lero (Science Foundation Ireland Software Centre) and Analog Devices European HQ, Jaguar Land Rover Autonomous R&D Hub & General Motors.",
+      "coreModules": [
+        "Foundations of AI",
+        "Machine Learning",
+        "Probabilistic & Statistical Modeling",
+        "Data Mining"
+      ],
+      "appliedModules": [
+        "Deep Learning & Neural Nets",
+        "Evolutionary & Bio-Inspired AI",
+        "Computer Vision for Autonomous Vehicles",
+        "Industry Capstone"
+      ],
+      "eeeFitNote": "Analog Devices and Jaguar Land Rover Autonomous R&D are right next door to UL—ideal for an EEE graduate.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-079",
+      "name": "University College Cork (UCC)",
+      "country": "Ireland",
+      "city": "Cork",
+      "program": "MSc in Data Science & Analytics / Computing Science (AI)",
+      "monthlyLivingCostUSD": 1310,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "UCC Quercus/SEFS International Merit Scholarship (up to 25% tuition waiver) + GOI-IES",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Hosts the Insight Centre for Constraint Programming & AI (Boole Centre); Apple European HQ (6,000 staff in Cork), Dell EMC, Qualcomm & McAfee.",
+      "coreModules": [
+        "Foundations of Machine Learning",
+        "Statistical Data Analysis",
+        "Database Technology (SQL)",
+        "Optimization"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Operations Research & AI",
+        "Time Series & Sensor Analytics",
+        "Cork Tech Industry Thesis"
+      ],
+      "eeeFitNote": "Named after George Boole (inventor of Boolean logic at UCC); Apple and Qualcomm's chip/AI teams are right in Cork.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-080",
+      "name": "Maynooth University",
+      "country": "Ireland",
+      "city": "Maynooth (Kildare)",
+      "program": "MSc in Data Science and Analytics / Computer Science (Applied AI)",
+      "monthlyLivingCostUSD": 1250,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Maynooth International Taught Master's Scholarship (€2,000) + GOI-IES Partner",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "5 km from Intel Ireland's €17B Leixlip Mega-Fab; direct partnerships with Intel Labs, Ericsson, IBM & Esri Ireland.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Linear Models & Statistical Learning",
+        "Databases & Spatial SQL",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning & Neural Networks",
+        "Geospatial & Grid Analytics",
+        "Bayesian Modeling",
+        "Intel/Industry Capstone"
+      ],
+      "eeeFitNote": "Sitting right beside Intel's European manufacturing & AI automation hub in Kildare with commuter rail to Dublin.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-081",
+      "name": "Technological University Dublin (TU Dublin)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "MSc in Computing (Applied Artificial Intelligence / Data Science)",
+      "monthlyLivingCostUSD": 1580,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "TU Dublin Global Excellence Scholarship (50% tuition waiver) + GOI-IES Eligible",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Practice-focused technological university in central Dublin; direct hiring pipelines to Google EMEA HQ, Stripe, AWS, Mastercard Tech Hub & IBM.",
+      "coreModules": [
+        "Foundations of AI & Python",
+        "Probability & Statistical Inference",
+        "Machine Learning",
+        "Data Warehousing & SQL"
+      ],
+      "appliedModules": [
+        "Deep Learning Frameworks",
+        "Visual Analytics (Tableau/BI)",
+        "Speech & Image Processing",
+        "Applied Industry Dissertation"
+      ],
+      "eeeFitNote": "Accepts 2:2 or 2:1 honours degrees in Engineering with data experience; very hands-on syllabus.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-082",
+      "name": "National College of Ireland (NCI)",
+      "country": "Ireland",
+      "city": "Dublin (IFSC Silicon Docks)",
+      "program": "MSc in Artificial Intelligence",
+      "monthlyLivingCostUSD": 1600,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "NCI Academic Merit Scholarship (€2,000 - €4,000 automatic deduction) + 50% Master's Edge Scholarship",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located literally inside Dublin's IFSC / Silicon Docks (walking distance to Citi, JP Morgan, Google, Meta, HubSpot & Central Bank of Ireland).",
+      "coreModules": [
+        "Foundations of AI",
+        "Programming & Math for AI",
+        "Machine Learning",
+        "Data Governance & Ethics"
+      ],
+      "appliedModules": [
+        "Deep Learning & Generative AI",
+        "AI Driven Decision Making",
+        "Natural Language Processing",
+        "Silicon Docks Industry Project"
+      ],
+      "eeeFitNote": "Accepts 2:2/2:1 in STEM; one of the best ROI programs in Ireland due to automatic scholarships and Silicon Docks location.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-083",
+      "name": "Munster Technological University (MTU)",
+      "country": "Ireland",
+      "city": "Cork",
+      "program": "MSc in Artificial Intelligence",
+      "monthlyLivingCostUSD": 1210,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "MTU International Merit Bursary (€3,000) + Nimbus Research Centre Internships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Co-designed with Ireland's Technology Skillnet; campus hosts the Nimbus Centre (IoT/Cyber-Physical AI) working with Dell Technologies, VMware & Johnson Controls.",
+      "coreModules": [
+        "Practical Math & Python for AI",
+        "Statistical Learning",
+        "Machine Learning",
+        "Knowledge Representation"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Big Data Processing",
+        "Decision Analytics & Optimization",
+        "Industry Research Project"
+      ],
+      "eeeFitNote": "Named Ireland's Sunday Times Technological University of the Year; built specifically with industry employers.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-084",
+      "name": "Trinity College Dublin (TCD)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "MSc in Computer Science (Intelligent Systems Track)",
+      "monthlyLivingCostUSD": 1720,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "TCD Global Excellence Postgraduate Scholarship (€5,000) + E3 Balanced Solutions Engineering Scholarship",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "#1 University in Ireland; campus borders Silicon Docks (Google, Meta, LinkedIn EMEA HQ, Stripe, Huawei Research).",
+      "coreModules": [
+        "Machine Learning",
+        "Statistical Modeling",
+        "Information Retrieval",
+        "Knowledge Representation"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Adaptive Applications",
+        "Advanced Computer Vision",
+        "ADAPT Centre Research Thesis"
+      ],
+      "eeeFitNote": "The E3 Scholarship at Trinity specifically funds engineers combining technology with sustainable/grid systems.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-085",
+      "name": "University College Dublin (UCD)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "MSc in Artificial Intelligence for Medicine & Engineering / Data & Computational Science",
+      "monthlyLivingCostUSD": 1690,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UCD Global Excellence Scholarship (50% to 100% full tuition fee waiver!)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to CeADAR (Ireland's National Centre for Applied AI, funded by Enterprise Ireland & IDA with 90+ corporate member companies).",
+      "coreModules": [
+        "Foundations of Machine Learning",
+        "Mathematical & Statistical Modeling",
+        "Scientific Programming",
+        "Optimization"
+      ],
+      "appliedModules": [
+        "Applied Deep Learning",
+        "AI for Smart Grids & Engineering",
+        "Bayesian Analysis",
+        "CeADAR Industry Internship"
+      ],
+      "eeeFitNote": "CeADAR is on UCD's campus and acts as the applied AI R&D arm for over 90 multinationals in Ireland.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-086",
+      "name": "South East Technological University (SETU)",
+      "country": "Ireland",
+      "city": "Waterford / Carlow",
+      "program": "MSc in Computing (Enterprise Software & Applied AI)",
+      "monthlyLivingCostUSD": 1020,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "SETU Presidential International Scholarship (€3,000 fee reduction) + Walton Institute Fellowships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Hosts the Walton Institute (formerly TSSG, elite telecommunications & edge AI center) partnering with Red Hat Waterford, Sanofi & Sun Life.",
+      "coreModules": [
+        "Foundations of Enterprise AI",
+        "Data Science & Statistical Modeling",
+        "Machine Learning",
+        "Cloud & Database Systems"
+      ],
+      "appliedModules": [
+        "Applied Deep Learning",
+        "Edge AI & 6G Telemetry",
+        "Predictive Analytics",
+        "Walton Institute Industry Placement"
+      ],
+      "eeeFitNote": "Waterford living cost is ~35% lower than Dublin ($1,020/mo) with Red Hat's major Irish engineering office in town.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-087",
+      "name": "Atlantic Technological University (ATU)",
+      "country": "Ireland",
+      "city": "Galway / Letterkenny",
+      "program": "MSc in Big Data Analytics & Artificial Intelligence",
+      "monthlyLivingCostUSD": 950,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "ATU Global Merit Scholarship (20% to 30% tuition discount) + GOI-IES Eligible",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Direct industry links in the North-West & West tech corridors: Optum (UnitedHealth AI R&D), Pramerica/TCS, Sita & Merit Medical.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Database Systems (SQL/NoSQL)",
+        "Statistical Inference",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Business Intelligence & Data Visualization (Tableau)",
+        "Cloud AI Architecture",
+        "Company-Sponsored Capstone"
+      ],
+      "eeeFitNote": "Lowest cost of living in Ireland ($950/mo), accepts 2:2/2:1 engineering degrees, and builds directly on SQL/Tableau.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-088",
+      "name": "Technological University of the Shannon (TUS)",
+      "country": "Ireland",
+      "city": "Athlone / Limerick",
+      "program": "MSc in Software Engineering & Applied AI / Data Analytics",
+      "monthlyLivingCostUSD": 1040,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "TUS International Merit Scholarship (€3,000 automatic reduction)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Athlone campus sits directly beside Ericsson's massive Software & AI R&D Campus (1,500+ engineers) and NPD/alkermes.",
+      "coreModules": [
+        "Foundations of Data Analytics",
+        "Probability & Statistics for Engineers",
+        "Machine Learning",
+        "SQL & Data Engineering"
+      ],
+      "appliedModules": [
+        "Deep Learning for Network Systems",
+        "Visual Analytics & Dashboards",
+        "Automated Cloud Pipelines",
+        "Ericsson/Industry Placement"
+      ],
+      "eeeFitNote": "Ericsson Athlone has a decades-long hiring partnership with TUS for Electrical/Electronics & AI engineers.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-089",
+      "name": "Dublin Business School (DBS)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "MSc in Artificial Intelligence / Data Analytics",
+      "monthlyLivingCostUSD": 1590,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "DBS Partial Tuition Bursary (€1,500 - €2,000) + Low baseline international tuition (€13,500)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Central Dublin city campus; industry-led curriculum with guest sprints from AWS, TikTok Dublin, HubSpot & Accenture.",
+      "coreModules": [
+        "Programming & Math for AI",
+        "Machine Learning & Pattern Recognition",
+        "Advanced Databases (SQL)",
+        "Statistical Modeling"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Natural Language Processing",
+        "Data Visualization (Tableau)",
+        "Applied Industry Project"
+      ],
+      "eeeFitNote": "Very accessible entry requirements for Second Class degrees and one of the lowest tuition fees in central Dublin.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-090",
+      "name": "Griffith College",
+      "country": "Ireland",
+      "city": "Dublin / Cork / Limerick",
+      "program": "MSc in Big Data Management and Analytics (with Applied AI)",
+      "monthlyLivingCostUSD": 1350,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Griffith International Academic Merit Scholarship (€2,500 - €3,500 automatic discount)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Available on Dublin, Cork, or lower-cost Limerick campuses; QQI Level 9 degree recognized for Ireland's 2-year Post-Study Work Visa (Stamp 1G).",
+      "coreModules": [
+        "Information Retrieval & Web Search",
+        "Statistical Data Analysis",
+        "Machine Learning",
+        "Concurrent & Parallel Programming"
+      ],
+      "appliedModules": [
+        "Big Data Analytics",
+        "Deep Learning Applications",
+        "Cloud Computing Platforms",
+        "Industry Dissertation"
+      ],
+      "eeeFitNote": "Choosing the Limerick or Cork campus cuts your rent significantly while giving the exact same QQI Level 9 degree.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-091",
+      "name": "Dundalk Institute of Technology (DkIT)",
+      "country": "Ireland",
+      "city": "Dundalk",
+      "program": "MSc in Data Analytics & Artificial Intelligence",
+      "monthlyLivingCostUSD": 1050,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "DkIT International Merit Bursary + Regulated Software Research Centre (RSRC) Grants",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located on the Dublin-Belfast M1 Tech Corridor (45 mins to Dublin Airport); partners with PayPal, WuXi Biologics, Statkraft & AWS.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Statistical Methods",
+        "Machine Learning",
+        "Database Architecture"
+      ],
+      "appliedModules": [
+        "Applied Deep Learning",
+        "AI in Regulated & Critical Systems",
+        "Data Visualization",
+        "M1 Corridor Industry Project"
+      ],
+      "eeeFitNote": "Live in low-cost Dundalk ($1,050/mo) while commuting easily to Dublin tech interviews.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-092",
+      "name": "University of Galway (Engineering School)",
+      "country": "Ireland",
+      "city": "Galway",
+      "program": "ME / MSc in Electrical & Electronic Engineering with AI",
+      "monthlyLivingCostUSD": 1290,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "College of Science & Engineering Non-EU Merit Scholarship (€2,000)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Direct 8-month paid industry placement program with Valeo Vision Systems (autonomous driving cameras/radar), Analog Devices & Intel.",
+      "coreModules": [
+        "Advanced Signal Processing",
+        "Foundations of Machine Learning",
+        "Embedded Systems Architecture",
+        "Optimization"
+      ],
+      "appliedModules": [
+        "Deep Learning for Computer Vision",
+        "Automotive Radar & Sensor Fusion",
+        "Smart Grid Control",
+        "8-Month Paid Industry Placement"
+      ],
+      "eeeFitNote": "Valeo's global autonomous driving vision R&D hub is in Galway and recruits directly from this EEE + AI track.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-093",
+      "name": "Maynooth University (Hamilton Institute)",
+      "country": "Ireland",
+      "city": "Maynooth",
+      "program": "MSc in Foundations of Data Science & Machine Learning",
+      "monthlyLivingCostUSD": 1250,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Science Foundation Ireland (SFI) CRT Foundations of Data Science Stipends + Maynooth Scholarships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Run by the world-renowned Hamilton Institute (named after William Rowan Hamilton); 12-week industry placement with ESB (Electricity Supply Board), EirGrid & Citi.",
+      "coreModules": [
+        "Mathematical Foundations of Data Science",
+        "Statistical Machine Learning",
+        "Optimization & Control",
+        "Programming for Data Science"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Time Series & Grid Telemetry",
+        "Network Analytics",
+        "12-Week Industry Placement"
+      ],
+      "eeeFitNote": "Direct placements with EirGrid and ESB (Ireland's electricity regulator/grid operator)—unbeatable match for your NERC background.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-094",
+      "name": "University College Dublin (ECE School)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "MEngSc in Electronic & Computer Engineering (AI & IoT Stream)",
+      "monthlyLivingCostUSD": 1690,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UCD Global Excellence Scholarship (50%-100%) + EA/Intel Sponsored Internships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Includes a structured 6-to-8 month paid internship via UCD's dedicated Engineering Placement Office (Intel, Qualcomm, EirGrid, Faraday Grid).",
+      "coreModules": [
+        "Digital Signal Processing",
+        "Machine Learning for Engineers",
+        "Neural Networks",
+        "IoT Architecture"
+      ],
+      "appliedModules": [
+        "Deep Learning on Edge Silicon",
+        "Smart Grid Power Systems",
+        "Computer Vision",
+        "Paid Industry Internship"
+      ],
+      "eeeFitNote": "Keeps you inside an accredited Electrical & Computer Engineering Master's while specializing in AI/ML.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-095",
+      "name": "Technological University Dublin (Blanchardstown)",
+      "country": "Ireland",
+      "city": "Dublin West",
+      "program": "MSc in Applied Data Science & Predictive Analytics",
+      "monthlyLivingCostUSD": 1420,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "TU Dublin Merit Scholarship + Blanchardstown Corporate Park Internships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located inside Dublin 15 (beside IBM Ireland Damastown Campus, PayPal, eBay, Equinix & AWS Data Centres).",
+      "coreModules": [
+        "Foundations of Predictive Analytics",
+        "SQL & Data Warehousing",
+        "Statistical Learning",
+        "Data Mining"
+      ],
+      "appliedModules": [
+        "Machine Learning in Production",
+        "Visual Storytelling (Tableau)",
+        "Deep Learning",
+        "IBM/Tech Park Industry Project"
+      ],
+      "eeeFitNote": "Dublin 15 has lower rent than South Dublin while sitting right next to IBM and AWS data center campuses.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-096",
+      "name": "University of Limerick (Confirm Centre)",
+      "country": "Ireland",
+      "city": "Limerick",
+      "program": "MSc in Artificial Intelligence for Smart Manufacturing & Systems",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "GOV_STEM",
+      "scholarshipDetail": "Confirm SFI Research Centre Industry Bursaries + UL Engineering Scholarship",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Headquartered at the €47M Confirm SFI Smart Manufacturing Centre; partners with Johnson & Johnson, Boston Scientific, Seagate & BorgWarner.",
+      "coreModules": [
+        "Foundations of AI & Optimization",
+        "Data Analytics for Engineers",
+        "Machine Learning",
+        "Industrial IoT & Sensors"
+      ],
+      "appliedModules": [
+        "Deep Learning for Predictive Maintenance",
+        "Digital Twins & Simulation",
+        "Robotics & Edge AI",
+        "Confirm Industry Placement"
+      ],
+      "eeeFitNote": "Tailor-made for an Electrical/Electronics graduate with hardware/IoT (ESP32/SUSTAIN) and data experience.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-097",
+      "name": "Dublin City University (Electronic Eng)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "MEng in Electronic and Computer Engineering (Artificial Intelligence Major)",
+      "monthlyLivingCostUSD": 1620,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "DCU Faculty of Engineering & Computing Merit Scholarship (€2,000)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Accredited by Engineers Ireland; partnerships with Xilinx/AMD (European HQ in Dublin), Intel, EirGrid & Entrust.",
+      "coreModules": [
+        "Statistical Signal Processing",
+        "Machine Learning",
+        "Data Analytics & Mining",
+        "Deep Learning"
+      ],
+      "appliedModules": [
+        "Computer Vision & Video Analytics",
+        "FPGA & Hardware AI Acceleration",
+        "Smart Energy Networks",
+        "Industry R&D Project"
+      ],
+      "eeeFitNote": "Xilinx/AMD's biggest engineering center outside California is in Dublin and hires DCU Electronic + AI grads.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-098",
+      "name": "University College Cork (School of Engineering)",
+      "country": "Ireland",
+      "city": "Cork",
+      "program": "MEngSc in Electrical & Electronic Engineering (Intelligent Systems & Control)",
+      "monthlyLivingCostUSD": 1310,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UCC SEFS International Merit Scholarship (up to 25% fee waiver)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Co-located with the Tyndall National Institute (Ireland's flagship microelectronics, photonics & edge-AI hardware research institute).",
+      "coreModules": [
+        "Foundations of Intelligent Systems",
+        "Machine Learning for Signal Processing",
+        "Linear & Nonlinear Control",
+        "Optimization"
+      ],
+      "appliedModules": [
+        "Edge AI & TinyML",
+        "Smart Grid Integration",
+        "Power Electronics & Telemetry",
+        "Tyndall / Industry Thesis"
+      ],
+      "eeeFitNote": "Access to Tyndall National Institute (500+ researchers working with Apple, Intel, Analog Devices & Bosch).",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-099",
+      "name": "Munster Technological University (Kerry)",
+      "country": "Ireland",
+      "city": "Tralee, Kerry",
+      "program": "MSc in Computing (Intelligent Systems & Data Analytics)",
+      "monthlyLivingCostUSD": 990,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "MTU Kerry International Bursary (€3,000) + IMaR Research Centre Internships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the IMaR (Intelligent Mechatronics and RFID) Technology Gateway working with Liebherr Cranes, BorgWarner, JRI America & Astellas.",
+      "coreModules": [
+        "Foundations of Intelligent Systems",
+        "Statistical Data Analysis",
+        "Machine Learning",
+        "Database Systems (SQL)"
+      ],
+      "appliedModules": [
+        "Industrial IoT & Sensor Analytics",
+        "Deep Learning",
+        "Applied BI Dashboards",
+        "IMaR Industry Placement"
+      ],
+      "eeeFitNote": "Under $1,000/month living cost in Kerry + direct placement into IMaR's industrial automation projects.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-100",
+      "name": "Atlantic Technological University (Sligo)",
+      "country": "Ireland",
+      "city": "Sligo",
+      "program": "MSc in Data Science & Connected Autonomous Systems",
+      "monthlyLivingCostUSD": 960,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "ATU Global Merit Scholarship + AbbVie/Continental Partner Bursaries",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Co-designed with Continental Automotive, Valeo, AbbVie & LiveTiles in Sligo's FinTech/MedTech cluster.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Probability & Statistics",
+        "Machine Learning Algorithms",
+        "Big Data & SQL"
+      ],
+      "appliedModules": [
+        "Deep Learning for Autonomous Vehicles",
+        "Computer Vision",
+        "Sensor Fusion",
+        "Automotive/MedTech Industry Thesis"
+      ],
+      "eeeFitNote": "Continental and Valeo helped write this syllabus to train electrical/data engineers in autonomous AI.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-101",
+      "name": "RMIT University",
+      "country": "Australia",
+      "city": "Melbourne, VIC",
+      "program": "Master of Artificial Intelligence",
+      "monthlyLivingCostUSD": 1420,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "RMIT STEM International Excellence Scholarship (20% tuition fee reduction) + Australia Awards",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located in Melbourne CBD; Work Integrated Learning (WIL) placements with AWS Australia, Telstra, ANZ Bank, Bosch Australia & CSIRO Data61.",
+      "coreModules": [
+        "Foundations of AI",
+        "Programming & Math for Data Science",
+        "Computational Machine Learning",
+        "Practical Data Science (SQL/Python)"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Evolutionary Computing",
+        "AI Professional Practice & Industry Project",
+        "NLP & Computer Vision"
+      ],
+      "eeeFitNote": "RMIT is famous for hands-on industry placements; accepts Second Class (~65%/2.5+ GPA) in Engineering.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-102",
+      "name": "University of Technology Sydney (UTS)",
+      "country": "Australia",
+      "city": "Sydney, NSW",
+      "program": "Master of Artificial Intelligence / Master of Data Science and Innovation",
+      "monthlyLivingCostUSD": 1680,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UTS Vice-Chancellor's International Postgraduate Scholarship (25% to 50% tuition waiver)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located in Sydney's Tech Central precinct (beside Atlassian HQ, Canva, Commonwealth Bank AI Labs, Microsoft Reactor & Dolby).",
+      "coreModules": [
+        "Foundations of AI",
+        "Statistical Modelling",
+        "Machine Learning Foundations",
+        "Database Principles (SQL)"
+      ],
+      "appliedModules": [
+        "Deep Learning & Convolutional Nets",
+        "Natural Language Processing",
+        "Image Processing & Vision",
+        "Tech Central Industry Studio"
+      ],
+      "eeeFitNote": "UTS ranks #1 in Australia for AI research impact (Australian Artificial Intelligence Institute - AAII).",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-103",
+      "name": "Deakin University",
+      "country": "Australia",
+      "city": "Geelong / Melbourne, VIC",
+      "program": "Master of Artificial Intelligence (Professional)",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Deakin Vice-Chancellor's International Scholarship (50% to 100% fee waiver) + 25% STEM Bursary",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to A2I2 (Applied Artificial Intelligence Institute); 2-year Professional track includes a mandatory industry internship/placement.",
+      "coreModules": [
+        "Foundations of AI",
+        "Mathematics for AI",
+        "Machine Learning",
+        "Data Wrangling & SQL"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Reinforcement Learning",
+        "Computer Vision & Speech",
+        "Full-Semester Professional Industry Internship"
+      ],
+      "eeeFitNote": "Studying at the Geelong Waurn Ponds campus gives you Regional Australia Post-Study Work Visa bonuses (+1 extra year) and lower rent ($1,180/mo)!",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-104",
+      "name": "University of Adelaide (Adelaide University)",
+      "country": "Australia",
+      "city": "Adelaide, SA",
+      "program": "Master of Artificial Intelligence and Machine Learning",
+      "monthlyLivingCostUSD": 1190,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Global Citizens Scholarship (15% to 30% automatic tuition fee reduction) + AIML Fellowships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to AIML (Australian Institute for Machine Learning, ranked Top 3 globally in Computer Vision) inside the Lot Fourteen Tech Precinct (Google Cloud, AWS, MIT Living Lab, BAE Systems).",
+      "coreModules": [
+        "Mathematical Foundations of Data Science",
+        "Foundations of Machine Learning",
+        "Statistical Modeling",
+        "Computer Vision Foundations"
+      ],
+      "appliedModules": [
+        "Deep Learning Specialization",
+        "Applied Natural Language Processing",
+        "Trusted Autonomous Systems",
+        "Lot Fourteen Industry Project"
+      ],
+      "eeeFitNote": "Group of Eight (Go8) prestige + AIML world-class vision lab + Regional Visa status in Adelaide with affordable living costs.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-105",
+      "name": "University of Wollongong (UOW)",
+      "country": "Australia",
+      "city": "Wollongong, NSW",
+      "program": "Master of Computer Science (Machine Learning and Big Data)",
+      "monthlyLivingCostUSD": 1120,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UOW Postgraduate Academic Excellence Scholarship (30% automatic tuition reduction!)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "1 hour south of Sydney; Innovation Campus hosts Accelo, Telstra, NEC Australia & BlueScope Steel AI automation labs.",
+      "coreModules": [
+        "Foundations of Programming & Data",
+        "Statistical Inference",
+        "Machine Learning",
+        "Big Data Management (SQL/NoSQL)"
+      ],
+      "appliedModules": [
+        "Deep Learning & Neural Networks",
+        "Computer Vision",
+        "Visual Analytics",
+        "Industry Capstone Project"
+      ],
+      "eeeFitNote": "Automatic 30% scholarship + Regional NSW post-study work visa benefits + coastal lifestyle near Sydney.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-106",
+      "name": "Queensland University of Technology (QUT)",
+      "country": "Australia",
+      "city": "Brisbane, QLD",
+      "program": "Master of Data Analytics (Artificial Intelligence & ML Major) / Master of Robotics & AI",
+      "monthlyLivingCostUSD": 1290,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "QUT International Merit Scholarship (25% tuition fee waiver for first year and ongoing with GPA)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the QUT Centre for Robotics and Centre for Data Science; partners with Boeing Defence Australia, BHP, Rio Tinto, Energy Queensland & Suncorp.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Statistical Data Analysis",
+        "Databases & SQL Systems",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Autonomous Systems & Vision",
+        "Business Intelligence & Dashboards (Tableau)",
+        "Real-World Industry Capstone"
+      ],
+      "eeeFitNote": "QUT's slogan is 'The University for the Real World'—strongest engineering ties to Queensland's energy and mining automation sectors.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-107",
+      "name": "Monash University",
+      "country": "Australia",
+      "city": "Melbourne, VIC",
+      "program": "Master of Artificial Intelligence",
+      "monthlyLivingCostUSD": 1450,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Monash International Merit Scholarship ($10,000 AUD/yr) + Monash Data Futures Institute Grants",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Group of Eight (Go8); features the celebrated Monash Industry Experience (IE) studio or Woodside/CSIRO research pathways.",
+      "coreModules": [
+        "Foundations of AI & Python",
+        "Mathematical Foundations for AI",
+        "Machine Learning",
+        "Data Modeling & SQL"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Human-Centered AI",
+        "Optimization & Operations Research",
+        "24-Point Industry Experience Studio"
+      ],
+      "eeeFitNote": "Specifically offers a 2-year path with built-in foundation units for graduates coming from non-CS STEM degrees like EEE.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-108",
+      "name": "Macquarie University",
+      "country": "Australia",
+      "city": "Sydney (Macquarie Park), NSW",
+      "program": "Master of Data Science / Master of Information Technology in AI",
+      "monthlyLivingCostUSD": 1550,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Macquarie Vice-Chancellor's International Scholarship (up to $10,000 AUD) + $5,000 Early Acceptance",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located inside the Macquarie Park Innovation District ('Australia's Silicon Valley': Optus HQ, Microsoft, Cochlear, Honeywell, AstraZeneca & Sony).",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Applied Statistics",
+        "Database Systems (SQL)",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Natural Language Processing",
+        "Big Data Technologies",
+        "Macquarie Park Corporate Internship"
+      ],
+      "eeeFitNote": "Walk out of your lecture hall straight into the headquarters of Optus, Cochlear, and Honeywell.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-109",
+      "name": "Curtin University",
+      "country": "Australia",
+      "city": "Perth, WA",
+      "program": "Master of Artificial Intelligence",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Curtin International Merit Scholarship (25% first-year tuition discount) + BHP/Woodside AI Bursaries",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Hosts the Curtin Institute for Computation and Pawsey Supercomputing Centre partner; deep links with Woodside Energy, Rio Tinto Autonomous Haulage, Fortescue & Chevron.",
+      "coreModules": [
+        "Foundations of AI & Programming",
+        "Statistical Data Analysis",
+        "Machine Learning",
+        "Data Mining"
+      ],
+      "appliedModules": [
+        "Deep Learning & Computer Vision",
+        "Industrial & Energy AI",
+        "High-Performance Computing",
+        "WA Resources/Energy Capstone"
+      ],
+      "eeeFitNote": "Perth is the global capital of autonomous mining & remote energy telemetry; regional visa benefits apply in WA!",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-110",
+      "name": "University of Western Australia (UWA)",
+      "country": "Australia",
+      "city": "Perth, WA",
+      "program": "Master of Data Science / Master of Professional Engineering (Software & AI)",
+      "monthlyLivingCostUSD": 1220,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UWA Global Excellence Scholarship (up to $12,000 AUD per year automatic merit discount)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Group of Eight (Go8) in Regional-classified Perth; industry projects with Woodside, BHP, Wesfarmers, Synergy (WA Power Grid) & Fugro Autonomous Marine.",
+      "coreModules": [
+        "Data Warehousing (SQL)",
+        "Statistical Learning",
+        "Machine Learning",
+        "Computational Thinking with Python"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Natural Language Processing",
+        "Time Series & Sensor Analytics",
+        "UWA Industry Capstone"
+      ],
+      "eeeFitNote": "Go8 prestige + automatic up to $24,000 AUD total scholarship + extra post-study work visa years in Perth.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-111",
+      "name": "Swinburne University of Technology",
+      "country": "Australia",
+      "city": "Melbourne, VIC",
+      "program": "Master of Data Science / Master of Information Technology (Artificial Intelligence)",
+      "monthlyLivingCostUSD": 1360,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Swinburne International Excellence Postgraduate Scholarship (20% to 30% tuition reduction)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Famous for its Work Integrated Learning (WIL) guarantee; partners with Siemens Australia (on-campus Factory of the Future), AWS, Telstra & Capgemini.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Introduction to AI",
+        "Database Analysis & SQL",
+        "Statistical Methods"
+      ],
+      "appliedModules": [
+        "Applied Machine Learning",
+        "Deep Learning",
+        "Data Visualization (Tableau/PowerBI)",
+        "Siemens Digital Factory Project"
+      ],
+      "eeeFitNote": "Siemens invested $135M into Swinburne's Industry 4.0 hub on campus—huge advantage for an Electrical Engineer.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-112",
+      "name": "La Trobe University",
+      "country": "Australia",
+      "city": "Melbourne / Bendigo, VIC",
+      "program": "Master of Artificial Intelligence",
+      "monthlyLivingCostUSD": 1240,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "La Trobe High Achiever Scholarship (20% to 25% automatic tuition fee reduction)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the Cisco-La Trobe Centre for AI and IoT; Work Integrated Learning placements with Cisco, Optus, Deloitte & Bendigo Bank.",
+      "coreModules": [
+        "Foundations of AI",
+        "Mathematics for Artificial Intelligence",
+        "Machine Learning",
+        "Probability & Statistics"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Computer Vision",
+        "Natural Language Processing",
+        "Industry Development Project / Internship"
+      ],
+      "eeeFitNote": "Co-developed with Microsoft and Cisco to ensure graduates earn industry certifications alongside their Master's.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-113",
+      "name": "Griffith University",
+      "country": "Australia",
+      "city": "Brisbane / Gold Coast, QLD",
+      "program": "Master of Artificial Intelligence / Information Technology (Data Analytics)",
+      "monthlyLivingCostUSD": 1210,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Griffith Remarkable Scholarship (50% tuition fee waiver!) + 20% International Academic Merit Award",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Gold Coast campus qualifies for Regional Australia visa extensions; Work Integrated Learning trimester with Gilmour Space Technologies, Flight Centre & Queensland Health.",
+      "coreModules": [
+        "Foundations of Computing & AI",
+        "Statistical Data Analysis",
+        "Machine Learning",
+        "Big Data Analytics & SQL"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Autonomous Systems & Robotics",
+        "Evolutionary Computation",
+        "Industry Affiliates Program (IAP) Placement"
+      ],
+      "eeeFitNote": "Griffith's Industry Affiliates Program (IAP) places students directly inside Queensland companies for their final trimester.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-114",
+      "name": "Flinders University",
+      "country": "Australia",
+      "city": "Adelaide, SA",
+      "program": "Master of Artificial Intelligence / Master of Data Science",
+      "monthlyLivingCostUSD": 1150,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Flinders Go Beyond Scholarship (20% to 50% tuition fee reduction)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located at the Tonsley Innovation District (co-located with Tesla SA Grid Battery partners, Siemens Energy, BAE Systems Maritime & SAGE Automation).",
+      "coreModules": [
+        "Foundations of AI",
+        "Statistical Methods for Data Science",
+        "Machine Learning",
+        "Database Modeling (SQL)"
+      ],
+      "appliedModules": [
+        "Deep Learning & Neural Networks",
+        "Robotics & Autonomous Systems",
+        "Predictive Analytics",
+        "12-Week Tonsley Industry Placement"
+      ],
+      "eeeFitNote": "Tonsley campus is an active industrial manufacturing & smart-grid microgrid site—built for EEE + AI students.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-115",
+      "name": "University of Newcastle",
+      "country": "Australia",
+      "city": "Newcastle, NSW",
+      "program": "Master of Data Science and Artificial Intelligence",
+      "monthlyLivingCostUSD": 1140,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "ASEAN & Africa International Excellence Scholarship ($10,000 AUD/year automatic fee waiver!)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Regional NSW visa advantages; home to the Newcastle Institute for Energy and Resources (NIER) partnering with Ausgrid, BHP & CSIRO Energy Centre.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Statistical Learning",
+        "Database & SQL Management",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Big Data Wrangling",
+        "AI for Energy & Smart Grids",
+        "Industry Capstone"
+      ],
+      "eeeFitNote": "Dedicated $10,000/yr Africa scholarship + CSIRO's national renewable energy grid research center right in Newcastle.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-116",
+      "name": "Western Sydney University",
+      "country": "Australia",
+      "city": "Parramatta (Sydney), NSW",
+      "program": "Master of Artificial Intelligence",
+      "monthlyLivingCostUSD": 1310,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Western Sydney International Postgraduate Scholarship ($6,000 AUD/year multi-year discount)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the International Centre for Neuromorphic Systems (ICNS—world leader in brain-inspired silicon chips working with Intel Loihi, US Air Force & Northrop Grumman).",
+      "coreModules": [
+        "Foundations of AI",
+        "Programming & Math for ML",
+        "Machine Learning",
+        "Visual Analytics"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Neuromorphic & Bio-Inspired Engineering",
+        "Computer Vision",
+        "Parramatta CBD Industry Internship"
+      ],
+      "eeeFitNote": "If you want to blend Electronics/Hardware with AI, WSU's Neuromorphic Engineering center is world-famous.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-117",
+      "name": "Edith Cowan University (ECU)",
+      "country": "Australia",
+      "city": "Perth, WA",
+      "program": "Master of Artificial Intelligence / Data Science",
+      "monthlyLivingCostUSD": 1160,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "ECU International Masters Scholarship (20% tuition reduction)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Brand new $850M Perth City Tech Campus; national leader in Cyber-AI with AustCyber, Bankwest, Woodside & WA Police Force.",
+      "coreModules": [
+        "Foundations of AI",
+        "Applied Statistics",
+        "Scripting & Database Systems (SQL)",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "AI for Cybersecurity & Critical Infrastructure",
+        "Data Visualization (Tableau)",
+        "12-Week Work Integrated Learning Placement"
+      ],
+      "eeeFitNote": "Perth Regional status + mandatory 12-week work placement + strong intersection of AI, SQL, and critical infrastructure.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-118",
+      "name": "University of Tasmania (UTAS)",
+      "country": "Australia",
+      "city": "Hobart, TAS",
+      "program": "Master of Information Technology and Systems (Artificial Intelligence & Data Science)",
+      "monthlyLivingCostUSD": 1090,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Tasmanian International Scholarship (25% tuition fee reduction for the entire degree)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Regional Tasmania visa pathway; partnerships with Hydro Tasmania (Australia's largest renewable power generator), CSIRO Marine/Antarctic & Deloitte Hobart.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Database Design & SQL",
+        "Statistical Modeling",
+        "Artificial Intelligence Foundations"
+      ],
+      "appliedModules": [
+        "Machine Learning & Deep Learning",
+        "Big Data & Cloud Computing",
+        "IoT & Sensor Networks",
+        "Hydro/Industry Capstone"
+      ],
+      "eeeFitNote": "Hydro Tasmania is a major employer of electrical and data engineers in Hobart, and living costs are among Australia's lowest.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-119",
+      "name": "Murdoch University",
+      "country": "Australia",
+      "city": "Perth, WA",
+      "program": "Master of Information Technology (Artificial Intelligence and Data Science)",
+      "monthlyLivingCostUSD": 1140,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Murdoch International Welcome Scholarship (20% automatic tuition fee discount)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Strong ties to Western Australia's renewable microgrid, agriculture, and healthcare tech hubs (Horizon Power, Fiona Stanley Hospital AI Lab).",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Statistical Data Analysis",
+        "Databases & SQL",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Computer Vision",
+        "Business Intelligence & Analytics",
+        "Industry Project"
+      ],
+      "eeeFitNote": "Murdoch also has a leading Electrical Power & Renewable Engineering school right alongside its AI department.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-120",
+      "name": "Victoria University (VU)",
+      "country": "Australia",
+      "city": "Melbourne, VIC",
+      "program": "Master of Applied Artificial Intelligence / Enterprise Data Analytics",
+      "monthlyLivingCostUSD": 1260,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "VU Block Model International Scholarship (up to 30% tuition discount based on performance)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Uses the award-winning 'VU Block Model' (study one focused module at a time over 4 weeks instead of juggling 4 exams at once); SAP Next-Gen & AWS Academy partner.",
+      "coreModules": [
+        "Foundations of AI",
+        "Applied Statistics",
+        "SQL & Enterprise Data Warehousing",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Enterprise BI & Analytics (Tableau/SAP)",
+        "NLP & Computer Vision",
+        "Industry Capstone Block"
+      ],
+      "eeeFitNote": "The Block Model makes mastering tough mathematical ML modules much smoother and stress-free.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-121",
+      "name": "Charles Darwin University (CDU)",
+      "country": "Australia",
+      "city": "Darwin, NT",
+      "program": "Master of Artificial Intelligence / Master of Data Science",
+      "monthlyLivingCostUSD": 1050,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "CDU Global Merit Scholarship (30% tuition reduction) + Vice-Chancellor's High Achiever (50%)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Northern Territory Regional migration priority; home to the North Australia Centre for Autonomous Systems (NACAS) working with SunCable (world's largest solar grid) & INPEX.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Statistical Inference",
+        "Database Concepts (SQL)",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "Autonomous Drone & Sensor AI",
+        "Business Intelligence",
+        "12-Week Professional Experience"
+      ],
+      "eeeFitNote": "Low tuition, up to 30%-50% scholarships, lowest living cost ($1,050/mo), and maximum regional migration points.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-122",
+      "name": "University of Canberra (UC)",
+      "country": "Australia",
+      "city": "Canberra, ACT",
+      "program": "Master of Data Science / Master of Information Technology in AI",
+      "monthlyLivingCostUSD": 1320,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UC International Merit Scholarship (20% to 25% tuition discount)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located in Australia's Capital (ACT Regional status); direct internships with CSIRO, Australian Signals Directorate, Fujitsu, PwC Canberra & Geoscape.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Pattern Recognition & Machine Learning",
+        "Database Systems (SQL)",
+        "Exploratory Data Analysis"
+      ],
+      "appliedModules": [
+        "Deep Learning & Computer Vision",
+        "Human-Centric AI",
+        "Cloud & Big Data",
+        "Canberra Industry / GovTech Internship"
+      ],
+      "eeeFitNote": "Canberra has the highest average tech/engineering salaries in Australia and qualifies as a Regional area for visas.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-123",
+      "name": "University of South Australia (UniSA / Adelaide Uni)",
+      "country": "Australia",
+      "city": "Adelaide, SA",
+      "program": "Master of Data Science / Master of Information Technology (Enterprise AI)",
+      "monthlyLivingCostUSD": 1170,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Vice Chancellor's International Excellence Scholarship (50% tuition waiver) + 15% Merit Award",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the Industrial AI Research Centre; partners with Fleet Space Technologies (Low-Earth Orbit IoT satellites), BAE Systems, SA Power Networks & Deloitte.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Statistical Programming",
+        "Relational Databases & SQL",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning & Predictive Maintenance",
+        "Visual Analytics (Tableau)",
+        "Industrial AI & Digital Twins",
+        "Industry Capstone"
+      ],
+      "eeeFitNote": "UniSA's Industrial AI Research Centre works directly with SA Power Networks (world's most solar-dense electrical grid).",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-124",
+      "name": "James Cook University (JCU)",
+      "country": "Australia",
+      "city": "Townsville / Cairns, QLD",
+      "program": "Master of Data Science (AI & Computational Analytics)",
+      "monthlyLivingCostUSD": 1060,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "JCU International Excellence Scholarship (25% automatic tuition reduction)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Home to the eResearch Centre and Agriculture/Environmental IoT AI labs; partners with CSIRO, Ergon Energy, Telstra & Australian Institute of Marine Science.",
+      "coreModules": [
+        "Foundations of Data Science",
+        "Statistical Methods",
+        "Database Modeling (SQL)",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Deep Learning",
+        "IoT Sensor & Time-Series Analytics",
+        "Data Visualization (Tableau)",
+        "Industry Placement / Capstone"
+      ],
+      "eeeFitNote": "Category 3 Regional Campus (grants the maximum possible Post-Study Work Visa length in Australia) + low living cost.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-125",
+      "name": "Federation University Australia",
+      "country": "Australia",
+      "city": "Ballarat, VIC",
+      "program": "Master of Technology (Artificial Intelligence & Data Analytics)",
+      "monthlyLivingCostUSD": 990,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Federation Global Excellence Scholarship (20% to 25% tuition discount) + Free Accommodation Bursaries",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located directly adjacent to the Ballarat Technology Park (hosts IBM's largest regional Australian R&D center, State Revenue Office Tech & Kyndryl).",
+      "coreModules": [
+        "Foundations of Programming & AI",
+        "Statistical Modelling",
+        "Big Data & SQL Databases",
+        "Machine Learning"
+      ],
+      "appliedModules": [
+        "Applied Deep Learning",
+        "Business Intelligence & Dashboards",
+        "Cloud AI Systems",
+        "IBM / Ballarat Tech Park Project"
+      ],
+      "eeeFitNote": "Lowest living cost in Australia ($990/mo) and IBM's Ballarat Tech Park is literally on the university campus.",
+      "lastVerified": "October 2026"
+    }
+  ]
+}
