@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses — GradIndex</title>
+  <meta name="description" content="Choose a postgraduate course track to explore verified master's programs abroad for engineers and graduates." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #F7F6F2;
+      --surface: #FFFFFF;
+      --sunken: #EFEDE6;
+      --ink: #111111;
+      --ink-soft: #3A3A37;
+      --muted: #5F5F5A;
+      --subtle: #8A8A84;
+      --emerald: #0B6E4F;
+      --emerald-deep: #085640;
+      --emerald-soft: #DCEDE6;
+      --margin: clamp(20px, 4vw, 56px);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Inter, system-ui, sans-serif;
+      font-size: 16px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2 {
+      font-family: Montserrat, system-ui, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+      margin: 0;
+    }
+    p { margin: 0; }
+    a { color: inherit; }
+    :focus-visible { outline: 3px solid var(--emerald); outline-offset: 3px; }
+
+    .wrap { padding-left: var(--margin); padding-right: var(--margin); }
+    .inner { max-width: 1200px; margin: 0 auto; }
+
+    header.top {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      padding-top: 22px; padding-bottom: 22px;
+    }
+    .mark { font-family: Montserrat, sans-serif; font-weight: 800; font-size: 17px; letter-spacing: -0.02em; text-decoration: none; }
+    .back { font-size: 15px; text-decoration: none; color: var(--ink-soft); }
+    .back:hover { color: var(--ink); }
+
+    .intro { padding-top: clamp(48px, 7vw, 88px); padding-bottom: clamp(36px, 5vw, 56px); }
+    .intro h1 { font-size: clamp(2.25rem, 1.4rem + 3.6vw, 4rem); }
+    .intro p { margin-top: 18px; max-width: 52ch; font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.2rem); color: var(--ink-soft); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding-bottom: clamp(72px, 9vw, 120px);
+    }
+    @media (min-width: 640px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1000px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding: 26px;
+      background: var(--surface);
+      text-decoration: none;
+      transition: background-color .15s;
+    }
+    .card:hover { background: var(--emerald-soft); }
+    .card--locked { background: var(--sunken); }
+    .card--locked:hover { background: #E7E4DB; }
+
+    .card__top { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .card__code { font-size: 13px; color: var(--subtle); font-weight: 500; }
+    .pill {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 5px 12px;
+      font-size: 13px; font-weight: 600;
+      background: var(--emerald); color: var(--paper);
+      white-space: nowrap;
+    }
+    .pill--muted { background: transparent; color: var(--muted); padding-left: 0; padding-right: 0; font-weight: 500; }
+    .dot { width: 7px; height: 7px; background: var(--paper); border-radius: 999px; }
+
+    .card h2 { font-size: 21px; letter-spacing: -0.02em; line-height: 1.2; }
+    .card--locked h2 { color: var(--muted); }
+    .card p.desc { font-size: 15px; color: var(--ink-soft); line-height: 1.5; }
+    .card--locked p.desc { color: var(--muted); }
+
+    .card__foot {
+      margin-top: auto;
+      display: flex; justify-content: space-between; align-items: center; gap: 12px;
+      padding-top: 16px;
+      font-size: 14px; color: var(--muted);
+    }
+    .card__cta { font-weight: 600; color: var(--ink); }
+    .card:hover .card__cta { color: var(--emerald-deep); }
+    .card--locked .card__cta { color: var(--subtle); font-weight: 500; }
+
+    /* Footer: kept from the designed footer, scaled for a scrolling page */
+
+    /* Site navigation */
+    .site-head {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+      padding: 20px var(--margin);
+    }
+    .site-nav { display: flex; gap: 28px; font-size: 15px; }
+    .site-nav a { color: var(--ink-soft); text-decoration: none; }
+    .site-nav a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+    .site-nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+    .foot { overflow: hidden; padding-top: 24px; }
+    .foot__name {
+      font-family: Montserrat, sans-serif; font-weight: 800;
+      font-size: 17.5vw; letter-spacing: -0.06em; line-height: 0.8;
+      margin: 0 0 0 -0.04em;
+    }
+    .foot__row {
+      display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px;
+      padding: 16px 0 24px; font-size: 13px; color: var(--muted);
+    }
+    .foot__row a { color: var(--ink); text-decoration: none; }
+    .foot__row a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  </style>
+</head>
+<body>
+
+  <header class="wrap top inner">
+    <a href="index.html" class="mark">GradIndex</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="courses.html" aria-current="page">Courses</a>
+      <a href="about.html">About</a>
+      <a href="#exnorlabs">Contact</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="inner">
+      <section class="intro">
+        <h1>Choose a course track.</h1>
+        <p>Each track groups verified postgraduate programs in one discipline. Open a track to compare programs by cost, scholarship and industry links.</p>
+      </section>
+
+      <div id="grid" class="grid" aria-live="polite">
+        <!-- Populated from data/tracks.json -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="wrap foot">
+    <div class="inner">
+      <p class="foot__name" aria-hidden="true">GradIndex</p>
+      <div class="foot__row">
+        <span>A verified index of postgraduate programs, built by ExnorLab.</span>
+        <span>Data verified October 2026. <a href="index.html">Home</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (async function () {
+      const grid = document.getElementById('grid');
+      try {
+        const res = await fetch('data/tracks.json');
+        const data = await res.json();
+
+        grid.innerHTML = data.tracks.map(track => {
+          const href = track.active
+            ? `explore.html?track=${encodeURIComponent(track.id)}`
+            : `404.html?course=${encodeURIComponent(track.title)}`;
+
+          const top = track.active
+            ? `<span class="pill"><span class="dot"></span>Open now</span>`
+            : `<span class="pill pill--muted">Coming ${track.lastUpdated.replace('Pending ', '')}</span>`;
+
+          const foot = track.active
+            ? `<span>${track.universitiesCount} programs · ${track.countriesCount} countries</span><span class="card__cta">Explore programs →</span>`
+            : `<span>Updated ${track.lastUpdated.replace('Pending ', '')}</span><span class="card__cta">View status →</span>`;
+
+          return `
+            <a href="${href}" class="card ${track.active ? '' : 'card--locked'}">
+              <div class="card__top">
+                <span class="card__code">${track.code}</span>
+                ${top}
+              </div>
+              <h2>${track.title}</h2>
+              <p class="desc">${track.shortDesc}</p>
+              <div class="card__foot">${foot}</div>
+            </a>`;
+        }).join('');
+      } catch (err) {
+        console.error(err);
+        grid.innerHTML = `<p style="color:#9B1C1C">The course tracks could not load. Serve this site through GitHub Pages or a local web server.</p>`;
+      }
+    })();
+  </script>
+</body>
+</html>
