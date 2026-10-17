@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Course Explorer — GradIndex</title>
+  <title>Course explorer — GradIndex</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
   <script>
     tailwind.config = {
       theme: {
@@ -18,7 +21,8 @@
           colors: {
             paper: '#F7F6F2',
             ink: '#111111',
-            border: '#DFDDD4',
+            line: '#E4E2D9',
+            muted: '#5F5F5A',
             emerald: '#0B6E4F',
           }
         }
@@ -26,96 +30,90 @@
     }
   </script>
 </head>
-<body class="bg-paper text-ink font-sans min-h-screen flex flex-col">
+<body class="min-h-screen flex flex-col">
 
-  <!-- TOP NAVIGATION & DATA FRESHNESS BAR -->
-  <header class="sticky top-0 z-30 border-b border-border bg-paper/95 backdrop-blur-sm px-6 lg:px-12 py-4 flex flex-wrap items-center justify-between gap-4">
-    <div class="flex items-center space-x-4">
-      <a href="index.html" class="font-mono text-xs border border-border bg-white px-3 py-1.5 hover:border-ink transition">
-        ← All Courses
-      </a>
-      <div>
-        <h1 id="track-title" class="font-display font-bold text-base sm:text-lg text-ink">Loading Track...</h1>
-        <p id="track-subtitle" class="font-mono text-xs text-neutral-500">Verifying dataset...</p>
+  <!-- HEADER -->
+  <header class="sticky top-0 z-30 border-b border-line bg-paper/90 backdrop-blur-md">
+    <div class="mx-auto max-w-[1280px] px-6 lg:px-12 py-4 flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center gap-4 min-w-0">
+        <a href="index.html" class="btn shrink-0">&larr; All courses</a>
+        <div class="min-w-0">
+          <h1 id="track-title" class="display font-bold text-[17px] leading-tight truncate">Loading track…</h1>
+          <p id="track-subtitle" class="mono text-xs text-muted mt-0.5">Verifying dataset…</p>
+        </div>
       </div>
-    </div>
-
-    <!-- EXPLICIT YEAR OF LAST UPDATE BADGE -->
-    <div class="flex items-center space-x-3">
-      <div class="border border-ink bg-white px-3.5 py-1.5 font-mono text-xs flex items-center space-x-2">
-        <span class="w-2 h-2 rounded-full bg-emerald"></span>
-        <span>DATA LAST UPDATED: <strong id="last-updated-year" class="text-ink">OCTOBER 2026</strong></span>
+      <div class="chip chip--accent">
+        <span class="dot"></span>
+        <span>Data updated <strong id="last-updated-year" class="font-semibold">October 2026</strong></span>
       </div>
     </div>
   </header>
 
-  <!-- FILTER & SORT CONTROL BAR -->
-  <section class="border-b border-border bg-[#F3F1EC] px-6 lg:px-12 py-5">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-      
-      <!-- Search -->
-      <div>
-        <label class="block font-mono text-[11px] uppercase text-neutral-500 mb-1.5">Search University / City</label>
-        <input id="search-input" type="text" placeholder="e.g. Waterloo, Salford, Dublin..." 
-          class="w-full border border-border bg-white px-3 py-2 text-xs font-mono focus:outline-none focus:border-ink" />
-      </div>
+  <!-- FILTERS -->
+  <section class="px-6 lg:px-12 pt-6">
+    <div class="mx-auto max-w-[1280px] surface p-5">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
 
-      <!-- 1. Country Filter -->
-      <div>
-        <label class="block font-mono text-[11px] uppercase text-neutral-500 mb-1.5">1. Country Filter</label>
-        <select id="country-filter" class="w-full border border-border bg-white px-3 py-2 text-xs font-mono focus:outline-none focus:border-ink">
-          <option value="ALL">All 5 Countries (125)</option>
-          <option value="USA">USA (25)</option>
-          <option value="UK">United Kingdom (25)</option>
-          <option value="Canada">Canada (25)</option>
-          <option value="Ireland">Ireland (25)</option>
-          <option value="Australia">Australia (25)</option>
-        </select>
-      </div>
+        <div class="lg:col-span-1">
+          <label for="search-input" class="field-label">Search university or city</label>
+          <input id="search-input" type="search" class="field-input" placeholder="e.g. Waterloo, Salford, Dublin" autocomplete="off" />
+        </div>
 
-      <!-- 2. Scholarship Filter -->
-      <div>
-        <label class="block font-mono text-[11px] uppercase text-neutral-500 mb-1.5">2. Scholarship / Aid</label>
-        <select id="scholarship-filter" class="w-full border border-border bg-white px-3 py-2 text-xs font-mono focus:outline-none focus:border-ink">
-          <option value="ALL">All Financial Aid Types</option>
-          <option value="TA_RA">TA / RA Tuition Waiver</option>
-          <option value="MERIT">Automatic / Merit Scholarship</option>
-          <option value="GOV_STEM">Gov / OfS / Vector STEM Grant</option>
-        </select>
-      </div>
+        <div>
+          <label for="country-filter" class="field-label">Country</label>
+          <select id="country-filter" class="field-select">
+            <option value="ALL">All five countries (125)</option>
+            <option value="USA">United States (25)</option>
+            <option value="UK">United Kingdom (25)</option>
+            <option value="Canada">Canada (25)</option>
+            <option value="Ireland">Ireland (25)</option>
+            <option value="Australia">Australia (25)</option>
+          </select>
+        </div>
 
-      <!-- 3. Cost of Living Sort -->
-      <div>
-        <label class="block font-mono text-[11px] uppercase text-neutral-500 mb-1.5">3. Sort: Living Cost</label>
-        <select id="cost-sort" class="w-full border border-border bg-white px-3 py-2 text-xs font-mono focus:outline-none focus:border-ink">
-          <option value="NONE">Default Order</option>
-          <option value="ASC">Lowest Cost First (Ascending)</option>
-          <option value="DESC">Highest Cost First (Descending)</option>
-        </select>
-      </div>
+        <div>
+          <label for="scholarship-filter" class="field-label">Scholarship or aid</label>
+          <select id="scholarship-filter" class="field-select">
+            <option value="ALL">All aid types</option>
+            <option value="TA_RA">TA / RA tuition waiver</option>
+            <option value="MERIT">Automatic / merit scholarship</option>
+            <option value="GOV_STEM">Government / STEM grant</option>
+          </select>
+        </div>
 
-      <!-- 4. Industry Connection Sort -->
-      <div>
-        <label class="block font-mono text-[11px] uppercase text-neutral-500 mb-1.5">4. Sort: Industry / Internships</label>
-        <select id="industry-sort" class="w-full border border-border bg-white px-3 py-2 text-xs font-mono focus:outline-none focus:border-ink">
-          <option value="NONE">Default Order</option>
-          <option value="HIGH">Highest Industry Score First</option>
-          <option value="COOP">Mandatory Co-op / Placement First</option>
-        </select>
-      </div>
+        <div>
+          <label for="cost-sort" class="field-label">Sort by living cost</label>
+          <select id="cost-sort" class="field-select">
+            <option value="NONE">Default order</option>
+            <option value="ASC">Lowest cost first</option>
+            <option value="DESC">Highest cost first</option>
+          </select>
+        </div>
 
+        <div>
+          <label for="industry-sort" class="field-label">Sort by industry links</label>
+          <select id="industry-sort" class="field-select">
+            <option value="NONE">Default order</option>
+            <option value="HIGH">Highest industry score first</option>
+            <option value="COOP">Co-op / placement first</option>
+          </select>
+        </div>
+
+      </div>
     </div>
   </section>
 
-  <!-- RESULTS COUNT BAR -->
-  <div class="px-6 lg:px-12 py-3 border-b border-border flex items-center justify-between font-mono text-xs text-neutral-600 bg-paper">
-    <span id="results-count">Showing 0 universities</span>
-    <span>Prerequisite Profile: B.Eng Electrical/Electronics (2nd Class) + Data Foundations</span>
+  <!-- RESULTS BAR -->
+  <div class="px-6 lg:px-12 pt-4 pb-2">
+    <div class="mx-auto max-w-[1280px] flex flex-wrap items-center justify-between gap-2 text-sm">
+      <span id="results-count" class="text-muted" aria-live="polite">Showing 0 universities</span>
+      <span class="text-xs text-muted">Prerequisite profile: B.Eng Electrical/Electronics (2nd class) + data foundations</span>
+    </div>
   </div>
 
-  <!-- UNIVERSITY CARDS GRID -->
-  <main class="flex-1 px-6 lg:px-12 py-8">
-    <div id="uni-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+  <!-- CARDS -->
+  <main class="flex-1 px-6 lg:px-12 pb-16">
+    <div id="uni-grid" class="mx-auto max-w-[1280px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
       <!-- Populated by assets/app.js -->
     </div>
   </main>
