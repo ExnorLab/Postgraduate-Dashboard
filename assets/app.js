@@ -130,7 +130,7 @@ function renderGrid() {
 
         <!-- University & Program Name -->
         <h2 class="font-display font-bold text-base text-ink leading-snug mb-1">
-          ${u.university}
+          ${u.name}
         </h2>
         <p class="font-mono text-xs text-emerald font-medium mb-3">
           ${u.program}
@@ -157,11 +157,11 @@ function renderGrid() {
           <div class="flex items-center justify-between mb-1">
             <span class="font-mono text-[10px] uppercase text-neutral-400">Financial Aid Option</span>
             <span class="font-mono text-[10px] px-1.5 py-0.5 bg-emerald/10 text-emerald border border-emerald/25">
-              ${scholarshipLabels[u.scholarshipType] || u.scholarshipType}
+              ${scholarshipLabels[u.scholarshipCategory] || u.scholarshipCategory}
             </span>
           </div>
           <p class="text-xs text-neutral-700 leading-relaxed">
-            ${u.scholarshipDetails}
+            ${u.scholarshipDetail}
           </p>
         </div>
 
@@ -169,7 +169,7 @@ function renderGrid() {
         <div class="mb-4">
           <span class="font-mono text-[10px] uppercase text-neutral-400 block mb-0.5">Industry Connections & Internships</span>
           <p class="text-xs text-neutral-600 leading-relaxed">
-            ${u.industryPartners}
+            ${u.industryConnection}
           </p>
         </div>
       </div>
@@ -240,13 +240,13 @@ window.openModal = function(id) {
   if (!u) return;
 
   document.getElementById('m-meta').textContent = `${u.country} · ${u.city} · INDUSTRY RATING: ${u.industryScore}/5`;
-  document.getElementById('m-uni').textContent = u.university;
+  document.getElementById('m-uni').textContent = u.name;
   document.getElementById('m-prog').textContent = u.program;
 
   document.getElementById('m-core').innerHTML = u.coreModules.map(m => `<li>${m}</li>`).join('');
   document.getElementById('m-applied').innerHTML = u.appliedModules.map(m => `<li>${m}</li>`).join('');
   document.getElementById('m-fit').textContent = u.eeeAdmissionFit;
-  document.getElementById('m-schol').textContent = u.scholarshipDetails;
+  document.getElementById('m-schol').textContent = u.scholarshipDetail;
   document.getElementById('m-cost').textContent = `Est. Living + Accommodation: $${u.monthlyLivingCostUSD}/month (${u.localCostNote})`;
   document.getElementById('m-audit').textContent = `Curriculum Verified: ${u.lastVerified}`;
 
