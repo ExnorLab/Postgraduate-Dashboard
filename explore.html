@@ -3,122 +3,237 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Course Explorer — GradIndex</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            display: ['Montserrat', 'sans-serif'],
-            sans: ['Inter', 'sans-serif'],
-            mono: ['JetBrains Mono', 'monospace'],
-          },
-          colors: {
-            paper: '#F7F6F2',
-            ink: '#111111',
-            border: '#DFDDD4',
-            emerald: '#0B6E4F',
-          }
-        }
-      }
+  <title>Course explorer — GradIndex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #F7F6F2;
+      --surface: #FFFFFF;
+      --sunken: #EFEDE6;
+      --ink: #111111;
+      --ink-soft: #3A3A37;
+      --muted: #5F5F5A;
+      --subtle: #8A8A84;
+      --emerald: #0B6E4F;
+      --emerald-deep: #085640;
+      --emerald-soft: #DCEDE6;
+      --margin: clamp(20px, 4vw, 56px);
     }
-  </script>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Inter, system-ui, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    h1, h2 {
+      font-family: Montserrat, system-ui, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin: 0;
+    }
+    p { margin: 0; }
+    a { color: var(--ink); }
+    :focus-visible { outline: 3px solid var(--emerald); outline-offset: 3px; }
+
+    .mark { font-family: Montserrat, sans-serif; font-weight: 800; font-size: 17px; letter-spacing: -0.02em; text-decoration: none; color: var(--ink); }
+    .site-head {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+      padding: 20px var(--margin);
+    }
+    .site-nav { display: flex; gap: 28px; font-size: 15px; }
+    .site-nav a { color: var(--ink-soft); text-decoration: none; }
+    .site-nav a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+    .site-nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
+
+    .intro { padding: clamp(32px, 5vw, 56px) var(--margin) clamp(24px, 3vw, 36px); }
+    .intro__inner { max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px 40px; }
+    .intro h1 { font-size: clamp(1.9rem, 1.2rem + 2.6vw, 3rem); max-width: 22ch; }
+    .intro__meta { font-size: 15px; color: var(--muted); }
+    .intro__back { display: inline-block; margin-bottom: 20px; font-size: 15px; color: var(--ink-soft); text-decoration: none; }
+    .intro__back:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+
+    .filters { background: var(--sunken); padding: 28px var(--margin); }
+    .filters__grid {
+      max-width: 1200px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr; gap: 16px;
+    }
+    @media (min-width: 640px) { .filters__grid { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 1000px) { .filters__grid { grid-template-columns: 2fr 1fr 1fr 1fr 1fr; } }
+    .field > span {
+      display: block; font-size: 13px; font-weight: 600; color: var(--muted); margin-bottom: 8px;
+    }
+    .field-input, .field-select {
+      width: 100%; height: 44px; padding: 0 14px;
+      background-color: var(--surface); border: 0; border-radius: 0;
+      font: 500 15px/1 Inter, system-ui, sans-serif; color: var(--ink);
+      appearance: none;
+    }
+    .field-select {
+      padding-right: 40px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%235F5F5A' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 14px center; cursor: pointer;
+    }
+    .field-input::placeholder { color: var(--subtle); }
+    .field-input:focus, .field-select:focus { outline: 2px solid var(--emerald); outline-offset: 0; }
+
+    .results {
+      max-width: 1200px; margin: 0 auto; width: 100%;
+      padding: 28px var(--margin) 16px;
+      display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 24px;
+      font-size: 15px; color: var(--muted);
+    }
+
+    .grid {
+      max-width: 1200px; margin: 0 auto; width: 100%;
+      padding: 0 var(--margin) clamp(72px, 9vw, 120px);
+      display: grid; grid-template-columns: 1fr; gap: 16px;
+    }
+    @media (min-width: 640px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1000px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+
+    .card {
+      background: var(--surface);
+      padding: 26px;
+      display: flex; flex-direction: column; gap: 10px;
+      min-height: 250px;
+      transition: background-color .15s;
+    }
+    .card:hover { background: var(--emerald-soft); }
+    .card__loc { font-size: 13px; color: var(--muted); font-weight: 500; }
+    .card__name {
+      font-size: 19px; line-height: 1.25; letter-spacing: -0.02em; margin-top: 4px;
+    }
+    .card__program { font-size: 15px; color: var(--emerald); font-weight: 600; line-height: 1.4; }
+    .card__rating {
+      margin-top: auto; padding-top: 14px;
+      display: flex; align-items: center; gap: 10px;
+      font-size: 14px; color: var(--ink-soft);
+    }
+    .card__rating .label { color: var(--muted); }
+    .stars { letter-spacing: 2px; color: var(--ink); }
+    .card__link {
+      margin-top: 14px; align-self: flex-start;
+      display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px;
+      background: var(--ink); color: var(--paper);
+      font: 600 14px/1 Inter, system-ui, sans-serif; text-decoration: none;
+      transition: background-color .15s;
+    }
+    .card__link:hover { background: var(--emerald-deep); }
+
+    .notice {
+      grid-column: 1 / -1;
+      padding: 28px; background: var(--surface);
+      font-size: 15px; color: var(--muted);
+    }
+    .notice--error { color: #9B1C1C; background: #FFF4F4; }
+
+    .foot { overflow: hidden; padding: 24px var(--margin) 0; margin-top: auto; }
+    .foot__name {
+      font-family: Montserrat, sans-serif; font-weight: 800;
+      font-size: 17.5vw; letter-spacing: -0.06em; line-height: 0.8;
+      margin: 0 0 0 -0.04em;
+    }
+    .foot__row {
+      display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px;
+      padding: 16px 0 24px; font-size: 13px; color: var(--muted);
+    }
+    .foot__row a { color: var(--ink); text-decoration: none; }
+    .foot__row a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  </style>
 </head>
-<body class="bg-paper text-ink font-sans min-h-screen flex flex-col">
+<body>
 
-  <!-- TOP NAVIGATION & DATA FRESHNESS BAR -->
-  <header class="sticky top-0 z-30 border-b border-border bg-paper/95 backdrop-blur-sm px-6 lg:px-12 py-4 flex flex-wrap items-center justify-between gap-4">
-    <div class="flex items-center space-x-4">
-      <a href="index.html" class="font-mono text-xs border border-border bg-white px-3 py-1.5 hover:border-ink transition">
-        ← All Courses
-      </a>
-      <div>
-        <h1 id="track-title" class="font-display font-bold text-base sm:text-lg text-ink">Loading Track...</h1>
-        <p id="track-subtitle" class="font-mono text-xs text-neutral-500">Verifying dataset...</p>
-      </div>
-    </div>
-
-    <!-- EXPLICIT YEAR OF LAST UPDATE BADGE -->
-    <div class="flex items-center space-x-3">
-      <div class="border border-ink bg-white px-3.5 py-1.5 font-mono text-xs flex items-center space-x-2">
-        <span class="w-2 h-2 rounded-full bg-emerald"></span>
-        <span>DATA LAST UPDATED: <strong id="last-updated-year" class="text-ink">OCTOBER 2026</strong></span>
-      </div>
-    </div>
+  <header class="site-head">
+    <a href="index.html" class="mark">GradIndex</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="courses.html" aria-current="page">Courses</a>
+      <a href="about.html">About</a>
+      <a href="#exnorlabs">Contact</a>
+    </nav>
   </header>
 
-  <!-- FILTER & SORT CONTROL BAR -->
-  <section class="border-b border-border bg-[#F3F1EC] px-6 lg:px-12 py-5">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-      
-      <!-- Search -->
+  <section class="intro">
+    <div class="intro__inner">
       <div>
-        <label class="block font-mono text-[11px] uppercase text-neutral-500 mb-1.5">Search University / City</label>
-        <input id="search-input" type="text" placeholder="e.g. Waterloo, Salford, Dublin..." 
-          class="w-full border border-border bg-white px-3 py-2 text-xs font-mono focus:outline-none focus:border-ink" />
+        <a href="courses.html" class="intro__back">&larr; All courses</a>
+        <h1 id="track-title">Loading course…</h1>
       </div>
-
-      <!-- 1. Country Filter -->
-      <div>
-        <label class="block font-mono text-[11px] uppercase text-neutral-500 mb-1.5">1. Country Filter</label>
-        <select id="country-filter" class="w-full border border-border bg-white px-3 py-2 text-xs font-mono focus:outline-none focus:border-ink">
-          <option value="ALL">All 5 Countries (125)</option>
-          <option value="USA">USA (25)</option>
-          <option value="UK">United Kingdom (25)</option>
-          <option value="Canada">Canada (25)</option>
-          <option value="Ireland">Ireland (25)</option>
-          <option value="Australia">Australia (25)</option>
-        </select>
-      </div>
-
-      <!-- 2. Scholarship Filter -->
-      <div>
-        <label class="block font-mono text-[11px] uppercase text-neutral-500 mb-1.5">2. Scholarship / Aid</label>
-        <select id="scholarship-filter" class="w-full border border-border bg-white px-3 py-2 text-xs font-mono focus:outline-none focus:border-ink">
-          <option value="ALL">All Financial Aid Types</option>
-          <option value="TA_RA">TA / RA Tuition Waiver</option>
-          <option value="MERIT">Automatic / Merit Scholarship</option>
-          <option value="GOV_STEM">Gov / OfS / Vector STEM Grant</option>
-        </select>
-      </div>
-
-      <!-- 3. Cost of Living Sort -->
-      <div>
-        <label class="block font-mono text-[11px] uppercase text-neutral-500 mb-1.5">3. Sort: Living Cost</label>
-        <select id="cost-sort" class="w-full border border-border bg-white px-3 py-2 text-xs font-mono focus:outline-none focus:border-ink">
-          <option value="NONE">Default Order</option>
-          <option value="ASC">Lowest Cost First (Ascending)</option>
-          <option value="DESC">Highest Cost First (Descending)</option>
-        </select>
-      </div>
-
-      <!-- 4. Industry Connection Sort -->
-      <div>
-        <label class="block font-mono text-[11px] uppercase text-neutral-500 mb-1.5">4. Sort: Industry / Internships</label>
-        <select id="industry-sort" class="w-full border border-border bg-white px-3 py-2 text-xs font-mono focus:outline-none focus:border-ink">
-          <option value="NONE">Default Order</option>
-          <option value="HIGH">Highest Industry Score First</option>
-          <option value="COOP">Mandatory Co-op / Placement First</option>
-        </select>
-      </div>
-
+      <p id="track-subtitle" class="intro__meta">Checking the index…</p>
     </div>
   </section>
 
-  <!-- RESULTS COUNT BAR -->
-  <div class="px-6 lg:px-12 py-3 border-b border-border flex items-center justify-between font-mono text-xs text-neutral-600 bg-paper">
-    <span id="results-count">Showing 0 universities</span>
-    <span>Prerequisite Profile: B.Eng Electrical/Electronics (2nd Class) + Data Foundations</span>
+  <section class="filters" aria-label="Filter and sort programs">
+    <div class="filters__grid">
+      <div class="field">
+        <label for="search-input"><span>Search university or city</span></label>
+        <input id="search-input" type="search" class="field-input" placeholder="e.g. Waterloo, Salford, Dublin" autocomplete="off" />
+      </div>
+      <div class="field">
+        <label for="country-filter"><span>Country</span></label>
+        <select id="country-filter" class="field-select">
+          <option value="ALL">All countries</option>
+          <option value="USA">United States</option>
+          <option value="UK">United Kingdom</option>
+          <option value="Canada">Canada</option>
+          <option value="Ireland">Ireland</option>
+          <option value="Australia">Australia</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="scholarship-filter"><span>Scholarship or aid</span></label>
+        <select id="scholarship-filter" class="field-select">
+          <option value="ALL">All aid types</option>
+          <option value="TA_RA">TA / RA tuition waiver</option>
+          <option value="MERIT">Merit scholarship</option>
+          <option value="GOV_STEM">Government / STEM grant</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="cost-sort"><span>Living cost</span></label>
+        <select id="cost-sort" class="field-select">
+          <option value="NONE">Default order</option>
+          <option value="ASC">Lowest first</option>
+          <option value="DESC">Highest first</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="industry-sort"><span>Industry links</span></label>
+        <select id="industry-sort" class="field-select">
+          <option value="NONE">Default order</option>
+          <option value="HIGH">Highest rating first</option>
+          <option value="COOP">Co-op / placement first</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <div class="results">
+    <span id="results-count" aria-live="polite">Showing 0 universities</span>
   </div>
 
-  <!-- UNIVERSITY CARDS GRID -->
-  <main class="flex-1 px-6 lg:px-12 py-8">
-    <div id="uni-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+  <main>
+    <div id="uni-grid" class="grid">
       <!-- Populated by assets/app.js -->
     </div>
   </main>
+
+  <footer class="foot">
+    <p class="foot__name" aria-hidden="true">GradIndex</p>
+    <div class="foot__row">
+      <span>A verified index of postgraduate programs, built by ExnorLab.</span>
+      <span>Data verified October 2026. <a href="index.html">Home</a></span>
+    </div>
+  </footer>
 
   <script src="assets/app.js"></script>
 </body>
