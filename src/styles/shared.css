@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+p { margin: 0; }
+:focus-visible { outline: 3px solid var(--emerald); outline-offset: 3px; }
+.foot__name { font-family: Montserrat, sans-serif; font-weight: 800; font-size: 17.5vw; letter-spacing: -0.06em; line-height: 0.8; margin: 0 0 0 -0.04em; }
+.foot__row a { color: var(--ink); text-decoration: none; }
+.foot__row a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.site-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 20px var(--margin); }
+.site-nav { display: flex; gap: 28px; font-size: 15px; }
+.site-nav a { color: var(--ink-soft); text-decoration: none; }
+.site-nav a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }

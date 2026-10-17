@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+p { margin: 0; }
+:focus-visible { outline: 3px solid var(--emerald); outline-offset: 3px; }
+.foot__name { font-family: Montserrat, sans-serif; font-weight: 800; font-size: 17.5vw; letter-spacing: -0.06em; line-height: 0.8; margin: 0 0 0 -0.04em; }
+.foot__row a { color: var(--ink); text-decoration: none; }
+.foot__row a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.site-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 20px var(--margin); }
+.site-nav { display: flex; gap: 28px; font-size: 15px; }
+.site-nav a { color: var(--ink-soft); text-decoration: none; }
+.site-nav a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+
+:root { --paper: #F7F6F2; --sunken: #EFEDE6; --ink: #111111; --ink-soft: #3A3A37; --muted: #5F5F5A; --emerald: #0B6E4F; --emerald-deep: #085640; --margin: clamp(20px, 4vw, 56px); }
+html, body { height: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: Inter, system-ui, sans-serif; font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+h1 { font-family: Montserrat, system-ui, sans-serif; font-weight: 800; letter-spacing: -0.035em; line-height: 1.02; margin: 0; }
+a { color: inherit; }
+.page { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; }
+.main { display: grid; grid-template-columns: 1fr; gap: 48px; padding: clamp(56px, 8vw, 110px) var(--margin); }
+@media (min-width: 900px) { .main { grid-template-columns: 7fr 4fr; gap: 72px; align-items: end; } }
+.about { display: grid; grid-template-columns: 1fr; gap: 0; }
+.about__block { padding: clamp(48px, 7vw, 96px) var(--margin); }
+.about__block--tone { background: var(--sunken); }
+.about__inner { max-width: 1240px; margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 24px 64px; }
+@media (min-width: 900px) { .about__inner { grid-template-columns: 5fr 7fr; } }
+.about h2 { font-family: Montserrat, system-ui, sans-serif; font-weight: 800; font-size: clamp(1.75rem, 1.1rem + 2.4vw, 2.75rem); letter-spacing: -0.03em; line-height: 1.08; }
+.about p { font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.2rem); color: var(--ink-soft); max-width: 52ch; }
+.about ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 20px; font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.2rem); color: var(--ink-soft); }
+.about li strong { display: block; color: var(--ink); font-family: Montserrat, system-ui, sans-serif; font-weight: 700; font-size: 1.1rem; letter-spacing: -0.01em; margin-bottom: 4px; }
+.mark { font-family: Montserrat, sans-serif; font-weight: 800; font-size: 17px; letter-spacing: -0.02em; text-decoration: none; }
+.intro h1 { font-size: clamp(2.25rem, 1.2rem + 4.2vw, 4.75rem); }
+.intro p { margin-top: 24px; font-size: clamp(1.0625rem, 1rem + 0.4vw, 1.25rem); color: var(--ink-soft); max-width: 40ch; }
+.intro .btn { margin-top: 36px; }
+.btn { display: inline-flex; align-items: center; min-height: 52px; padding: 0 24px; background: var(--emerald); color: var(--paper); font: 600 16px/1 Inter, system-ui, sans-serif; text-decoration: none; transition: background-color .15s; }
+.btn:hover { background: var(--emerald-deep); }
+.facts { display: grid; gap: 12px; }
+.fact { background: var(--sunken); padding: 22px 24px; }
+.fact--accent { background: var(--emerald); color: var(--paper); }
+.fact__value { display: block; font-family: Montserrat, sans-serif; font-weight: 800; font-size: clamp(2rem, 1.4rem + 2vw, 2.75rem); letter-spacing: -0.03em; line-height: 1; }
+.fact__label { display: block; margin-top: 8px; font-size: 15px; color: var(--muted); }
+.fact--accent .fact__label { color: #D6EBE2; }
+.foot { padding: 0 var(--margin); overflow: hidden; }
+.foot__row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; padding: 16px 0 20px; font-size: 13px; color: var(--muted); }
+.site-nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
+@media (max-height: 560px) { .foot__name { font-size: 12vw; } }

@@ -1,0 +1,55 @@
+<!--@header-->
+  <main>
+    <section class="wrap intro">
+      <div class="inner">
+        <h1>About GradIndex.</h1>
+        <p>GradIndex helps undergraduates find master's programs abroad. Each program is verified, and you can compare them by monthly living cost, scholarship or aid, and industry links, so you can build a shortlist before you apply.</p>
+      </div>
+    </section>
+    <section class="wrap block block--tone" aria-labelledby="covers">
+      <div class="inner block__grid">
+        <div>
+          <h2 id="covers">What it covers today.</h2>
+        </div>
+        <div>
+          <div class="stats">
+            <div class="stat stat--accent"><span class="stat__value">{{programs}}</span><span class="stat__label">Verified programs</span></div>
+            <div class="stat"><span class="stat__value">{{universities}}</span><span class="stat__label">Universities</span></div>
+            <div class="stat"><span class="stat__value">{{countries}}</span><span class="stat__label">Countries</span></div>
+            <div class="stat"><span class="stat__value">{{openTracks}}</span><span class="stat__label">Course tracks open</span></div>
+          </div>
+          <p class="block__body" style="margin-top:20px">{{openTrackSummary}}</p>
+        </div>
+      </div>
+    </section>
+    <section class="wrap block" aria-labelledby="updated">
+      <div class="inner block__grid">
+        <div>
+          <h2 id="updated">Last updated.</h2>
+        </div>
+        <div>
+          <p class="block__body"><strong style="color:var(--ink)">{{verified}}.</strong> All {{programs}} entries were verified in {{verified}}, and each program card shows its own verification month.</p>
+          <p class="block__body">Program details can change after verification. Confirm entry requirements, fees and funding directly with each university before you apply.</p>
+        </div>
+      </div>
+    </section>
+    <section class="wrap block block--tone" aria-labelledby="plans">
+      <div class="inner block__grid">
+        <div>
+          <h2 id="plans">What comes next.</h2>
+          <p class="block__body" style="margin-top:16px">New course tracks are added in stages. Each one follows the same format: verified programs, living cost, scholarship and industry information.</p>
+        </div>
+        <div>
+          {{plans}}
+        </div>
+      </div>
+    </section>
+    <section id="exnorlabs" class="wrap contact" aria-labelledby="contact">
+      <div class="inner">
+        <h2 id="contact">Contact ExnorLab.</h2>
+        <p>GradIndex is built by ExnorLab. For questions, corrections to a program entry, or partnership enquiries, get in touch through ExnorLab.</p>
+        <a class="btn" href="#exnorlabs">Visit ExnorLab</a>
+      </div>
+    </section>
+  </main>
+  <!--@footer-->

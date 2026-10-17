@@ -3,74 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>404 — Course Not Updated Yet | GradIndex</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            display: ['Montserrat', 'sans-serif'],
-            sans: ['Inter', 'sans-serif'],
-            mono: ['JetBrains Mono', 'monospace'],
-          },
-          colors: {
-            paper: '#F7F6F2',
-            ink: '#111111',
-            border: '#DFDDD4',
-          }
-        }
-      }
-    }
-  </script>
+  <title>Track not verified yet — GradIndex</title>
+  <meta name="description" content="This course track has not been verified yet. Browse the active track or return to course selection." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/404.css" />
 </head>
-<body class="h-screen overflow-hidden bg-paper text-ink flex flex-col justify-between font-sans">
+<body>
+<header class="site-head">
+  <a href="index.html" class="mark">GradIndex</a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="courses.html">Courses</a>
+    <a href="about.html">About</a>
+    <a href="#exnorlabs">Contact</a>
+  </nav>
+</header>
 
-  <header class="border-b border-border px-6 lg:px-12 py-4 flex items-center justify-between">
-    <a href="index.html" class="flex items-center space-x-3">
-      <div class="w-3 h-3 bg-ink"></div>
-      <span class="font-display font-bold tracking-tight text-sm uppercase">GradIndex // Directory</span>
-    </a>
-    <span class="font-mono text-xs text-neutral-500">HTTP 404 · MODULE UNPOPULATED</span>
-  </header>
-
-  <main class="max-w-xl mx-auto px-6 text-center">
-    <div class="inline-block font-mono text-xs uppercase border border-border bg-white px-3 py-1 mb-6 text-neutral-600">
-      Status Code: 404_COURSE_PENDING
-    </div>
-    
-    <h1 class="font-display font-extrabold text-3xl sm:text-4xl tracking-tight text-ink mb-4">
-      This Course hasn't been updated Yet.
-    </h1>
-    
-    <p id="course-label" class="font-mono text-xs text-neutral-500 mb-6"></p>
-    
-    <p class="text-sm text-neutral-600 leading-relaxed mb-8">
-      We are currently auditing module schedules, scholarship waivers, and regional cost-of-living indices across 125 universities for this discipline. Only verified datasets are published to the live index.
-    </p>
-
-    <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
-      <a href="index.html" class="w-full sm:w-auto px-6 py-3 bg-ink text-paper font-mono text-xs uppercase tracking-wider hover:bg-neutral-800 transition">
-        ← Back to Course Selection
-      </a>
-      <a href="explore.html?track=ai-ml" class="w-full sm:w-auto px-6 py-3 border border-ink bg-white text-ink font-mono text-xs uppercase tracking-wider hover:bg-neutral-100 transition">
-        Explore Active AI/ML Track (125 Unis)
-      </a>
-    </div>
+  <main>
+    <section class="card" aria-labelledby="title">
+      <!-- A sleeping bookworm on a small stack of books -->
+      <svg class="sleeper" viewBox="0 0 160 130" role="img" aria-label="A small bookworm asleep on a stack of books, with zzz floating above its head.">
+        <!-- book stack -->
+        <rect x="30" y="104" width="100" height="16" fill="#0B6E4F"/>
+        <rect x="38" y="88"  width="84"  height="16" fill="#111111"/>
+        <rect x="26" y="72"  width="108" height="16" fill="#8A8A84"/>
+        <rect x="32" y="103" width="96" height="2" fill="#F7F6F2" opacity=".35"/>
+        <rect x="44" y="87"  width="72"  height="2" fill="#F7F6F2" opacity=".35"/>
+        <!-- worm body, resting on top of the stack -->
+        <g class="worm">
+          <path d="M34 72 C 34 52, 58 44, 80 44 C 104 44, 124 54, 124 72 Z" fill="#0B6E4F"/>
+          <circle cx="116" cy="60" r="12" fill="#0B6E4F"/>
+          <!-- closed eyes -->
+          <path d="M111 60 q3 3 6 0" fill="none" stroke="#F7F6F2" stroke-width="2" stroke-linecap="round"/>
+          <path d="M121 60 q3 3 6 0" fill="none" stroke="#F7F6F2" stroke-width="2" stroke-linecap="round"/>
+          <!-- body segments -->
+          <path d="M56 72 q0 -12 0 -24" stroke="#085640" stroke-width="2" fill="none" stroke-linecap="round" opacity=".5"/>
+          <path d="M76 72 q0 -16 0 -26" stroke="#085640" stroke-width="2" fill="none" stroke-linecap="round" opacity=".5"/>
+          <path d="M96 72 q0 -12 0 -22" stroke="#085640" stroke-width="2" fill="none" stroke-linecap="round" opacity=".5"/>
+        </g>
+        <!-- zzz -->
+        <text class="z z1" x="128" y="36" font-family="Montserrat, sans-serif" font-weight="800" font-size="12" fill="#111111">z</text>
+        <text class="z z2" x="138" y="24" font-family="Montserrat, sans-serif" font-weight="800" font-size="16" fill="#111111">z</text>
+        <text class="z z3" x="150" y="10" font-family="Montserrat, sans-serif" font-weight="800" font-size="20" fill="#111111">z</text>
+      </svg>
+      <p class="status">Status: not verified yet</p>
+      <h1 id="title">This course hasn't been updated yet.</h1>
+      <p class="requested" id="requested">Requested track: not specified</p>
+      <p class="body">We are currently auditing module schedules, scholarship waivers, and regional cost-of-living indices across 125 universities for this discipline. Only verified datasets are published to the live index.</p>
+      <div class="actions">
+        <a class="btn btn--primary" href="courses.html">Back to course selection</a>
+        <a class="btn btn--secondary" href="explore.html?track=ai-ml">Explore the open AI and ML track</a>
+      </div>
+    </section>
   </main>
+  <footer class="foot">
+  <p class="foot__name" aria-hidden="true">GradIndex</p>
+  <div class="foot__row">
+    <span>A verified index of postgraduate programs, built by ExnorLab.</span>
+    <span>Data verified October 2026. <a href="index.html">Home</a></span>
+  </div>
+</footer>
 
-  <footer class="border-t border-border px-6 lg:px-12 py-3 text-xs font-mono text-neutral-500 flex justify-between">
-    <span>GRADINDEX DATABASE</span>
-    <span>LAST AUDIT: 2026</span>
-  </footer>
 
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const course = params.get('course');
-    if (course) {
-      document.getElementById('course-label').textContent = `Requested Track: "${course}"`;
-    }
-  </script>
+<script>
+(function () {
+      const course = new URLSearchParams(window.location.search).get('course');
+      if (course) {
+        document.getElementById('requested').textContent = `Requested track: ${course}`;
+      }
+    })();
+</script>
 </body>
 </html>

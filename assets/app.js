@@ -121,7 +121,7 @@ function renderGrid() {
         <span class="stars" aria-hidden="true">${'★'.repeat(u.industryScore)}${'☆'.repeat(5 - u.industryScore)}</span>
         <span>${u.industryScore}/5</span>
       </div>
-      <a class="card__link" href="program.html?id=${encodeURIComponent(u.id)}">View full specs</a>
+      <a class="card__link" href="program/${encodeURIComponent(u.id)}.html">View full specs</a>
     </article>
   `).join('');
 }

@@ -1,0 +1,63 @@
+<!--@header-->
+  <section class="intro">
+    <div class="intro__inner">
+      <div>
+        <a href="courses.html" class="intro__back">&larr; All courses</a>
+        <h1 id="track-title">Loading course…</h1>
+      </div>
+      <p id="track-subtitle" class="intro__meta">Checking the index…</p>
+    </div>
+  </section>
+  <section class="filters" aria-label="Filter and sort programs">
+    <div class="filters__grid">
+      <div class="field">
+        <label for="search-input"><span>Search university or city</span></label>
+        <input id="search-input" type="search" class="field-input" placeholder="e.g. Waterloo, Salford, Dublin" autocomplete="off" />
+      </div>
+      <div class="field">
+        <label for="country-filter"><span>Country</span></label>
+        <select id="country-filter" class="field-select">
+          <option value="ALL">All countries</option>
+          <option value="USA">United States</option>
+          <option value="UK">United Kingdom</option>
+          <option value="Canada">Canada</option>
+          <option value="Ireland">Ireland</option>
+          <option value="Australia">Australia</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="scholarship-filter"><span>Scholarship or aid</span></label>
+        <select id="scholarship-filter" class="field-select">
+          <option value="ALL">All aid types</option>
+          <option value="TA_RA">TA / RA tuition waiver</option>
+          <option value="MERIT">Merit scholarship</option>
+          <option value="GOV_STEM">Government / STEM grant</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="cost-sort"><span>Living cost</span></label>
+        <select id="cost-sort" class="field-select">
+          <option value="NONE">Default order</option>
+          <option value="ASC">Lowest first</option>
+          <option value="DESC">Highest first</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="industry-sort"><span>Industry links</span></label>
+        <select id="industry-sort" class="field-select">
+          <option value="NONE">Default order</option>
+          <option value="HIGH">Highest rating first</option>
+          <option value="COOP">Co-op / placement first</option>
+        </select>
+      </div>
+    </div>
+  </section>
+  <div class="results">
+    <span id="results-count" aria-live="polite">Showing 0 universities</span>
+  </div>
+  <main>
+    <div id="uni-grid" class="grid">
+      <!-- Populated by assets/app.js -->
+    </div>
+  </main>
+  <!--@footer-->
