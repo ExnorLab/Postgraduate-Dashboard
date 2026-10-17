@@ -23,7 +23,7 @@ async function initExplorer() {
 
     // 3. Populate Header & Last Updated Metadata
     document.getElementById('track-title').textContent = dbData.trackTitle;
-    document.getElementById('track-subtitle').textContent = `${dbData.code} · ${dbData.universities.length} Verified Programs Across 5 Countries`;
+    document.getElementById('track-subtitle').textContent = `${currentTrack.code} · ${dbData.universities.length} Verified Programs Across ${dbData.countries.length} Countries`;
     document.getElementById('last-updated-year').textContent = dbData.lastUpdated.toUpperCase();
 
     allUniversities = dbData.universities;
@@ -69,13 +69,13 @@ function applyFiltersAndSort() {
 
   filteredUniversities = allUniversities.filter(u => {
     const matchesSearch = !query ||
-      u.university.toLowerCase().includes(query) ||
+      u.name.toLowerCase().includes(query) ||
       u.city.toLowerCase().includes(query) ||
       u.program.toLowerCase().includes(query) ||
-      u.industryPartners.toLowerCase().includes(query);
+      u.industryConnection.toLowerCase().includes(query);
 
     const matchesCountry = country === 'ALL' || u.country === country;
-    const matchesScholarship = scholarship === 'ALL' || u.scholarshipType === scholarship;
+    const matchesScholarship = scholarship === 'ALL' || u.scholarshipCategory === scholarship;
 
     return matchesSearch && matchesCountry && matchesScholarship;
   });
@@ -89,9 +89,9 @@ function applyFiltersAndSort() {
 
   // Sorting: Industrial Connection / Affiliation
   if (industrySort === 'HIGH') {
-    filteredUniversities.sort((a, b) => b.industryScore - a.industryScore || (b.hasCoop ? 1 : -1));
+    filteredUniversities.sort((a, b) => b.industryScore - a.industryScore || (b.hasCoopOrPlacement ? 1 : -1));
   } else if (industrySort === 'COOP') {
-    filteredUniversities.sort((a, b) => (b.hasCoop === a.hasCoop ? b.industryScore - a.industryScore : b.hasCoop ? 1 : -1));
+    filteredUniversities.sort((a, b) => (b.hasCoopOrPlacement === a.hasCoopOrPlacement ? b.industryScore - a.industryScore : b.hasCoopOrPlacement ? 1 : -1));
   }
 
   renderGrid();
@@ -141,13 +141,13 @@ function renderGrid() {
           <div>
             <span class="block text-[10px] uppercase text-neutral-400">Living + Accomm.</span>
             <strong class="text-ink">$${u.monthlyLivingCostUSD.toLocaleString()}/mo</strong>
-            <span class="text-[10px] text-neutral-500 block">(${u.localCostNote})</span>
+            ${u.localCostNote ? `<span class="text-[10px] text-neutral-500 block">(${u.localCostNote})</span>` : ''}
           </div>
           <div>
             <span class="block text-[10px] uppercase text-neutral-400">Industry Pipeline</span>
             <strong class="text-ink">${'★'.repeat(u.industryScore)}${'☆'.repeat(5 - u.industryScore)} (${u.industryScore}/5)</strong>
-            <span class="text-[10px] ${u.hasCoop ? 'text-emerald font-semibold' : 'text-neutral-500'} block">
-              ${u.hasCoop ? '✓ Co-op / Placement Track' : 'Summer Internship Track'}
+            <span class="text-[10px] ${u.hasCoopOrPlacement ? 'text-emerald font-semibold' : 'text-neutral-500'} block">
+              ${u.hasCoopOrPlacement ? '✓ Co-op / Placement Track' : 'Summer Internship Track'}
             </span>
           </div>
         </div>
@@ -245,9 +245,9 @@ window.openModal = function(id) {
 
   document.getElementById('m-core').innerHTML = u.coreModules.map(m => `<li>${m}</li>`).join('');
   document.getElementById('m-applied').innerHTML = u.appliedModules.map(m => `<li>${m}</li>`).join('');
-  document.getElementById('m-fit').textContent = u.eeeAdmissionFit;
+  document.getElementById('m-fit').textContent = u.eeeFitNote;
   document.getElementById('m-schol').textContent = u.scholarshipDetail;
-  document.getElementById('m-cost').textContent = `Est. Living + Accommodation: $${u.monthlyLivingCostUSD}/month (${u.localCostNote})`;
+  document.getElementById('m-cost').textContent = `Est. Living + Accommodation: $${u.monthlyLivingCostUSD}/month${u.localCostNote ? ` (${u.localCostNote})` : ''}`;
   document.getElementById('m-audit').textContent = `Curriculum Verified: ${u.lastVerified}`;
 
   document.getElementById('spec-modal').classList.remove('hidden');
