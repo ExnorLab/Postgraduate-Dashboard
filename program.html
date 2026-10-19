@@ -358,7 +358,7 @@
       <p class="foot__name" aria-hidden="true">GradIndex</p>
       <div class="foot__row">
         <span>A verified index of postgraduate programs, built by ExnorLab.</span>
-        <span>Data verified October 2026 · <a href="explore.html">Back to the index</a></span>
+        <span>Data verified October 2026 · <a href="explore.html?track=${encodeURIComponent(track.id)}">Back to the index</a></span>
       </div>
     </div>
   </footer>
@@ -366,30 +366,45 @@
   <script>
     (async function () {
       const root = document.getElementById('program');
-      const id = new URLSearchParams(window.location.search).get('id');
-
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get('id');
+      const trackParam = params.get('track');
+      
       const AID = {
         TA_RA: 'TA / RA tuition waiver',
         MERIT: 'Merit scholarship',
         GOV_STEM: 'Government / STEM grant'
       };
-
+      
       const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
       const list = items => (items || []).map(i => `<li>${esc(i)}</li>`).join('');
-
+      
       if (!id) {
-        root.innerHTML = `<p class="notice notice--error">No program selected. <a href="explore.html">Browse the index</a>.</p>`;
+        root.innerHTML = `<p class="notice notice--error">No program selected. <a href="explore.html">Browse the index</a></p>`;
         return;
       }
-
+      
       try {
-        const res = await fetch('data/ai-ml.json');
+        // Look up the track in tracks.json (trackParam if given, otherwise the first active track)
+        const tracksRes = await fetch('data/tracks.json');
+        const tracksData = await tracksRes.json();
+        const track = trackParam
+          ? tracksData.tracks.find(t => t.id === trackParam)
+          : tracksData.tracks.find(t => t.active);
+        
+        if (!track || !track.active) {
+          root.innerHTML = `<p class="notice notice--error">That track is not open. <a href="explore.html">Browse the index</a></p>`;
+          return;
+        }
+        
+        // Load that track's own database
+        const res = await fetch(track.dataFile);
         const db = await res.json();
         const idx = db.universities.findIndex(item => item.id === id);
         const u = db.universities[idx];
 
         if (!u) {
-          root.innerHTML = `<p class="notice notice--error">That program was not found. <a href="explore.html">Browse the index</a>.</p>`;
+          root.innerHTML = `<p class="notice notice--error">That program was not found. <a href="explore.html?track=${encodeURIComponent(track.id)}">Browse the index</a></p>`;
           return;
         }
 
@@ -402,7 +417,7 @@
 
         root.innerHTML = `
           <div class="top-bar">
-            <a class="back" href="explore.html">&larr; Back to course explorer</a>
+            <a class="back" href="explore.html?track=${encodeURIComponent(track.id)}">&larr; Back to course explorer</a>
             <span class="record-id">RECORD ID // ${esc(u.id)}</span>
           </div>
 

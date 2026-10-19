@@ -1,5 +1,6 @@
 let allUniversities = [];
 let filteredUniversities = [];
+let currentTrackId = null;
 
 const AID_LABELS = {
   TA_RA: 'TA / RA Waiver',
@@ -19,28 +20,35 @@ function escapeHtml(value) {
 
 async function initExplorer() {
   const params = new URLSearchParams(window.location.search);
-  const trackId = params.get('track') || 'ai-ml';
   const initialCountry = params.get('country');
   const initialAid = params.get('aid');
   const initialQuery = params.get('q');
 
   try {
-    // 1. Check tracks.json first to verify the track is open
+    // 1. Load the track registry (single source of truth for every track)
     const tracksRes = await fetch('data/tracks.json');
     const tracksData = await tracksRes.json();
-    const currentTrack = tracksData.tracks.find(t => t.id === trackId);
+
+    // 2. Resolve the requested track. With no ?track= param, fall back to the
+    //    first active track in tracks.json instead of a hard-coded ID.
+    const requestedId = params.get('track');
+    const currentTrack = requestedId
+      ? tracksData.tracks.find(t => t.id === requestedId)
+      : tracksData.tracks.find(t => t.active);
 
     if (!currentTrack || !currentTrack.active) {
-      const title = currentTrack ? currentTrack.title : trackId;
+      const title = currentTrack ? currentTrack.title : (requestedId || 'Unknown track');
       window.location.href = `404.html?course=${encodeURIComponent(title)}`;
       return;
     }
 
-    // 2. Load the track's program database
+    currentTrackId = currentTrack.id;
+
+    // 3. Load the track's program database
     const dbRes = await fetch(currentTrack.dataFile);
     const dbData = await dbRes.json();
 
-    // 3. Header: title and a short summary line
+    // 4. Header: title and a short summary line
     document.title = `${dbData.trackTitle} — GradIndex`;
     const titleEl = document.getElementById('track-title');
     const subtitleEl = document.getElementById('track-subtitle');
@@ -53,7 +61,10 @@ async function initExplorer() {
     allUniversities = dbData.universities;
     filteredUniversities = [...allUniversities];
 
-    // Hydrate controls if URL params are present
+    // 5. Build the country dropdown from this track's own country list
+    populateCountryFilter(dbData.countries || []);
+
+    // 6. Hydrate controls if URL params are present
     if (initialCountry) {
       const countryEl = document.getElementById('country-filter');
       if (countryEl && [...countryEl.options].some(o => o.value === initialCountry)) {
@@ -85,6 +96,18 @@ async function initExplorer() {
       `;
     }
   }
+}
+
+function populateCountryFilter(countries) {
+  const countryEl = document.getElementById('country-filter');
+  if (!countryEl) return;
+
+  // Keep the existing "All" option's label, replace the rest
+  const allLabel = countryEl.options.length ? countryEl.options[0].textContent : 'All countries';
+  countryEl.innerHTML = '';
+  countryEl.add(new Option(allLabel, 'ALL'));
+  countries.forEach(c => countryEl.add(new Option(c, c)));
+  countryEl.value = 'ALL';
 }
 
 function setupControls() {
@@ -206,6 +229,9 @@ function renderGrid() {
       ? `<span class="telemetry-pill telemetry-pill--coop">Co-op / Placement</span>`
       : `<span class="telemetry-pill">Internship Track</span>`;
 
+    // Program IDs (UNI-001 etc.) repeat across tracks, so the track must be passed along
+    const specsHref = `program.html?track=${encodeURIComponent(currentTrackId)}&id=${encodeURIComponent(u.id)}`;
+
     return `
       <article class="card">
         <div class="card__top-row">
@@ -238,7 +264,7 @@ function renderGrid() {
           ${coopBadge}
         </div>
 
-        <a class="card__link" href="program.html?id=${encodeURIComponent(u.id)}">View full specs</a>
+        <a class="card__link" href="${specsHref}">View full specs</a>
       </article>
     `;
   }).join('');
