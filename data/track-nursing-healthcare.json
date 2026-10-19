@@ -1,0 +1,3391 @@
+{
+  "trackId": "nursing-healthcare",
+  "trackTitle": "Nursing & Healthcare Administration",
+  "lastUpdated": "October 2026",
+  "totalUniversities": 125,
+  "countries": [
+    "USA",
+    "UK",
+    "Canada",
+    "Ireland",
+    "Australia"
+  ],
+  "candidateBaseline": "B.Sc Nursing / Healthcare Credential or STEM Conversion + Health Informatics & Systems Foundations",
+  "universities": [
+    {
+      "id": "UNI-001",
+      "name": "Northeastern University",
+      "country": "USA",
+      "city": "Boston, MA",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1950,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Dean's Merit Scholarship (up to 33% tuition waiver) + Paid Co-op ($32-$45/hr)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Tier-1 corporate co-op network with top national enterprises and research labs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-002",
+      "name": "Arizona State University",
+      "country": "USA",
+      "city": "Tempe, AZ",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1350,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Teaching/Research Assistantships (GTA/GRA) + Merit Awards",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "High-tech corridor partnerships with semiconductor, utility, and aerospace firms.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-003",
+      "name": "University at Buffalo (SUNY)",
+      "country": "USA",
+      "city": "Buffalo, NY",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1050,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "SUNY Graduate Fellowships & Departmental Assistantship Stipends",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "SUNY corporate tech network and regional industrial engineering hubs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-004",
+      "name": "University of Texas at Dallas",
+      "country": "USA",
+      "city": "Richardson, TX",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1280,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Competitive Merit Scholarship granting in-state tuition rate reduction (~50%)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Telecom Corridor and Fortune 500 corporate recruitment pipelines.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-005",
+      "name": "Rochester Institute of Technology (RIT)",
+      "country": "USA",
+      "city": "Rochester, NY",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "RIT Graduate Merit Scholarship (20% to 40% automatic tuition waiver)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Integrated cooperative education partnerships with national technology leaders.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-006",
+      "name": "Drexel University",
+      "country": "USA",
+      "city": "Philadelphia, PA",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1480,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Drexel Dean's Fellowship + Graduate Co-op Earnings",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Historic 6-month graduate co-op placements with Fortune 100 corporations.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-007",
+      "name": "North Carolina State University",
+      "country": "USA",
+      "city": "Raleigh, NC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1320,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Research Assistantships & Industry Consortium Fellowships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Centennial Campus Research Triangle Park (RTP) industry consortium.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-008",
+      "name": "Illinois Institute of Technology",
+      "country": "USA",
+      "city": "Chicago, IL",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1420,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Access Path to Success Scholarship ($5,000 - $14,000 tuition reduction)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Chicago metropolitan technology loop, utilities, and financial exchange hubs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-009",
+      "name": "University of Cincinnati",
+      "country": "USA",
+      "city": "Cincinnati, OH",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1100,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "University Graduate Scholarship (UGS) partial/full tuition waiver + Co-op pay",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Pioneering mandatory paid co-op system with premier industrial partners.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-010",
+      "name": "San Jose State University",
+      "country": "USA",
+      "city": "San Jose, CA",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 2150,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Departmental Graduate Assistantships and Silicon Valley Industry Awards",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Direct Silicon Valley hiring pipeline with tier-1 technology giants.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-011",
+      "name": "Purdue University",
+      "country": "USA",
+      "city": "West Lafayette, IN",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1050,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Purdue Engineering Graduate Fellowships & Research Assistantships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Global reputation with massive national engineering and executive recruitment.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-012",
+      "name": "Texas A&M University",
+      "country": "USA",
+      "city": "College Station, TX",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1150,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Non-Resident Tuition Waivers with competitive graduate assistantships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Massive engineering alumni network and major power, energy, and tech consortia.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-013",
+      "name": "University of Wisconsin-Madison",
+      "country": "USA",
+      "city": "Madison, WI",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1220,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "WEMPEC and departmental assistantships with full tuition remission",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Top-tier national research consortium and major Midwestern corporate connections.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-014",
+      "name": "Georgia Institute of Technology",
+      "country": "USA",
+      "city": "Atlanta, GA",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1550,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Research/Teaching Assistantships covering full tuition",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "World-renowned research institutes and direct corporate innovation centers.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-015",
+      "name": "University of Maryland, College Park",
+      "country": "USA",
+      "city": "College Park, MD",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1520,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Departmental Dean's Fellowships and Graduate Assistantships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Proximity to national laboratories, federal agencies, and DC tech corridor.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-016",
+      "name": "University of Colorado Boulder",
+      "country": "USA",
+      "city": "Boulder, CO",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1580,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Chancellor's Graduate Fellowship & Departmental Teaching Assistantships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Boulder-Denver innovation corridor and aerospace/energy innovation hubs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-017",
+      "name": "Stevens Institute of Technology",
+      "country": "USA",
+      "city": "Hoboken, NJ",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1920,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Stevens Graduate Merit Scholarships ($6,000 to $16,000 annually)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "NYC metro enterprise connections and financial technology pipelines.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-018",
+      "name": "University of Utah",
+      "country": "USA",
+      "city": "Salt Lake City, UT",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1280,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Graduate Research Fellowships and Tuition Benefit Program (TBP)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Silicon Slopes technology ecosystem and regional research laboratories.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-019",
+      "name": "Michigan Technological University",
+      "country": "USA",
+      "city": "Houghton, MI",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 950,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Departmental Research Assistantships & Low Living Cost Advantage",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Extremely strong industrial recruiting in power, mobility, and manufacturing.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-020",
+      "name": "Iowa State University",
+      "country": "USA",
+      "city": "Ames, IA",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 980,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Departmental Assistantships with in-state tuition benefits",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Electric Power Research Center and robust Midwestern industrial network.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-021",
+      "name": "University of Houston",
+      "country": "USA",
+      "city": "Houston, TX",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1250,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Cullen College of Engineering Merit Fellowships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Direct recruitment to the world energy capital and Texas Medical Center.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-022",
+      "name": "George Mason University",
+      "country": "USA",
+      "city": "Fairfax, VA",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1680,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Graduate Teaching/Research Assistantships with partial fee waivers",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Washington DC federal technology and healthcare consulting corridor.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-023",
+      "name": "Case Western Reserve University",
+      "country": "USA",
+      "city": "Cleveland, OH",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1240,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Dean's Graduate Merit Scholarships (20% to 50% tuition reduction)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Cleveland Clinic, University Hospitals, and Great Lakes corporate pipelines.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-024",
+      "name": "Syracuse University",
+      "country": "USA",
+      "city": "Syracuse, NY",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1120,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Engineering & Computer Science Dean's Merit Scholarships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Central New York semiconductor, power, and logistics revitalization hub.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-025",
+      "name": "University of New Mexico",
+      "country": "USA",
+      "city": "Albuquerque, NM",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1020,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Western Interstate Commission for Higher Education (WICHE) & Assistantships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Direct research pipelines to Sandia and Los Alamos National Laboratories.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-026",
+      "name": "University of Strathclyde",
+      "country": "UK",
+      "city": "Glasgow, Scotland",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1100,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Faculty of Engineering International Excellence Scholarship (\u00a34,000 - \u00a36,000)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Host of the Technology & Innovation Centre and Power Networks Demonstration Centre.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-027",
+      "name": "University of Manchester",
+      "country": "UK",
+      "city": "Manchester",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1150,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Manchester Global Future Development Merit Award (\u00a35,000 - \u00a38,000)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Russell Group leader with world-renowned high-voltage and systems facilities.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-028",
+      "name": "Imperial College London",
+      "country": "UK",
+      "city": "London",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1750,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Imperial President's Scholarship & Departmental Awards",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "World top-10 university with unmatched European financial and engineering networks.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-029",
+      "name": "Newcastle University",
+      "country": "UK",
+      "city": "Newcastle upon Tyne",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1020,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Newcastle International Postgraduate Merit Scholarship (\u00a33,000 - \u00a35,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "National Centre for Energy Systems Integration and North East industrial links.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-030",
+      "name": "University of Edinburgh",
+      "country": "UK",
+      "city": "Edinburgh, Scotland",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1280,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Edinburgh Global Masters Scholarship & Departmental Awards",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Leading Scottish research university with deep tech and clinical pipelines.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-031",
+      "name": "University of Sheffield",
+      "country": "UK",
+      "city": "Sheffield",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1050,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Sheffield International Postgrad Scholarship (\u00a32,500 - \u00a35,000)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Advanced Manufacturing Research Centre (AMRC) with Boeing and Rolls-Royce.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-032",
+      "name": "University of Birmingham",
+      "country": "UK",
+      "city": "Birmingham",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1120,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Birmingham Masters Scholarship (\u00a32,000 - \u00a34,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Midlands engineering and business hub with High Speed Rail & energy institutes.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-033",
+      "name": "University of Bath",
+      "country": "UK",
+      "city": "Bath",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Bath Excellence Scholarship (up to \u00a35,000 tuition reduction)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Top-10 UK university renowned for corporate placement programs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-034",
+      "name": "University of Leeds",
+      "country": "UK",
+      "city": "Leeds",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1060,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Leeds International Excellence Award (\u00a33,000 - \u00a36,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Northern Powerhouse corporate nexus and Leeds Digital Tech corridor.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-035",
+      "name": "University of Nottingham",
+      "country": "UK",
+      "city": "Nottingham",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1050,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Nottingham Developing Solutions Scholarship (50% to 100% tuition waiver)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Power Electronics and Machines Centre; major UK industrial research partner.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-036",
+      "name": "Cardiff University",
+      "country": "UK",
+      "city": "Cardiff, Wales",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1020,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Cardiff International Masters Excellence Award (\u00a33,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Welsh capital Russell Group institution with Welsh energy and health pipelines.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-037",
+      "name": "University of Southampton",
+      "country": "UK",
+      "city": "Southampton",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1120,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Southampton Presidential International Scholarship (\u00a33,000 - \u00a35,000)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "World-leading ECS faculty with top UK electronics and systems reputation.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-038",
+      "name": "Queen's University Belfast",
+      "country": "UK",
+      "city": "Belfast, NI",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 920,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Queen's International Excellence Award (\u00a33,000 - \u00a35,000 discount)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Low cost of living capital city with booming engineering and fintech sector.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-039",
+      "name": "University of Bristol",
+      "country": "UK",
+      "city": "Bristol",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1280,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Think Big Postgraduate Scholarship (\u00a36,500 to \u00a313,000 fee waiver)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Silicon Gorge technology cluster and aerospace/defense industrial center.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-040",
+      "name": "University of Glasgow",
+      "country": "UK",
+      "city": "Glasgow, Scotland",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1140,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Glasgow International Leadership Scholarship (\u00a35,000)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Historic Scottish institution with strong microelectronics and healthcare ties.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-041",
+      "name": "Cranfield University",
+      "country": "UK",
+      "city": "Cranfield, Bedfordshire",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1100,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Cranfield Global Manufacturing & Energy Merit Scholarships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Postgraduate-only specialist institution with direct aerospace and energy partnerships.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-042",
+      "name": "University of Liverpool",
+      "country": "UK",
+      "city": "Liverpool",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1040,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Liverpool International Vice-Chancellor's Award (\u00a32,500 - \u00a34,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Virtual Engineering Centre and NW England manufacturing and health hubs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-043",
+      "name": "Aston University",
+      "country": "UK",
+      "city": "Birmingham",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1080,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Aston Enterprise & STEM Scholarship (\u00a33,000 - \u00a35,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Top UK university for graduate earnings and integrated industry placements.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-044",
+      "name": "Heriot-Watt University",
+      "country": "UK",
+      "city": "Edinburgh, Scotland",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1120,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Heriot-Watt Postgraduate Merit Award (\u00a32,000 - \u00a34,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Pioneering global institution with unmatched oil, gas, and renewable energy links.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-045",
+      "name": "Brunel University London",
+      "country": "UK",
+      "city": "Uxbridge, London",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1350,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Brunel International Excellence Scholarship (up to \u00a36,000 tuition reduction)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Built-in professional placement year and strong London engineering links.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-046",
+      "name": "University of Surrey",
+      "country": "UK",
+      "city": "Guildford",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1280,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Surrey Prestige STEM Masters Scholarship (\u00a33,000 - \u00a35,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "5G/6G Innovation Centre and established professional training placement system.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-047",
+      "name": "Coventry University",
+      "country": "UK",
+      "city": "Coventry",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1000,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Coventry Academic Excellence Award (\u00a32,000 - \u00a33,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Centre for Advanced Low-Carbon Propulsion Systems and automotive engineering hub.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-048",
+      "name": "University of Plymouth",
+      "country": "UK",
+      "city": "Plymouth",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 960,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "International Academic Excellence Scholarship (50% fee discount)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Offshore renewables, marine engineering, and NHS healthcare partnerships.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-049",
+      "name": "Teesside University",
+      "country": "UK",
+      "city": "Middlesbrough",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 880,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Teesside Global Postgraduate Merit Discount (\u00a33,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "National Net Zero industrial cluster and Teesworks green energy development.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-050",
+      "name": "University of Salford",
+      "country": "UK",
+      "city": "Greater Manchester",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1080,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Salford International Excellence Scholarship (\u00a33,500)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "MediaCityUK campus with industrial links across Greater Manchester.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-051",
+      "name": "University of Waterloo",
+      "country": "Canada",
+      "city": "Waterloo, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1350,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Waterloo Engineering Graduate Co-op Earnings + Departmental Awards",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Canada's top technology co-op university with global tech and energy recruiters.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-052",
+      "name": "University of Toronto",
+      "country": "Canada",
+      "city": "Toronto, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1680,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Departmental Research Fellowships & Vector Institute Scholarships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Canada's top research powerhouse in financial, hospital, and engineering districts.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-053",
+      "name": "University of Alberta",
+      "country": "Canada",
+      "city": "Edmonton, AB",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Alberta Graduate Excellence Scholarship ($11,000 - $15,000 CAD)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Energy capital research leader with massive power, mining, and AI funding.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-054",
+      "name": "University of British Columbia (UBC)",
+      "country": "Canada",
+      "city": "Vancouver, BC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1650,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UBC International Tuition Award & Departmental Fellowships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Clean Energy Research Centre and Cascadia technology innovation corridor.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-055",
+      "name": "University of Calgary",
+      "country": "Canada",
+      "city": "Calgary, AB",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1220,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Calgary Graduate Merit Awards & Faculty Research Assistantships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Canadian energy headquarters nexus with booming utility and renewables sectors.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-056",
+      "name": "McMaster University",
+      "country": "Canada",
+      "city": "Hamilton, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1280,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "McMaster Graduate Fellowships & Engineering Dean's Awards",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Centre for Advanced Nuclear & Electric Systems in Southern Ontario's tech belt.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-057",
+      "name": "Western University",
+      "country": "Canada",
+      "city": "London, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1200,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Western Graduate Research Scholarships (WGRS) covering major tuition",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Ivey Business School and Advanced Power Electronics laboratory network.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-058",
+      "name": "McGill University",
+      "country": "Canada",
+      "city": "Montreal, QC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1260,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "McGill Graduate Fellowships & International Tuition Supplements",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "World-renowned research reputation with Montreal's healthcare and aerospace hubs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-059",
+      "name": "Queen's University",
+      "country": "Canada",
+      "city": "Kingston, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1150,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Queen's Graduate Awards & Engineering Research Fellowships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Strong Canadian executive and utility alumni network across Ontario.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-060",
+      "name": "Concordia University",
+      "country": "Canada",
+      "city": "Montreal, QC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Concordia Merit Fellowships & International Tuition Remission",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Gina Cody School of Engineering with built-in industrial co-op programs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-061",
+      "name": "University of Ottawa",
+      "country": "Canada",
+      "city": "Ottawa, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1320,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "University of Ottawa Differential Tuition Fee Exemption Scholarship",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Kanata North technology park co-op placements and federal research links.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-062",
+      "name": "Simon Fraser University (SFU)",
+      "country": "Canada",
+      "city": "Burnaby, BC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1520,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "SFU Graduate Dean's Entrance Scholarships & Research Fellowships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Clean energy and mechatronics co-op pipelines across British Columbia.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-063",
+      "name": "Dalhousie University",
+      "country": "Canada",
+      "city": "Halifax, NS",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1160,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Dalhousie Graduate Fellowships & Departmental Assistantships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Atlantic Canada energy, marine systems, and health sciences hub.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-064",
+      "name": "University of Manitoba",
+      "country": "Canada",
+      "city": "Winnipeg, MB",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1020,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Manitoba Graduate Scholarship (MGS - $15,000 CAD)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Direct research partner with Manitoba Hydro and HVDC Research Centre.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-065",
+      "name": "University of Saskatchewan",
+      "country": "Canada",
+      "city": "Saskatoon, SK",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1040,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "University of Saskatchewan Dean's Scholarships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "SaskPower partnership and power systems transmission simulation labs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-066",
+      "name": "Carleton University",
+      "country": "Canada",
+      "city": "Ottawa, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1280,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Carleton Graduate Scholarships & Teaching Assistantships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Kanata North tech hub connections and federal infrastructure research.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-067",
+      "name": "York University",
+      "country": "Canada",
+      "city": "Toronto, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1480,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "York Graduate Fellowships & Research Assistantships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Lassonde School of Engineering and Schulich School of Business.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-068",
+      "name": "University of Windsor",
+      "country": "Canada",
+      "city": "Windsor, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1050,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Windsor Engineering Master's Co-op & Merit Scholarships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Automotive capital of Canada with cross-border EV powertrain networks.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-069",
+      "name": "Ontario Tech University",
+      "country": "Canada",
+      "city": "Oshawa, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1140,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Ontario Tech Graduate Excellence Awards",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Energy systems research centre and clean power simulation reactors.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-070",
+      "name": "Memorial University of Newfoundland",
+      "country": "Canada",
+      "city": "St. John's, NL",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 980,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Memorial Graduate Fellowships with ultra-low Canadian tuition base",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Lowest tuition in Canada with unmatched offshore power and ocean systems ties.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-071",
+      "name": "University of Guelph",
+      "country": "Canada",
+      "city": "Guelph, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "Guelph Graduate Tuition Scholarships & Assistantships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Sustainable energy systems and bio-engineering research networks.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-072",
+      "name": "University of New Brunswick",
+      "country": "Canada",
+      "city": "Fredericton, NB",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1020,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UNB Graduate Merit Scholarships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Emera power grid research center and maritime smart grid partnerships.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-073",
+      "name": "Toronto Metropolitan University",
+      "country": "Canada",
+      "city": "Toronto, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1620,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "TMU Graduate Fellowships & Co-op Earnings",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Centre for Urban Energy (CUE) with Toronto Hydro and Hydro One.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-074",
+      "name": "Lakehead University",
+      "country": "Canada",
+      "city": "Thunder Bay, ON",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 960,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Lakehead International Graduate Scholarships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Renewable microgrids, remote power solutions, and northern healthcare.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-075",
+      "name": "University of Victoria",
+      "country": "Canada",
+      "city": "Victoria, BC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1460,
+      "scholarshipCategory": "TA_RA",
+      "scholarshipDetail": "UVic Graduate Award & Research Assistantships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Institute for Integrated Energy Systems and BC Hydro research links.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-076",
+      "name": "University College Dublin (UCD)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1690,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UCD Global Excellence Scholarship (50% to 100% tuition waiver)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Host of the Energy Institute and top pipeline to EirGrid and ESB.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-077",
+      "name": "Trinity College Dublin (TCD)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1720,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Trinity Global Postgraduate Scholarships (\u20ac3,000 - \u20ac5,000)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Ireland's oldest university with Silicon Docks tech and national healthcare ties.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-078",
+      "name": "University College Cork (UCC)",
+      "country": "Ireland",
+      "city": "Cork",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1350,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UCC International Student Merit Scholarship (20% fee waiver)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "MaREI Centre for Energy, Climate and Marine and Cork pharma hub.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-079",
+      "name": "University of Galway",
+      "country": "Ireland",
+      "city": "Galway",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1320,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Galway International Postgraduate Merit Scholarships (\u20ac2,000 - \u20ac4,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Global medical technology hub and renewable energy research centre.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-080",
+      "name": "University of Limerick (UL)",
+      "country": "Ireland",
+      "city": "Limerick",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1250,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UL Postgraduate Merit Scholarship (\u20ac2,000 - \u20ac3,000 discount)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Pioneering Irish cooperative education and Shannon industrial zone.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-081",
+      "name": "Dublin City University (DCU)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1620,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "DCU International Merit Scholarships (up to \u20ac3,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Recognized as Ireland's University of Enterprise with tech placements.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-082",
+      "name": "Maynooth University",
+      "country": "Ireland",
+      "city": "Maynooth, Kildare",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1380,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Maynooth Taught Master's Scholarships (\u20ac2,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Intel Ireland Leixlip fab campus proximity and ICT research labs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-083",
+      "name": "Technological University Dublin (TU Dublin)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1580,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "TU Dublin International Merit Award (\u20ac1,500 - \u20ac3,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Ireland's largest technological university with applied industrial capstones.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-084",
+      "name": "South East Technological University (SETU)",
+      "country": "Ireland",
+      "city": "Waterford",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1100,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "SETU International Student Scholarship (up to \u20ac2,500)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Pharmaceutical manufacturing and regional power distribution networks.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-085",
+      "name": "Atlantic Technological University (ATU)",
+      "country": "Ireland",
+      "city": "Sligo / Galway",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1080,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "ATU International Postgraduate Scholarships (\u20ac1,500 - \u20ac2,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Renewable energy, smart infrastructure, and medical technology cluster.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-086",
+      "name": "Munster Technological University (MTU)",
+      "country": "Ireland",
+      "city": "Cork",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1240,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "MTU International Student Merit Award (\u20ac1,500 - \u20ac2,500)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Rubicon Centre incubator and Cork harbor industrial power corridor.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-087",
+      "name": "Technological University of the Shannon (TUS)",
+      "country": "Ireland",
+      "city": "Athlone / Limerick",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1120,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "TUS International Merit Scholarship (\u20ac2,000 discount)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Midlands polymer, energy, and healthcare automation pipelines.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-088",
+      "name": "National College of Ireland (NCI)",
+      "country": "Ireland",
+      "city": "Dublin (IFSC)",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1640,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "NCI Dean's Award & Academic Merit Scholarships (\u20ac2,000 - \u20ac4,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Located in the International Financial Services Centre alongside tech multinationals.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-089",
+      "name": "Royal College of Surgeons in Ireland (RCSI)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1750,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "RCSI International Postgraduate Fellowships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Dedicated healthcare sciences institution with direct hospital executive ties.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-090",
+      "name": "Dundalk Institute of Technology (DkIT)",
+      "country": "Ireland",
+      "city": "Dundalk",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1090,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "DkIT International Academic Scholarship (\u20ac1,000 - \u20ac2,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Dublin-Belfast economic corridor with renewable energy test facilities.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-091",
+      "name": "Dun Laoghaire Institute (IADT)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1600,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "IADT International Postgraduate Merit Awards",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Innovation and digital media enterprise incubator programs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-092",
+      "name": "Griffith College",
+      "country": "Ireland",
+      "city": "Dublin / Cork",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1420,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Griffith Academic Merit Bursary (\u20ac1,500 - \u20ac2,500)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Strong professional accreditation programs and corporate industry ties.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-093",
+      "name": "Dublin Business School (DBS)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1550,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "DBS International Student Bursary (\u20ac1,000 - \u20ac2,000)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Central Dublin campus with direct business and tech placement support.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-094",
+      "name": "Irish Management Institute (IMI)",
+      "country": "Ireland",
+      "city": "Dublin",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1680,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Corporate Leadership Fellowships",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Executive leadership arm associated with UCC; premier corporate network.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-095",
+      "name": "Institute of Technology Carlow (SETU Carlow)",
+      "country": "Ireland",
+      "city": "Carlow",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1080,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "SETU Carlow Postgraduate Merit Bursary (\u20ac1,500)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Aerospace, energy, and regional healthcare administration networks.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-096",
+      "name": "Letterkenny Institute of Technology (ATU Donegal)",
+      "country": "Ireland",
+      "city": "Letterkenny",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 980,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "ATU Donegal International Merit Award",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Low cost of living with cross-border technology and health networks.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-097",
+      "name": "Galway-Mayo Institute (ATU Galway)",
+      "country": "Ireland",
+      "city": "Galway",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1220,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "ATU Academic Merit Scholarships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Marine, energy, and biomedical manufacturing industry links.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-098",
+      "name": "Athlone Institute (TUS Athlone)",
+      "country": "Ireland",
+      "city": "Athlone",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1060,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "TUS International Excellence Award",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Central Ireland engineering and software testbeds.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-099",
+      "name": "Limerick Institute (TUS Limerick)",
+      "country": "Ireland",
+      "city": "Limerick",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "TUS Limerick Regional Scholarships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Shannon Free Zone industrial partnerships and smart manufacturing.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-100",
+      "name": "Cork Institute of Technology (MTU Bishopstown)",
+      "country": "Ireland",
+      "city": "Cork",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1220,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "MTU Bishopstown Postgraduate Scholarships",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "National Maritime College and regional power and utilities.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-101",
+      "name": "University of Melbourne",
+      "country": "Australia",
+      "city": "Melbourne, VIC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1450,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Melbourne Graduate Research Scholarships & Global Merit Awards",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Australia's top university with Melbourne Biomedical & Technology precincts.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-102",
+      "name": "University of New South Wales (UNSW Sydney)",
+      "country": "Australia",
+      "city": "Sydney, NSW",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1680,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UNSW International Scientific & Engineering Awards (up to $10,000)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "World top-20 engineering faculty with premier solar and power systems centers.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-103",
+      "name": "University of Queensland (UQ)",
+      "country": "Australia",
+      "city": "Brisbane, QLD",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1380,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UQ International Excellence Scholarship (25% tuition fee waiver)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Major Australian energy hub and mining/renewables transition consortium.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-104",
+      "name": "Monash University",
+      "country": "Australia",
+      "city": "Melbourne, VIC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1440,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Monash International Leadership Scholarship (100% tuition waiver)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Monash Energy Institute with Australia's largest smart grid demonstrator.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-105",
+      "name": "Australian National University (ANU)",
+      "country": "Australia",
+      "city": "Canberra, ACT",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1420,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "ANU Chancellor's International Scholarship (25% - 50% tuition waiver)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "National capital prestige with federal energy policy and defense research.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-106",
+      "name": "University of Sydney",
+      "country": "Australia",
+      "city": "Sydney, NSW",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1690,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Sydney International Student Award (20% automatic tuition contribution)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Australia's oldest university with world-class medical and engineering links.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-107",
+      "name": "University of Western Australia (UWA)",
+      "country": "Australia",
+      "city": "Perth, WA",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1320,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UWA Global Excellence Scholarship (up to $12,000/yr tuition discount)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Global resources and clean energy capital with deep industry co-ops.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-108",
+      "name": "University of Adelaide",
+      "country": "Australia",
+      "city": "Adelaide, SA",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1250,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Adelaide Global Academic Excellence Scholarship (50% tuition reduction)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "South Australian renewable energy and defense shipbuilding corridor.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-109",
+      "name": "University of Technology Sydney (UTS)",
+      "country": "Australia",
+      "city": "Sydney, NSW",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1620,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UTS Postgraduate Academic Excellence International Scholarship (25% - 35%)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Tech Central hub with built-in engineering and executive co-op programs.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-110",
+      "name": "RMIT University",
+      "country": "Australia",
+      "city": "Melbourne, VIC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1420,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "RMIT Future Leaders Scholarship (20% tuition reduction)",
+      "industryScore": 5,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Global design and technology leader with massive corporate placement networks.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-111",
+      "name": "Queensland University of Technology (QUT)",
+      "country": "Australia",
+      "city": "Brisbane, QLD",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1340,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "QUT International Merit Scholarship (25% tuition fee waiver)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Real-world university with Queensland Power and Clean Energy pipelines.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-112",
+      "name": "Curtin University",
+      "country": "Australia",
+      "city": "Perth, WA",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1280,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Curtin Merit Scholarship (25% first-year tuition waiver)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Western Australian School of Mines and green hydrogen/power networks.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-113",
+      "name": "Deakin University",
+      "country": "Australia",
+      "city": "Geelong / Melbourne, VIC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1320,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Deakin STEM Scholarship (20% tuition fee reduction)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Carbon Nexus and Hycel green energy facility with corporate internships.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-114",
+      "name": "Macquarie University",
+      "country": "Australia",
+      "city": "Sydney, NSW",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1580,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Macquarie International Merit Scholarship (up to $10,000 AUD/yr)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Macquarie Park Innovation District (MPID) corporate tech co-ops.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-115",
+      "name": "University of Wollongong (UOW)",
+      "country": "Australia",
+      "city": "Wollongong, NSW",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1260,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UOW Postgraduate Academic Excellence Scholarship (20% - 30% discount)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Australian Power Quality and Reliability Centre (APQRC) leader.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-116",
+      "name": "University of Newcastle",
+      "country": "Australia",
+      "city": "Newcastle, NSW",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Newcastle International Excellence Scholarship (up to $10,000/yr)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Hunter Valley energy transition zone and energy innovation hub.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-117",
+      "name": "Griffith University",
+      "country": "Australia",
+      "city": "Gold Coast / Brisbane, QLD",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1280,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Griffith International Student Academic Excellence (25% fee waiver)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Gold Coast Health and Knowledge Precinct with clean tech pipelines.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-118",
+      "name": "University of South Australia (UniSA)",
+      "country": "Australia",
+      "city": "Adelaide, SA",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1220,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "UniSA International Vice-Chancellor's Scholarship (50% tuition waiver)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Future Industries Institute with defense and renewable energy links.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-119",
+      "name": "Flinders University",
+      "country": "Australia",
+      "city": "Adelaide, SA",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1200,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Flinders Go Beyond International Scholarship (20% - 25% waiver)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Tonsley Innovation District - Australia's premier advanced manufacturing hub.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-120",
+      "name": "Western Sydney University",
+      "country": "Australia",
+      "city": "Sydney, NSW",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1420,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Western Sydney International Vice-Chancellor's Award (50% fee discount)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Western Sydney Aerotropolis and renewable infrastructure boom.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-121",
+      "name": "La Trobe University",
+      "country": "Australia",
+      "city": "Melbourne, VIC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1320,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "La Trobe High Achiever Scholarship (up to 25% fee reduction)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Centre for Technology Infusion and regional healthcare networks.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-122",
+      "name": "Swinburne University of Technology",
+      "country": "Australia",
+      "city": "Melbourne, VIC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1380,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Swinburne International Excellence Scholarship (up to 30% tuition waiver)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Factory of the Future and Smart Grid laboratory industry partnerships.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-123",
+      "name": "University of Tasmania (UTAS)",
+      "country": "Australia",
+      "city": "Hobart, TAS",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1120,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Tasmanian International Scholarship (25% tuition fee reduction)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Tasmanian Battery of the Nation pumped hydro and green power leader.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-124",
+      "name": "Charles Darwin University (CDU)",
+      "country": "Australia",
+      "city": "Darwin, NT",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1180,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "CDU Vice-Chancellor's International High Achievers Scholarship (50%)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Sun Cable solar project and northern Australian energy pipelines.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    },
+    {
+      "id": "UNI-125",
+      "name": "Federation University Australia",
+      "country": "Australia",
+      "city": "Ballarat, VIC",
+      "program": "Master of Science in Health Systems Leadership & Nursing Administration",
+      "monthlyLivingCostUSD": 1080,
+      "scholarshipCategory": "MERIT",
+      "scholarshipDetail": "Federation Global Innovator Scholarship (20% - 25% tuition discount)",
+      "industryScore": 4,
+      "hasCoopOrPlacement": true,
+      "industryConnection": "Regional clean energy transition and low cost of living advantage.",
+      "coreModules": [
+        "Health Systems Leadership & Governance",
+        "Healthcare Financial Management & Budgeting",
+        "Epidemiology & Population Health Informatics",
+        "Clinical Quality Improvement & Patient Safety"
+      ],
+      "appliedModules": [
+        "Electronic Health Records (EHR) & Clinical Decision Support",
+        "Healthcare Policy, Ethics & Law",
+        "Operations Management in Healthcare Facilities",
+        "Clinical Administrative Leadership Practicum"
+      ],
+      "eeeFitNote": "Healthcare leadership pathways prize candidates combining clinical knowledge or health technology systems with administrative management.",
+      "lastVerified": "October 2026"
+    }
+  ]
+}

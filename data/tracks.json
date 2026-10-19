@@ -29,10 +29,10 @@
       "code": "TRK-03",
       "title": "Smart Grids & Renewable Power Systems",
       "shortDesc": "High-Voltage Engineering, Power Electronics, SCADA Telemetry & Sustainable Grids.",
-      "active": false,
-      "universitiesCount": 0,
+      "active": true,
+      "universitiesCount": 125,
       "countriesCount": 5,
-      "lastUpdated": "Pending Q4 2026",
+      "lastUpdated": "October 2026",
       "dataFile": "data/power-systems.json"
     },
     {
@@ -67,6 +67,28 @@
       "countriesCount": 5,
       "lastUpdated": "Pending Q1 2027",
       "dataFile": "data/fintech.json"
+    },
+    {
+      "id": "management-mba",
+      "code": "TRK-07",
+      "title": "Management, Organisation & Leadership / MBA",
+      "shortDesc": "Strategic Leadership, Operations, Managerial Finance, Technology Management & Agile Project Delivery.",
+      "active": true,
+      "universitiesCount": 125,
+      "countriesCount": 5,
+      "lastUpdated": "October 2026",
+      "dataFile": "data/management-mba.json"
+    },
+    {
+      "id": "nursing-healthcare",
+      "code": "TRK-08",
+      "title": "Nursing & Healthcare Administration",
+      "shortDesc": "Health Systems Leadership, Healthcare Finance, Clinical Quality, Health Informatics & Policy.",
+      "active": true,
+      "universitiesCount": 125,
+      "countriesCount": 5,
+      "lastUpdated": "October 2026",
+      "dataFile": "data/nursing-healthcare.json"
     }
   ]
 }
