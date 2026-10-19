@@ -1,0 +1,182 @@
+/* ==========================================================================
+   GradIndex — Shared Architectural & Telemetry Stylesheet (assets/style.css)
+   Built by ExnorLab · Verified Postgraduate Program Directory
+   ========================================================================== */
+
+:root {
+  --paper: #F7F6F2;
+  --surface: #FFFFFF;
+  --sunken: #EFEDE6;
+  --border: #DFDDD4;
+  --border-strong: #111111;
+  --ink: #111111;
+  --ink-soft: #3A3A37;
+  --muted: #5F5F5A;
+  --subtle: #8A8A84;
+  --emerald: #0B6E4F;
+  --emerald-deep: #085640;
+  --emerald-soft: #DCEDE6;
+  --margin: clamp(20px, 4vw, 56px);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--emerald);
+  color: var(--paper);
+}
+
+/* Explorer Card Telemetry Enhancements (rendered by assets/app.js) */
+.card__top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.card__id {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--subtle);
+  padding: 2px 6px;
+  background: var(--paper);
+  border: 1px solid var(--border);
+  letter-spacing: 0.04em;
+}
+
+.card__metrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 6px;
+  padding: 10px 12px;
+  background: var(--paper);
+  border: 1px solid var(--border);
+}
+
+.card:hover .card__metrics {
+  background: var(--surface);
+  border-color: rgba(11, 110, 79, 0.28);
+}
+
+.metric-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.metric-box__label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.metric-box__val {
+  font-family: 'Montserrat', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.metric-box__val--aid {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--emerald-deep);
+}
+
+.card__industry-preview {
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  line-height: 1.48;
+  margin-top: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card__rating-left {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.score-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.telemetry-pill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  background: var(--sunken);
+  border: 1px solid var(--border);
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.telemetry-pill--coop {
+  background: var(--emerald-soft);
+  border-color: rgba(11, 110, 79, 0.35);
+  color: var(--emerald-deep);
+}
+
+.card:hover .telemetry-pill--coop {
+  background: var(--emerald);
+  border-color: var(--emerald);
+  color: var(--paper);
+}
+
+/* Active State for Reset Button */
+.reset-btn--active {
+  background: var(--ink) !important;
+  color: var(--paper) !important;
+  border-color: var(--ink) !important;
+}
+
+.reset-btn--active:hover {
+  background: var(--emerald-deep) !important;
+  border-color: var(--emerald-deep) !important;
+}
+
+#results-count strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* Print Stylesheet for Saving Program Dossiers as PDF */
+@media print {
+  .site-head,
+  .filters,
+  .pager,
+  .foot,
+  .back,
+  .reset-btn {
+    display: none !important;
+  }
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+  .wrap {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  .panel, .fact {
+    border: 1px solid #CCCCCC !important;
+    break-inside: avoid;
+  }
+}

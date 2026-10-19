@@ -3,66 +3,184 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>404 — Course Not Updated Yet | GradIndex</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>404 — Course Track Pending Audit | GradIndex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            display: ['Montserrat', 'sans-serif'],
-            sans: ['Inter', 'sans-serif'],
-            mono: ['JetBrains Mono', 'monospace'],
-          },
-          colors: {
-            paper: '#F7F6F2',
-            ink: '#111111',
-            border: '#DFDDD4',
-          }
-        }
-      }
+  <link rel="stylesheet" href="assets/style.css" />
+  <style>
+    :root {
+      --paper: #F7F6F2;
+      --surface: #FFFFFF;
+      --sunken: #EFEDE6;
+      --border: #DFDDD4;
+      --ink: #111111;
+      --ink-soft: #3A3A37;
+      --muted: #5F5F5A;
+      --emerald: #0B6E4F;
+      --emerald-deep: #085640;
+      --emerald-soft: #DCEDE6;
+      --margin: clamp(20px, 4vw, 56px);
     }
-  </script>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Inter', system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      -webkit-font-smoothing: antialiased;
+    }
+    .site-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 18px var(--margin);
+      border-bottom: 1px solid var(--border);
+    }
+    .mark-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--ink);
+    }
+    .mark-dot {
+      width: 10px;
+      height: 10px;
+      background: var(--emerald);
+      display: inline-block;
+    }
+    .mark {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      letter-spacing: -0.02em;
+    }
+    .status-meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    main {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 48px 24px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      padding: 6px 14px;
+      margin-bottom: 24px;
+      color: var(--emerald);
+      font-weight: 600;
+    }
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: clamp(2rem, 1.4rem + 2vw, 2.75rem);
+      letter-spacing: -0.03em;
+      line-height: 1.08;
+      margin: 0 0 16px;
+    }
+    #course-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      color: var(--ink);
+      background: var(--sunken);
+      display: inline-block;
+      padding: 6px 14px;
+      margin: 0 0 20px;
+    }
+    #course-label:empty { display: none; }
+    p.desc {
+      font-size: 15.5px;
+      color: var(--ink-soft);
+      line-height: 1.65;
+      margin: 0 0 32px;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 22px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color 0.15s ease;
+    }
+    .btn--primary {
+      background: var(--emerald);
+      color: var(--paper);
+      border: 1px solid var(--emerald);
+    }
+    .btn--primary:hover { background: var(--emerald-deep); }
+    .btn--secondary {
+      background: var(--surface);
+      color: var(--ink);
+      border: 1px solid var(--ink);
+    }
+    .btn--secondary:hover { background: var(--sunken); }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 16px var(--margin);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+  </style>
 </head>
-<body class="h-screen overflow-hidden bg-paper text-ink flex flex-col justify-between font-sans">
+<body>
 
-  <header class="border-b border-border px-6 lg:px-12 py-4 flex items-center justify-between">
-    <a href="index.html" class="flex items-center space-x-3">
-      <div class="w-3 h-3 bg-ink"></div>
-      <span class="font-display font-bold tracking-tight text-sm uppercase">GradIndex // Directory</span>
+  <header class="site-head">
+    <a href="index.html" class="mark-group">
+      <span class="mark-dot" aria-hidden="true"></span>
+      <span class="mark">GradIndex // Directory</span>
     </a>
-    <span class="font-mono text-xs text-neutral-500">HTTP 404 · MODULE UNPOPULATED</span>
+    <span class="status-meta">HTTP 404 · MODULE UNPOPULATED</span>
   </header>
 
-  <main class="max-w-xl mx-auto px-6 text-center">
-    <div class="inline-block font-mono text-xs uppercase border border-border bg-white px-3 py-1 mb-6 text-neutral-600">
-      Status Code: 404_COURSE_PENDING
-    </div>
-    
-    <h1 class="font-display font-extrabold text-3xl sm:text-4xl tracking-tight text-ink mb-4">
-      This Course hasn't been updated Yet.
-    </h1>
-    
-    <p id="course-label" class="font-mono text-xs text-neutral-500 mb-6"></p>
-    
-    <p class="text-sm text-neutral-600 leading-relaxed mb-8">
+  <main>
+    <div class="badge">Status Code: 404_COURSE_PENDING</div>
+    <h1>This course track is currently in verification.</h1>
+    <p id="course-label"></p>
+    <p class="desc">
       We are currently auditing module schedules, scholarship waivers, and regional cost-of-living indices across 125 universities for this discipline. Only verified datasets are published to the live index.
     </p>
-
-    <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
-      <a href="index.html" class="w-full sm:w-auto px-6 py-3 bg-ink text-paper font-mono text-xs uppercase tracking-wider hover:bg-neutral-800 transition">
-        ← Back to Course Selection
-      </a>
-      <a href="explore.html?track=ai-ml" class="w-full sm:w-auto px-6 py-3 border border-ink bg-white text-ink font-mono text-xs uppercase tracking-wider hover:bg-neutral-100 transition">
-        Explore Active AI/ML Track (125 Unis)
-      </a>
+    <div class="actions">
+      <a href="courses.html" class="btn btn--secondary">&larr; Back to Course Tracks</a>
+      <a href="explore.html?track=ai-ml" class="btn btn--primary">Explore Active AI/ML Track (125 Unis) &rarr;</a>
     </div>
   </main>
 
-  <footer class="border-t border-border px-6 lg:px-12 py-3 text-xs font-mono text-neutral-500 flex justify-between">
-    <span>GRADINDEX DATABASE</span>
-    <span>LAST AUDIT: 2026</span>
+  <footer>
+    <span>GRADINDEX DATABASE // EXNORLAB</span>
+    <span>LAST AUDIT: OCTOBER 2026</span>
   </footer>
 
   <script>

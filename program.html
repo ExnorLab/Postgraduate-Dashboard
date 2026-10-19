@@ -3,19 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Program details — GradIndex</title>
-  <meta name="description" content="Full details for a verified postgraduate program on GradIndex." />
+  <title>Program Details — GradIndex</title>
+  <meta name="description" content="Full verified specifications for a postgraduate program on GradIndex." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
   <style>
     :root {
       --paper: #F7F6F2;
       --surface: #FFFFFF;
       --sunken: #EFEDE6;
+      --border: #DFDDD4;
       --ink: #111111;
       --ink-soft: #3A3A37;
       --muted: #5F5F5A;
+      --subtle: #8A8A84;
       --emerald: #0B6E4F;
       --emerald-deep: #085640;
       --emerald-soft: #DCEDE6;
@@ -26,7 +29,7 @@
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font-family: Inter, system-ui, sans-serif;
+      font-family: 'Inter', system-ui, sans-serif;
       font-size: 16px;
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
@@ -34,8 +37,8 @@
       display: flex;
       flex-direction: column;
     }
-    h1, h2 {
-      font-family: Montserrat, system-ui, sans-serif;
+    h1, h2, h3 {
+      font-family: 'Montserrat', system-ui, sans-serif;
       font-weight: 800;
       letter-spacing: -0.03em;
       line-height: 1.1;
@@ -45,77 +48,304 @@
     a { color: var(--ink); }
     :focus-visible { outline: 3px solid var(--emerald); outline-offset: 3px; }
 
-    .mark { font-family: Montserrat, sans-serif; font-weight: 800; font-size: 17px; letter-spacing: -0.02em; text-decoration: none; color: var(--ink); }
+    /* Top Header */
     .site-head {
-      display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
-      padding: 20px var(--margin);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 18px var(--margin);
+      border-bottom: 1px solid var(--border);
+      background: rgba(247, 246, 242, 0.92);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      z-index: 40;
+    }
+    .mark-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--ink);
+    }
+    .mark-dot {
+      width: 10px;
+      height: 10px;
+      background: var(--emerald);
+      display: inline-block;
+    }
+    .mark {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      letter-spacing: -0.02em;
+    }
+    .mark-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 3px 8px;
+      background: var(--sunken);
+      border: 1px solid var(--border);
+      color: var(--muted);
     }
     .site-nav { display: flex; gap: 28px; font-size: 15px; }
-    .site-nav a { color: var(--ink-soft); text-decoration: none; }
+    .site-nav a { color: var(--ink-soft); text-decoration: none; font-weight: 500; }
     .site-nav a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
-    .site-nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
 
-    .wrap { max-width: 1100px; margin: 0 auto; width: 100%; padding: 0 var(--margin); }
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      width: 100%;
+      padding: 0 var(--margin) clamp(64px, 8vw, 104px);
+    }
 
-    .back { display: inline-block; margin-top: 16px; font-size: 15px; color: var(--ink-soft); text-decoration: none; }
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--ink-soft);
+      text-decoration: none;
+    }
     .back:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
 
-    .hero { padding: clamp(32px, 5vw, 56px) 0 clamp(32px, 4vw, 48px); }
-    .hero__loc { font-size: 15px; color: var(--muted); font-weight: 500; }
-    .hero h1 { margin-top: 12px; font-size: clamp(2rem, 1.2rem + 3vw, 3.4rem); max-width: 22ch; }
-    .hero__program { margin-top: 14px; font-size: clamp(1.05rem, 1rem + 0.4vw, 1.25rem); color: var(--emerald); font-weight: 600; }
-
-    .facts {
-      display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
+    .record-id {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      padding: 4px 10px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
     }
-    @media (min-width: 800px) { .facts { grid-template-columns: repeat(4, 1fr); } }
-    .fact { background: var(--surface); padding: 20px 22px; }
-    .fact__label { display: block; font-size: 13px; color: var(--muted); }
-    .fact__value { display: block; margin-top: 6px; font-family: Montserrat, sans-serif; font-weight: 800; font-size: 1.4rem; letter-spacing: -0.02em; line-height: 1.2; }
-    .fact__note { display: block; margin-top: 4px; font-size: 13px; color: var(--subtle); }
 
-    .section { padding: clamp(48px, 6vw, 72px) 0 0; }
-    .section h2 { font-size: clamp(1.4rem, 1.1rem + 1vw, 1.9rem); margin-bottom: 18px; }
-    .section__body { font-size: 16px; color: var(--ink-soft); }
-    .placeholder { background: var(--sunken); padding: 28px; color: var(--muted); font-size: 15px; }
+    /* Hero Banner */
+    .hero {
+      padding: clamp(28px, 4vw, 44px) 0 clamp(28px, 4vw, 40px);
+      border-bottom: 1px solid var(--border);
+    }
+    .hero__loc {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .hero h1 {
+      margin-top: 10px;
+      font-size: clamp(2.1rem, 1.3rem + 3vw, 3.5rem);
+      max-width: 24ch;
+    }
+    .hero__program {
+      margin-top: 14px;
+      font-size: clamp(1.1rem, 1rem + 0.45vw, 1.35rem);
+      color: var(--emerald);
+      font-weight: 600;
+    }
 
-    .two { display: grid; grid-template-columns: 1fr; gap: 12px; }
+    /* Key Telemetry Strip */
+    .facts {
+      margin-top: 28px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+    @media (min-width: 820px) { .facts { grid-template-columns: repeat(4, 1fr); } }
+    .fact {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 22px;
+    }
+    .fact--highlight {
+      border-top: 3px solid var(--emerald);
+    }
+    .fact__label {
+      display: block;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+    }
+    .fact__value {
+      display: block;
+      margin-top: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 1.5rem;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+    .fact__note {
+      display: block;
+      margin-top: 6px;
+      font-size: 13px;
+      color: var(--subtle);
+    }
+
+    /* Sections */
+    .section {
+      padding: clamp(40px, 5vw, 60px) 0 0;
+    }
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+    .section h2 {
+      font-size: clamp(1.35rem, 1.1rem + 0.9vw, 1.75rem);
+    }
+    .section-code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+    }
+
+    .two {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
     @media (min-width: 800px) { .two { grid-template-columns: 1fr 1fr; } }
-    .panel { background: var(--surface); padding: 24px 26px; }
-    .panel h3 { font-family: Montserrat, sans-serif; font-weight: 700; font-size: 16px; letter-spacing: -0.01em; margin-bottom: 10px; }
-    .panel ul { margin: 0; padding-left: 18px; color: var(--ink-soft); display: grid; gap: 6px; font-size: 15px; }
-    .panel p { color: var(--ink-soft); font-size: 15px; }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 26px 28px;
+    }
+    .panel--accent {
+      background: var(--emerald-soft);
+      border-color: var(--emerald);
+    }
+    .panel h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: -0.01em;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .panel h3 span {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .panel ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--ink-soft);
+      display: grid;
+      gap: 8px;
+      font-size: 15px;
+    }
+    .panel p {
+      color: var(--ink-soft);
+      font-size: 15.5px;
+      line-height: 1.65;
+    }
 
     .aid-chip {
-      display: inline-block; margin-bottom: 10px; padding: 4px 10px;
-      background: var(--emerald-soft); color: var(--emerald); font-size: 13px; font-weight: 600;
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 5px 12px;
+      background: var(--emerald);
+      color: var(--paper);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
     }
 
-    .notice { padding: 28px; background: var(--surface); color: var(--muted); font-size: 15px; }
-    .notice--error { color: #9B1C1C; background: #FFF4F4; }
+    /* Dossier Navigation Footer */
+    .pager {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .pager a {
+      padding: 14px 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      transition: border-color 0.15s ease, background-color 0.15s ease;
+    }
+    .pager a:hover {
+      border-color: var(--emerald);
+      background: var(--emerald-soft);
+    }
 
+    .notice { padding: 32px; background: var(--surface); border: 1px solid var(--border); color: var(--muted); font-size: 15px; margin-top: 32px; }
+    .notice--error { color: #9B1C1C; background: #FFF4F4; border-color: #F5C2C2; }
+
+    /* Footer */
     .foot { overflow: hidden; padding: 24px var(--margin) 0; margin-top: auto; }
+    .foot__inner { max-width: 1180px; margin: 0 auto; }
     .foot__name {
-      font-family: Montserrat, sans-serif; font-weight: 800;
-      font-size: 17.5vw; letter-spacing: -0.06em; line-height: 0.8;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 17.2vw;
+      letter-spacing: -0.06em;
+      line-height: 0.8;
       margin: 0 0 0 -0.04em;
+      user-select: none;
     }
     .foot__row {
-      display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px;
-      padding: 16px 0 24px; font-size: 13px; color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px 24px;
+      padding: 18px 0 26px;
+      border-top: 1px solid var(--border);
+      margin-top: 20px;
+      font-size: 13px;
+      color: var(--muted);
     }
-    .foot__row a { color: var(--ink); text-decoration: none; }
+    .foot__row a { color: var(--ink); text-decoration: none; font-weight: 500; }
     .foot__row a:hover { text-decoration: underline; text-underline-offset: 3px; }
   </style>
 </head>
 <body>
 
   <header class="site-head">
-    <a href="index.html" class="mark">GradIndex</a>
+    <a href="index.html" class="mark-group">
+      <span class="mark-dot" aria-hidden="true"></span>
+      <span class="mark">GradIndex</span>
+      <span class="mark-tag">SPECIFICATION</span>
+    </a>
     <nav class="site-nav" aria-label="Primary">
       <a href="courses.html">Courses</a>
+      <a href="explore.html?track=ai-ml">Explorer</a>
       <a href="about.html">About</a>
-      <a href="#exnorlabs">Contact</a>
+      <a href="about.html#exnorlabs">Contact</a>
     </nav>
   </header>
 
@@ -124,10 +354,12 @@
   </main>
 
   <footer class="foot">
-    <p class="foot__name" aria-hidden="true">GradIndex</p>
-    <div class="foot__row">
-      <span>A verified index of postgraduate programs, built by ExnorLab.</span>
-      <span>Data verified October 2026. <a href="explore.html">Back to the index</a></span>
+    <div class="foot__inner">
+      <p class="foot__name" aria-hidden="true">GradIndex</p>
+      <div class="foot__row">
+        <span>A verified index of postgraduate programs, built by ExnorLab.</span>
+        <span>Data verified October 2026 · <a href="explore.html">Back to the index</a></span>
+      </div>
     </div>
   </footer>
 
@@ -153,17 +385,26 @@
       try {
         const res = await fetch('data/ai-ml.json');
         const db = await res.json();
-        const u = db.universities.find(item => item.id === id);
+        const idx = db.universities.findIndex(item => item.id === id);
+        const u = db.universities[idx];
 
         if (!u) {
           root.innerHTML = `<p class="notice notice--error">That program was not found. <a href="explore.html">Browse the index</a>.</p>`;
           return;
         }
 
+        const prevUni = idx > 0 ? db.universities[idx - 1] : null;
+        const nextUni = idx < db.universities.length - 1 ? db.universities[idx + 1] : null;
+
         document.title = `${u.name} — GradIndex`;
 
+        const overviewSummary = `${u.name} offers the ${u.program} in ${u.city}, ${u.country}. With an estimated monthly living cost of $${Number(u.monthlyLivingCostUSD).toLocaleString('en-US')} USD and a ${u.industryScore}/5 industry integration rating, this ${u.hasCoopOrPlacement ? 'co-op and placement-enabled' : 'research and internship'} track provides strong alignment for engineering graduates entering applied AI and data systems.`;
+
         root.innerHTML = `
-          <a class="back" href="explore.html">&larr; Back to the index</a>
+          <div class="top-bar">
+            <a class="back" href="explore.html">&larr; Back to course explorer</a>
+            <span class="record-id">RECORD ID // ${esc(u.id)}</span>
+          </div>
 
           <section class="hero">
             <span class="hero__loc">${esc(u.country)} · ${esc(u.city)}</span>
@@ -172,61 +413,82 @@
           </section>
 
           <section class="facts" aria-label="Key facts">
-            <div class="fact">
-              <span class="fact__label">Living and accommodation</span>
+            <div class="fact fact--highlight">
+              <span class="fact__label">Living &amp; Accommodation</span>
               <span class="fact__value">$${Number(u.monthlyLivingCostUSD).toLocaleString('en-US')}</span>
-              <span class="fact__note">per month, estimated${u.localCostNote ? ' · ' + esc(u.localCostNote) : ''}</span>
+              <span class="fact__note">USD / month, estimated${u.localCostNote ? ' · ' + esc(u.localCostNote) : ''}</span>
+            </div>
+            <div class="fact fact--highlight">
+              <span class="fact__label">Industry Pipeline</span>
+              <span class="fact__value">${u.industryScore} / 5</span>
+              <span class="fact__note">${u.hasCoopOrPlacement ? 'Co-op / placement track' : 'Summer internship track'}</span>
             </div>
             <div class="fact">
-              <span class="fact__label">Industry pipeline</span>
-              <span class="fact__value">${u.industryScore}/5</span>
-              <span class="fact__note">${u.hasCoopOrPlacement ? 'Co-op or placement track' : 'Summer internship track'}</span>
+              <span class="fact__label">Primary Aid Track</span>
+              <span class="fact__value" style="font-size:1.15rem">${esc(AID[u.scholarshipCategory] || u.scholarshipCategory)}</span>
+              <span class="fact__note">Verified funding category</span>
             </div>
             <div class="fact">
-              <span class="fact__label">Financial aid</span>
-              <span class="fact__value" style="font-size:1.1rem">${esc(AID[u.scholarshipCategory] || u.scholarshipCategory)}</span>
-            </div>
-            <div class="fact">
-              <span class="fact__label">Last verified</span>
-              <span class="fact__value" style="font-size:1.1rem">${esc(u.lastVerified)}</span>
+              <span class="fact__label">Last Verified</span>
+              <span class="fact__value" style="font-size:1.15rem">${esc(u.lastVerified)}</span>
+              <span class="fact__note">GradIndex Audit Sync</span>
             </div>
           </section>
 
           <section class="section">
-            <h2>Overview</h2>
-            <div class="placeholder">Programme overview coming soon.</div>
+            <div class="section-head">
+              <h2>Executive Overview</h2>
+              <span class="section-code">SEC 01 // SUMMARY</span>
+            </div>
+            <div class="panel">
+              <p>${esc(overviewSummary)}</p>
+            </div>
           </section>
 
           <section class="section">
-            <h2>Modules and fit</h2>
+            <div class="section-head">
+              <h2>Curriculum &amp; Engineering Fit</h2>
+              <span class="section-code">SEC 02 // SYLLABUS &amp; ADMISSIONS</span>
+            </div>
             <div class="two">
               <div class="panel">
-                <h3>Core modules</h3>
+                <h3>Core Modules <span>FOUNDATIONAL</span></h3>
                 <ul>${list(u.coreModules)}</ul>
               </div>
               <div class="panel">
-                <h3>Applied modules</h3>
+                <h3>Applied Modules <span>PRACTICAL / LAB</span></h3>
                 <ul>${list(u.appliedModules)}</ul>
               </div>
             </div>
-            <div class="panel" style="margin-top:12px">
-              <h3>Fit for an engineering graduate</h3>
+            <div class="panel panel--accent" style="margin-top:16px">
+              <h3>Fit for an Electrical / Electronics Engineering Graduate <span>B.ENG EEE BASELINE</span></h3>
               <p>${esc(u.eeeFitNote)}</p>
             </div>
           </section>
 
           <section class="section">
-            <h2>Financial aid</h2>
-            <div class="panel">
-              <span class="aid-chip">${esc(AID[u.scholarshipCategory] || u.scholarshipCategory)}</span>
-              <p>${esc(u.scholarshipDetail)}</p>
+            <div class="section-head">
+              <h2>Financial Aid &amp; Industry Pipeline</h2>
+              <span class="section-code">SEC 03 // ROI &amp; EMPLOYERS</span>
+            </div>
+            <div class="two">
+              <div class="panel">
+                <h3>Scholarship &amp; Funding</h3>
+                <span class="aid-chip">${esc(AID[u.scholarshipCategory] || u.scholarshipCategory)}</span>
+                <p>${esc(u.scholarshipDetail)}</p>
+              </div>
+              <div class="panel">
+                <h3>Corporate &amp; Research Links</h3>
+                <span class="aid-chip" style="background:var(--ink); color:var(--paper)">${u.hasCoopOrPlacement ? 'CO-OP / PLACEMENT INTEGRATED' : 'EMPLOYER NETWORK'}</span>
+                <p>${esc(u.industryConnection)}</p>
+              </div>
             </div>
           </section>
 
-          <section class="section">
-            <h2>Industry connections</h2>
-            <div class="panel"><p>${esc(u.industryConnection)}</p></div>
-          </section>
+          <nav class="pager" aria-label="Adjacent programs">
+            ${prevUni ? `<a href="program.html?id=${encodeURIComponent(prevUni.id)}">&larr; ${esc(prevUni.name)}</a>` : `<span></span>`}
+            ${nextUni ? `<a href="program.html?id=${encodeURIComponent(nextUni.id)}">${esc(nextUni.name)} &rarr;</a>` : `<span></span>`}
+          </nav>
         `;
       } catch (err) {
         console.error(err);

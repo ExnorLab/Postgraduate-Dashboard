@@ -3,46 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GradIndex — Find the right master's abroad</title>
-  <meta name="description" content="GradIndex helps undergraduates compare verified master's programs abroad by cost, scholarship and industry links." />
+  <title>GradIndex — Verified Postgraduate Programs Abroad</title>
+  <meta name="description" content="GradIndex helps undergraduates compare verified master's programs abroad by monthly living cost, scholarships, and industry links." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
   <style>
     :root {
       --paper: #F7F6F2;
+      --surface: #FFFFFF;
       --sunken: #EFEDE6;
+      --border: #DFDDD4;
+      --border-strong: #111111;
       --ink: #111111;
       --ink-soft: #3A3A37;
       --muted: #5F5F5A;
+      --subtle: #8A8A84;
       --emerald: #0B6E4F;
       --emerald-deep: #085640;
+      --emerald-soft: #DCEDE6;
       --margin: clamp(20px, 4vw, 56px);
     }
 
     * { box-sizing: border-box; }
-    html, body { height: 100%; }
+    html, body { height: 100%; scroll-behavior: smooth; }
     body {
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font-family: Inter, system-ui, sans-serif;
+      font-family: 'Inter', system-ui, sans-serif;
       font-size: 16px;
       line-height: 1.55;
       -webkit-font-smoothing: antialiased;
     }
-    h1 {
-      font-family: Montserrat, system-ui, sans-serif;
+    h1, h2, h3 {
+      font-family: 'Montserrat', system-ui, sans-serif;
       font-weight: 800;
       letter-spacing: -0.035em;
-      line-height: 1.02;
+      line-height: 1.04;
       margin: 0;
     }
     p { margin: 0; }
     a { color: inherit; }
     :focus-visible { outline: 3px solid var(--emerald); outline-offset: 3px; }
 
-    /* Natural flow: the page scrolls, with the footer after the content */
     .page {
       min-height: 100vh;
       min-height: 100svh;
@@ -50,162 +55,404 @@
       flex-direction: column;
     }
 
-    .main {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 48px;
-      padding: clamp(56px, 8vw, 110px) var(--margin);
+    /* Top Navigation Bar */
+    .site-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 18px var(--margin);
+      border-bottom: 1px solid var(--border);
+      background: rgba(247, 246, 242, 0.92);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      z-index: 40;
     }
-    @media (min-width: 900px) {
-      .main { grid-template-columns: 7fr 4fr; gap: 72px; align-items: end; }
-    }
-
-    /* Two explanatory sections: who it is for, and how it works */
-    .about {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 0;
-    }
-    .about__block {
-      padding: clamp(48px, 7vw, 96px) var(--margin);
-    }
-    .about__block--tone { background: var(--sunken); }
-    .about__inner {
-      max-width: 1240px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px 64px;
-    }
-    @media (min-width: 900px) {
-      .about__inner { grid-template-columns: 5fr 7fr; }
-    }
-    .about h2 {
-      font-family: Montserrat, system-ui, sans-serif;
-      font-weight: 800;
-      font-size: clamp(1.75rem, 1.1rem + 2.4vw, 2.75rem);
-      letter-spacing: -0.03em;
-      line-height: 1.08;
-    }
-    .about p {
-      font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.2rem);
-      color: var(--ink-soft);
-      max-width: 52ch;
-    }
-    .about ol {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: grid;
-      gap: 20px;
-      font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.2rem);
-      color: var(--ink-soft);
-    }
-    .about li strong {
-      display: block;
+    .mark-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
       color: var(--ink);
-      font-family: Montserrat, system-ui, sans-serif;
-      font-weight: 700;
-      font-size: 1.1rem;
-      letter-spacing: -0.01em;
-      margin-bottom: 4px;
     }
-
+    .mark-dot {
+      width: 10px;
+      height: 10px;
+      background: var(--emerald);
+      display: inline-block;
+    }
     .mark {
-      font-family: Montserrat, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-weight: 800;
       font-size: 17px;
       letter-spacing: -0.02em;
+    }
+    .mark-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 3px 8px;
+      background: var(--sunken);
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .site-nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      font-size: 15px;
+    }
+    .site-nav a {
+      color: var(--ink-soft);
       text-decoration: none;
+      font-weight: 500;
+      transition: color 0.15s ease;
+    }
+    .site-nav a:hover {
+      color: var(--ink);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+    .site-nav a[aria-current="page"] {
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    /* Hero Section */
+    .hero-wrap {
+      border-bottom: 1px solid var(--border);
+    }
+    .main {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      padding: clamp(48px, 7vw, 96px) var(--margin);
+    }
+    @media (min-width: 960px) {
+      .main {
+        grid-template-columns: 7fr 5fr;
+        gap: 64px;
+        align-items: end;
+      }
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--emerald);
+      background: var(--emerald-soft);
+      padding: 6px 12px;
+      margin-bottom: 24px;
+    }
+    .eyebrow-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: var(--emerald);
     }
 
     .intro h1 {
-      font-size: clamp(2.25rem, 1.2rem + 4.2vw, 4.75rem);
+      font-size: clamp(2.4rem, 1.3rem + 4vw, 4.65rem);
+      max-width: 15ch;
     }
     .intro p {
-      margin-top: 24px;
-      font-size: clamp(1.0625rem, 1rem + 0.4vw, 1.25rem);
+      margin-top: 22px;
+      font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.22rem);
       color: var(--ink-soft);
-      max-width: 40ch;
+      max-width: 48ch;
+      line-height: 1.6;
     }
-    .intro .btn {
+    .cta-row {
       margin-top: 36px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
     }
-
     .btn {
       display: inline-flex;
       align-items: center;
+      justify-content: center;
+      gap: 10px;
       min-height: 52px;
-      padding: 0 24px;
+      padding: 0 26px;
       background: var(--emerald);
       color: var(--paper);
-      font: 600 16px/1 Inter, system-ui, sans-serif;
+      font: 600 15px/1 'Inter', system-ui, sans-serif;
       text-decoration: none;
-      transition: background-color .15s;
+      border: 1px solid var(--emerald);
+      transition: background-color 0.15s ease, transform 0.15s ease;
     }
-    .btn:hover { background: var(--emerald-deep); }
+    .btn:hover {
+      background: var(--emerald-deep);
+      border-color: var(--emerald-deep);
+    }
+    .btn--secondary {
+      background: var(--surface);
+      color: var(--ink);
+      border: 1px solid var(--border);
+    }
+    .btn--secondary:hover {
+      background: var(--sunken);
+      border-color: var(--ink);
+    }
 
+    /* Telemetry Bento Grid */
     .facts {
       display: grid;
-      gap: 12px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
     }
     .fact {
-      background: var(--sunken);
+      background: var(--surface);
+      border: 1px solid var(--border);
       padding: 22px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 136px;
     }
-    .fact--accent { background: var(--emerald); color: var(--paper); }
+    .fact--accent {
+      grid-column: 1 / -1;
+      background: var(--emerald);
+      border-color: var(--emerald);
+      color: var(--paper);
+    }
+    .fact__code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--subtle);
+      margin-bottom: 12px;
+    }
+    .fact--accent .fact__code {
+      color: #A7D7C5;
+    }
     .fact__value {
       display: block;
-      font-family: Montserrat, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-weight: 800;
-      font-size: clamp(2rem, 1.4rem + 2vw, 2.75rem);
+      font-size: clamp(2rem, 1.4rem + 1.8vw, 2.85rem);
       letter-spacing: -0.03em;
       line-height: 1;
     }
     .fact__label {
       display: block;
       margin-top: 8px;
-      font-size: 15px;
+      font-size: 14px;
       color: var(--muted);
     }
-    .fact--accent .fact__label { color: #D6EBE2; }
+    .fact--accent .fact__label {
+      color: #E2F2EC;
+    }
 
-    /* Footer: the wordmark is the closing statement, kept from the designed footer */
+    /* Country Quick-Jump Bar */
+    .corridors {
+      background: var(--sunken);
+      border-bottom: 1px solid var(--border);
+      padding: 20px var(--margin);
+    }
+    .corridors__inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .corridors__label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+    }
+    .corridors__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .corridor-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: border-color 0.15s ease, background-color 0.15s ease;
+    }
+    .corridor-pill:hover {
+      border-color: var(--emerald);
+      background: var(--emerald-soft);
+    }
+    .corridor-pill span {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    /* Editorial Sections */
+    .about__block {
+      padding: clamp(56px, 7vw, 96px) var(--margin);
+      border-bottom: 1px solid var(--border);
+    }
+    .about__block--tone {
+      background: var(--surface);
+    }
+    .about__inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 28px 64px;
+    }
+    @media (min-width: 900px) {
+      .about__inner {
+        grid-template-columns: 5fr 7fr;
+      }
+    }
+    .section-tag {
+      display: block;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--emerald);
+      margin-bottom: 12px;
+    }
+    .about h2 {
+      font-size: clamp(1.75rem, 1.1rem + 2.2vw, 2.65rem);
+      letter-spacing: -0.03em;
+      line-height: 1.08;
+    }
+    .about p {
+      font-size: clamp(1.04rem, 1rem + 0.25vw, 1.15rem);
+      color: var(--ink-soft);
+      max-width: 56ch;
+      line-height: 1.65;
+    }
+    .baseline-card {
+      margin-top: 24px;
+      padding: 20px 24px;
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--emerald);
+    }
+    .baseline-card__title {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      display: block;
+      margin-bottom: 6px;
+    }
+    .baseline-card__value {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--ink);
+    }
+
+    /* Steps Grid */
+    .steps-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    @media (min-width: 640px) {
+      .steps-list {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    .step-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .step-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--emerald);
+    }
+    .step-card strong {
+      display: block;
+      color: var(--ink);
+      font-family: 'Montserrat', system-ui, sans-serif;
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: -0.01em;
+    }
+    .step-card p {
+      font-size: 14.5px;
+      color: var(--ink-soft);
+      line-height: 1.55;
+    }
+
+    /* Footer */
     .foot {
-      padding: 0 var(--margin);
+      padding: 32px var(--margin) 0;
       overflow: hidden;
+      margin-top: auto;
+    }
+    .foot__inner {
+      max-width: 1280px;
+      margin: 0 auto;
     }
     .foot__name {
-      font-family: Montserrat, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-weight: 800;
-      font-size: 17.5vw;
+      font-size: 17.2vw;
       letter-spacing: -0.06em;
       line-height: 0.8;
       margin: 0 0 0 -0.04em;
+      color: var(--ink);
+      user-select: none;
     }
     .foot__row {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      gap: 8px 24px;
-      padding: 16px 0 20px;
+      gap: 12px 24px;
+      padding: 20px 0 28px;
+      border-top: 1px solid var(--border);
+      margin-top: 20px;
       font-size: 13px;
       color: var(--muted);
     }
-    .foot__row a { color: var(--ink); text-decoration: none; }
-    .foot__row a:hover { text-decoration: underline; text-underline-offset: 3px; }
-
-
-    /* Site navigation */
-    .site-head {
-      display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
-      padding: 20px var(--margin);
+    .foot__row a {
+      color: var(--ink);
+      text-decoration: none;
+      font-weight: 500;
     }
-    .site-nav { display: flex; gap: 28px; font-size: 15px; }
-    .site-nav a { color: var(--ink-soft); text-decoration: none; }
-    .site-nav a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
-    .site-nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
-
+    .foot__row a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
     @media (max-height: 560px) {
       .foot__name { font-size: 12vw; }
     }
@@ -213,64 +460,126 @@
 </head>
 <body>
   <div class="page">
-  <header class="site-head">
-    <a href="index.html" class="mark">GradIndex</a>
-    <nav class="site-nav" aria-label="Primary">
-      <a href="courses.html">Courses</a>
-      <a href="about.html">About</a>
-      <a href="#exnorlabs">Contact</a>
-    </nav>
-  </header>
 
+    <header class="site-head">
+      <a href="index.html" class="mark-group">
+        <span class="mark-dot" aria-hidden="true"></span>
+        <span class="mark">GradIndex</span>
+        <span class="mark-tag">OCT 2026 SYNC</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="courses.html">Courses</a>
+        <a href="explore.html?track=ai-ml">AI &amp; ML Explorer</a>
+        <a href="about.html">About</a>
+        <a href="about.html#exnorlabs">Contact</a>
+      </nav>
+    </header>
 
-    <main class="main">
-      <section class="intro">
-        <h1>Find the right master's abroad.</h1>
-        <p>Compare verified postgraduate programs in the USA, UK, Canada, Ireland and Australia by cost of living, scholarships and industry links.</p>
-        <a class="btn" href="courses.html">Browse courses</a>
-      </section>
+    <div class="hero-wrap">
+      <main class="main">
+        <section class="intro">
+          <div class="eyebrow">
+            <span class="eyebrow-dot" aria-hidden="true"></span>
+            <span>Verified Postgraduate Telemetry</span>
+          </div>
+          <h1>Find the right master's abroad.</h1>
+          <p>Compare 125 verified postgraduate programs in the USA, UK, Canada, Ireland, and Australia by monthly living cost, scholarship waivers, and direct industry pipelines.</p>
+          <div class="cta-row">
+            <a class="btn" href="explore.html?track=ai-ml">Explore AI &amp; ML Track (125) &rarr;</a>
+            <a class="btn btn--secondary" href="courses.html">Browse all 6 course tracks</a>
+          </div>
+        </section>
 
-      <section class="facts" aria-label="Key figures">
-        <div class="fact fact--accent">
-          <span class="fact__value">125</span>
-          <span class="fact__label">Verified programs</span>
+        <section class="facts" aria-label="Key figures">
+          <div class="fact fact--accent">
+            <span class="fact__code">INDEX // VOL. 01</span>
+            <div>
+              <span class="fact__value">125</span>
+              <span class="fact__label">Verified university programs audited across 5 countries</span>
+            </div>
+          </div>
+          <div class="fact">
+            <span class="fact__code">COUNTRIES</span>
+            <div>
+              <span class="fact__value">5</span>
+              <span class="fact__label">25 programs per country</span>
+            </div>
+          </div>
+          <div class="fact">
+            <span class="fact__code">LIVE TRACKS</span>
+            <div>
+              <span class="fact__value">1 / 6</span>
+              <span class="fact__label">AI, ML &amp; Data Science active</span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <section class="corridors" aria-label="Regional coverage">
+      <div class="corridors__inner">
+        <span class="corridors__label">Active Regional Corridors //</span>
+        <div class="corridors__list">
+          <a href="explore.html?track=ai-ml" class="corridor-pill">United States <span>25 UNIS</span></a>
+          <a href="explore.html?track=ai-ml" class="corridor-pill">United Kingdom <span>25 UNIS</span></a>
+          <a href="explore.html?track=ai-ml" class="corridor-pill">Canada <span>25 UNIS</span></a>
+          <a href="explore.html?track=ai-ml" class="corridor-pill">Ireland <span>25 UNIS</span></a>
+          <a href="explore.html?track=ai-ml" class="corridor-pill">Australia <span>25 UNIS</span></a>
         </div>
-        <div class="fact">
-          <span class="fact__value">5</span>
-          <span class="fact__label">Countries</span>
-        </div>
-        <div class="fact">
-          <span class="fact__value">1</span>
-          <span class="fact__label">Course track open now</span>
-        </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
     <!-- WHO IT IS FOR -->
     <section class="about about__block about__block--tone" aria-labelledby="for-title">
       <div class="about__inner">
-        <h2 id="for-title">Built for undergraduates planning their next step abroad.</h2>
-        <p>GradIndex is for students who are thinking about a master's in a field like engineering, AI or data science, and want to know which universities abroad fit their background and budget. Each program is verified, so you compare the same facts across the USA, UK, Canada, Ireland and Australia.</p>
+        <div>
+          <span class="section-tag">01 // CANDIDATE FIT</span>
+          <h2 id="for-title">Built for undergraduates planning their next step abroad.</h2>
+        </div>
+        <div>
+          <p>GradIndex is built for engineering and STEM students planning a master's in fields like AI, machine learning, power systems, or data science who want transparent numbers on living costs, scholarships, and admission compatibility before applying.</p>
+          <div class="baseline-card">
+            <span class="baseline-card__title">Audited Candidate Baseline</span>
+            <span class="baseline-card__value">B.Eng Electrical/Electronics (Second Class) + SQL, Tableau &amp; Excel Foundations</span>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- HOW IT WORKS -->
     <section class="about about__block" aria-labelledby="how-title">
       <div class="about__inner">
-        <h2 id="how-title">From first look to shortlist.</h2>
-        <ol>
-          <li><strong>Choose a course track</strong>Pick the discipline you want to study, such as AI, machine learning and data science.</li>
-          <li><strong>Filter by what matters</strong>Narrow programs by country, scholarship or aid, and monthly living cost.</li>
-          <li><strong>Check the fit</strong>Open a program to see its modules and how it suits your background before you apply.</li>
+        <div>
+          <span class="section-tag">02 // WORKFLOW</span>
+          <h2 id="how-title">From first look to shortlist.</h2>
+        </div>
+        <ol class="steps-list">
+          <li class="step-card">
+            <span class="step-num">STEP 01</span>
+            <strong>Choose a course track</strong>
+            <p>Select your target discipline—starting with our live 125-university Artificial Intelligence, ML &amp; Data Science index.</p>
+          </li>
+          <li class="step-card">
+            <span class="step-num">STEP 02</span>
+            <strong>Filter by what matters</strong>
+            <p>Narrow programs by country, TA/RA or merit tuition waivers, co-op placements, and estimated monthly living costs.</p>
+          </li>
+          <li class="step-card">
+            <span class="step-num">STEP 03</span>
+            <strong>Verify engineering fit</strong>
+            <p>Inspect core and applied modules, corporate R&amp;D pipelines, and specific admission notes for Electrical/Electronics graduates.</p>
+          </li>
         </ol>
       </div>
     </section>
 
     <footer class="foot">
-      <p class="foot__name" aria-hidden="true">GradIndex</p>
-      <div class="foot__row">
-        <span>A verified index of postgraduate programs, built by ExnorLab.</span>
-        <span>Data verified October 2026. <a href="courses.html">All courses</a></span>
+      <div class="foot__inner">
+        <p class="foot__name" aria-hidden="true">GradIndex</p>
+        <div class="foot__row">
+          <span>A verified index of postgraduate programs, built by ExnorLab.</span>
+          <span>Data verified October 2026 · <a href="courses.html">All courses</a> · <a href="about.html">About</a></span>
+        </div>
       </div>
     </footer>
 

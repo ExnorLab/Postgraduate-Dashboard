@@ -7,12 +7,14 @@
   <meta name="description" content="What GradIndex is for, what it covers, when it was last updated, and what comes next." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
   <style>
     :root {
       --paper: #F7F6F2;
       --surface: #FFFFFF;
       --sunken: #EFEDE6;
+      --border: #DFDDD4;
       --ink: #111111;
       --ink-soft: #3A3A37;
       --muted: #5F5F5A;
@@ -26,13 +28,13 @@
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font-family: Inter, system-ui, sans-serif;
+      font-family: 'Inter', system-ui, sans-serif;
       font-size: 16px;
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
     }
     h1, h2 {
-      font-family: Montserrat, system-ui, sans-serif;
+      font-family: 'Montserrat', system-ui, sans-serif;
       font-weight: 800;
       letter-spacing: -0.03em;
       line-height: 1.05;
@@ -43,89 +45,207 @@
     :focus-visible { outline: 3px solid var(--emerald); outline-offset: 3px; }
 
     .wrap { padding-left: var(--margin); padding-right: var(--margin); }
-    .inner { max-width: 1040px; margin: 0 auto; }
+    .inner { max-width: 1160px; margin: 0 auto; }
 
-    .mark { font-family: Montserrat, sans-serif; font-weight: 800; font-size: 17px; letter-spacing: -0.02em; text-decoration: none; color: var(--ink); }
+    /* Top Navigation */
     .site-head {
-      display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
-      padding: 20px var(--margin);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 18px var(--margin);
+      border-bottom: 1px solid var(--border);
+      background: rgba(247, 246, 242, 0.92);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      z-index: 40;
+    }
+    .mark-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--ink);
+    }
+    .mark-dot {
+      width: 10px;
+      height: 10px;
+      background: var(--emerald);
+      display: inline-block;
+    }
+    .mark {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      letter-spacing: -0.02em;
+    }
+    .mark-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 3px 8px;
+      background: var(--sunken);
+      border: 1px solid var(--border);
+      color: var(--muted);
     }
     .site-nav { display: flex; gap: 28px; font-size: 15px; }
-    .site-nav a { color: var(--ink-soft); text-decoration: none; }
+    .site-nav a { color: var(--ink-soft); text-decoration: none; font-weight: 500; }
     .site-nav a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
     .site-nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
 
-    .intro { padding-top: clamp(48px, 7vw, 96px); padding-bottom: clamp(48px, 6vw, 80px); }
+    .intro {
+      padding-top: clamp(48px, 7vw, 92px);
+      padding-bottom: clamp(48px, 6vw, 76px);
+      border-bottom: 1px solid var(--border);
+    }
+    .eyebrow {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--emerald);
+      display: block;
+      margin-bottom: 14px;
+    }
     .intro h1 { font-size: clamp(2.25rem, 1.4rem + 3.6vw, 4rem); }
     .intro p {
-      margin-top: 24px;
-      max-width: 60ch;
+      margin-top: 22px;
+      max-width: 62ch;
       font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.2rem);
       color: var(--ink-soft);
     }
 
-    .block { padding-top: clamp(48px, 6vw, 80px); padding-bottom: clamp(48px, 6vw, 80px); }
+    .block {
+      padding-top: clamp(48px, 6vw, 80px);
+      padding-bottom: clamp(48px, 6vw, 80px);
+      border-bottom: 1px solid var(--border);
+    }
     .block--tone { background: var(--sunken); }
     .block__grid { display: grid; grid-template-columns: 1fr; gap: 24px 64px; }
-    @media (min-width: 800px) { .block__grid { grid-template-columns: 5fr 7fr; } }
-    .block h2 { font-size: clamp(1.6rem, 1.1rem + 1.8vw, 2.4rem); }
-    .block__body { font-size: 17px; color: var(--ink-soft); }
+    @media (min-width: 820px) { .block__grid { grid-template-columns: 5fr 7fr; } }
+    .block h2 { font-size: clamp(1.6rem, 1.1rem + 1.8vw, 2.35rem); }
+    .block__body { font-size: 16.5px; color: var(--ink-soft); }
     .block__body + .block__body { margin-top: 16px; }
 
     .stats {
-      display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
-      margin-top: 8px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
     }
     @media (min-width: 640px) { .stats { grid-template-columns: repeat(4, 1fr); } }
-    .stat { background: var(--surface); padding: 22px 22px; }
-    .stat--accent { background: var(--emerald); color: var(--paper); }
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 22px;
+    }
+    .stat--accent {
+      background: var(--emerald);
+      border-color: var(--emerald);
+      color: var(--paper);
+    }
     .stat__value {
       display: block;
-      font-family: Montserrat, sans-serif; font-weight: 800;
-      font-size: clamp(2rem, 1.4rem + 2vw, 2.75rem);
-      letter-spacing: -0.03em; line-height: 1;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: clamp(2rem, 1.4rem + 2vw, 2.65rem);
+      letter-spacing: -0.03em;
+      line-height: 1;
     }
-    .stat__label { display: block; margin-top: 8px; font-size: 14px; color: var(--muted); }
+    .stat__label { display: block; margin-top: 8px; font-size: 13.5px; color: var(--muted); }
     .stat--accent .stat__label { color: #D6EBE2; }
 
-    .plans { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 12px; }
+    .plans { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
     .plans li {
-      display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap;
-      background: var(--surface); padding: 18px 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 18px 22px;
     }
-    .plans__name { font-family: Montserrat, sans-serif; font-weight: 700; font-size: 16px; letter-spacing: -0.01em; }
-    .plans__when { font-size: 14px; color: var(--muted); white-space: nowrap; }
-    .plans__when--open { color: var(--emerald); font-weight: 600; }
+    .plans__name {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 15.5px;
+      letter-spacing: -0.01em;
+    }
+    .plans__when {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    .plans__when--open {
+      background: var(--emerald);
+      color: var(--paper);
+      padding: 4px 10px;
+      font-weight: 600;
+    }
 
-    .contact { padding-top: clamp(64px, 8vw, 110px); padding-bottom: clamp(64px, 8vw, 110px); background: var(--emerald); color: var(--paper); }
+    .contact {
+      padding-top: clamp(64px, 8vw, 104px);
+      padding-bottom: clamp(64px, 8vw, 104px);
+      background: var(--emerald);
+      color: var(--paper);
+    }
     .contact h2 { font-size: clamp(1.9rem, 1.2rem + 2.4vw, 3rem); }
-    .contact p { margin-top: 16px; max-width: 52ch; color: #D6EBE2; font-size: 17px; }
+    .contact p { margin-top: 16px; max-width: 54ch; color: #D6EBE2; font-size: 17px; }
     .contact a.btn {
-      display: inline-flex; align-items: center; min-height: 52px; margin-top: 28px; padding: 0 24px;
-      background: var(--paper); color: var(--ink); font: 600 16px/1 Inter, sans-serif; text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      min-height: 52px;
+      margin-top: 28px;
+      padding: 0 26px;
+      background: var(--paper);
+      color: var(--ink);
+      font: 600 15px/1 'Inter', sans-serif;
+      text-decoration: none;
     }
     .contact a.btn:hover { background: #FFFFFF; }
 
     .foot { overflow: hidden; padding-top: 24px; }
     .foot__name {
-      font-family: Montserrat, sans-serif; font-weight: 800;
-      font-size: 17.5vw; letter-spacing: -0.06em; line-height: 0.8;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 17.2vw;
+      letter-spacing: -0.06em;
+      line-height: 0.8;
       margin: 0 0 0 -0.04em;
+      user-select: none;
     }
     .foot__row {
-      display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px;
-      padding: 16px 0 24px; font-size: 13px; color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px 24px;
+      padding: 18px 0 26px;
+      border-top: 1px solid var(--border);
+      margin-top: 20px;
+      font-size: 13px;
+      color: var(--muted);
     }
-    .foot__row a { color: var(--ink); text-decoration: none; }
+    .foot__row a { color: var(--ink); text-decoration: none; font-weight: 500; }
     .foot__row a:hover { text-decoration: underline; text-underline-offset: 3px; }
   </style>
 </head>
 <body>
 
   <header class="site-head">
-    <a href="index.html" class="mark">GradIndex</a>
+    <a href="index.html" class="mark-group">
+      <span class="mark-dot" aria-hidden="true"></span>
+      <span class="mark">GradIndex</span>
+      <span class="mark-tag">METHODOLOGY</span>
+    </a>
     <nav class="site-nav" aria-label="Primary">
       <a href="courses.html">Courses</a>
+      <a href="explore.html?track=ai-ml">AI &amp; ML Explorer</a>
       <a href="about.html" aria-current="page">About</a>
       <a href="#exnorlabs">Contact</a>
     </nav>
@@ -134,6 +254,7 @@
   <main>
     <section class="wrap intro">
       <div class="inner">
+        <span class="eyebrow">INDEX SPECIFICATION // EXNORLAB</span>
         <h1>About GradIndex.</h1>
         <p>GradIndex helps undergraduates find master's programs abroad. Each program is verified, and you can compare them by monthly living cost, scholarship or aid, and industry links, so you can build a shortlist before you apply.</p>
       </div>
@@ -142,6 +263,7 @@
     <section class="wrap block block--tone" aria-labelledby="covers">
       <div class="inner block__grid">
         <div>
+          <span class="eyebrow">01 // SCOPE</span>
           <h2 id="covers">What it covers today.</h2>
         </div>
         <div>
@@ -151,7 +273,7 @@
             <div class="stat"><span class="stat__value">5</span><span class="stat__label">Countries, 25 programs each</span></div>
             <div class="stat"><span class="stat__value">1</span><span class="stat__label">Course track open</span></div>
           </div>
-          <p class="block__body" style="margin-top:20px">The open track is Artificial Intelligence &amp; Machine Learning, which includes AI, machine learning and data science programs in the USA, UK, Canada, Ireland and Australia.</p>
+          <p class="block__body" style="margin-top:20px">The open track is Artificial Intelligence &amp; Machine Learning, which includes AI, machine learning, and data science programs in the USA, UK, Canada, Ireland, and Australia.</p>
         </div>
       </div>
     </section>
@@ -159,11 +281,12 @@
     <section class="wrap block" aria-labelledby="updated">
       <div class="inner block__grid">
         <div>
+          <span class="eyebrow">02 // AUDIT CYCLE</span>
           <h2 id="updated">Last updated.</h2>
         </div>
         <div>
           <p class="block__body"><strong style="color:var(--ink)">October 2026.</strong> All 125 entries were verified in October 2026, and each program card shows its own verification month.</p>
-          <p class="block__body">Program details can change after verification. Confirm entry requirements, fees and funding directly with each university before you apply.</p>
+          <p class="block__body">Program details can change after verification. Confirm entry requirements, fees, and funding directly with each university before you apply.</p>
         </div>
       </div>
     </section>
@@ -171,8 +294,9 @@
     <section class="wrap block block--tone" aria-labelledby="plans">
       <div class="inner block__grid">
         <div>
+          <span class="eyebrow">03 // PIPELINE</span>
           <h2 id="plans">What comes next.</h2>
-          <p class="block__body" style="margin-top:16px">New course tracks are added in stages. Each one follows the same format: verified programs, living cost, scholarship and industry information.</p>
+          <p class="block__body" style="margin-top:16px">New course tracks are added in stages. Each one follows the same format: verified programs, living cost, scholarship, and industry information.</p>
         </div>
         <div>
           <ul class="plans">
@@ -191,7 +315,7 @@
       <div class="inner">
         <h2 id="contact">Contact ExnorLab.</h2>
         <p>GradIndex is built by ExnorLab. For questions, corrections to a program entry, or partnership enquiries, get in touch through ExnorLab.</p>
-        <a class="btn" href="#exnorlabs">Visit ExnorLab</a>
+        <a class="btn" href="https://github.com/ExnorLab/Postgraduate-Dashboard" target="_blank" rel="noopener">Visit ExnorLab on GitHub &rarr;</a>
       </div>
     </section>
   </main>
@@ -201,7 +325,7 @@
       <p class="foot__name" aria-hidden="true">GradIndex</p>
       <div class="foot__row">
         <span>A verified index of postgraduate programs, built by ExnorLab.</span>
-        <span>Data verified October 2026. <a href="index.html">Home</a></span>
+        <span>Data verified October 2026 · <a href="index.html">Home</a> · <a href="courses.html">Courses</a></span>
       </div>
     </div>
   </footer>

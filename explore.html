@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Course explorer — GradIndex</title>
+  <title>Course Explorer — GradIndex</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
   <style>
     :root {
       --paper: #F7F6F2;
       --surface: #FFFFFF;
       --sunken: #EFEDE6;
+      --border: #DFDDD4;
       --ink: #111111;
       --ink-soft: #3A3A37;
       --muted: #5F5F5A;
@@ -26,7 +28,7 @@
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font-family: Inter, system-ui, sans-serif;
+      font-family: 'Inter', system-ui, sans-serif;
       font-size: 16px;
       line-height: 1.5;
       -webkit-font-smoothing: antialiased;
@@ -35,7 +37,7 @@
       flex-direction: column;
     }
     h1, h2 {
-      font-family: Montserrat, system-ui, sans-serif;
+      font-family: 'Montserrat', system-ui, sans-serif;
       font-weight: 800;
       letter-spacing: -0.03em;
       line-height: 1.1;
@@ -45,143 +47,366 @@
     a { color: var(--ink); }
     :focus-visible { outline: 3px solid var(--emerald); outline-offset: 3px; }
 
-    .mark { font-family: Montserrat, sans-serif; font-weight: 800; font-size: 17px; letter-spacing: -0.02em; text-decoration: none; color: var(--ink); }
+    /* Top Navigation */
     .site-head {
-      display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
-      padding: 20px var(--margin);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 18px var(--margin);
+      border-bottom: 1px solid var(--border);
+      background: rgba(247, 246, 242, 0.92);
+      backdrop-filter: blur(8px);
+    }
+    .mark-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--ink);
+    }
+    .mark-dot {
+      width: 10px;
+      height: 10px;
+      background: var(--emerald);
+      display: inline-block;
+    }
+    .mark {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      letter-spacing: -0.02em;
+    }
+    .mark-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 3px 8px;
+      background: var(--sunken);
+      border: 1px solid var(--border);
+      color: var(--muted);
     }
     .site-nav { display: flex; gap: 28px; font-size: 15px; }
-    .site-nav a { color: var(--ink-soft); text-decoration: none; }
+    .site-nav a { color: var(--ink-soft); text-decoration: none; font-weight: 500; }
     .site-nav a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
     .site-nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
 
-    .intro { padding: clamp(32px, 5vw, 56px) var(--margin) clamp(24px, 3vw, 36px); }
-    .intro__inner { max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px 40px; }
-    .intro h1 { font-size: clamp(1.9rem, 1.2rem + 2.6vw, 3rem); max-width: 22ch; }
-    .intro__meta { font-size: 15px; color: var(--muted); }
-    .intro__back { display: inline-block; margin-bottom: 20px; font-size: 15px; color: var(--ink-soft); text-decoration: none; }
-    .intro__back:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+    /* Track Header */
+    .intro {
+      padding: clamp(32px, 4.5vw, 52px) var(--margin) clamp(24px, 3vw, 36px);
+      border-bottom: 1px solid var(--border);
+    }
+    .intro__inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 20px 40px;
+    }
+    .intro__back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .intro__back:hover {
+      color: var(--ink);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+    .intro h1 {
+      font-size: clamp(1.85rem, 1.2rem + 2.4vw, 2.9rem);
+      max-width: 26ch;
+    }
+    .intro__meta-box {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 14px 18px;
+    }
+    .intro__meta-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--emerald);
+      font-weight: 600;
+    }
+    .intro__meta {
+      font-size: 14px;
+      color: var(--ink-soft);
+      font-weight: 500;
+    }
 
-    .filters { background: var(--sunken); padding: 28px var(--margin); }
+    /* Sticky Telemetry Filter Bar */
+    .filters {
+      background: var(--sunken);
+      border-bottom: 1px solid var(--border);
+      padding: 20px var(--margin);
+      position: sticky;
+      top: 0;
+      z-index: 30;
+    }
     .filters__grid {
-      max-width: 1200px; margin: 0 auto;
-      display: grid; grid-template-columns: 1fr; gap: 16px;
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
     }
     @media (min-width: 640px) { .filters__grid { grid-template-columns: 1fr 1fr; } }
-    @media (min-width: 1000px) { .filters__grid { grid-template-columns: 2fr 1fr 1fr 1fr 1fr; } }
-    .field > span {
-      display: block; font-size: 13px; font-weight: 600; color: var(--muted); margin-bottom: 8px;
+    @media (min-width: 1024px) { .filters__grid { grid-template-columns: 2fr 1fr 1fr 1fr 1fr; } }
+
+    .field label > span {
+      display: block;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 6px;
     }
     .field-input, .field-select {
-      width: 100%; height: 44px; padding: 0 14px;
-      background-color: var(--surface); border: 0; border-radius: 0;
-      font: 500 15px/1 Inter, system-ui, sans-serif; color: var(--ink);
+      width: 100%;
+      height: 44px;
+      padding: 0 14px;
+      background-color: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0;
+      font: 500 14.5px/1 'Inter', system-ui, sans-serif;
+      color: var(--ink);
       appearance: none;
+      transition: border-color 0.15s ease;
     }
     .field-select {
-      padding-right: 40px;
+      padding-right: 38px;
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%235F5F5A' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-      background-repeat: no-repeat; background-position: right 14px center; cursor: pointer;
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      cursor: pointer;
     }
     .field-input::placeholder { color: var(--subtle); }
-    .field-input:focus, .field-select:focus { outline: 2px solid var(--emerald); outline-offset: 0; }
-
-    .results {
-      max-width: 1200px; margin: 0 auto; width: 100%;
-      padding: 28px var(--margin) 16px;
-      display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 24px;
-      font-size: 15px; color: var(--muted);
+    .field-input:hover, .field-select:hover { border-color: var(--subtle); }
+    .field-input:focus, .field-select:focus {
+      outline: none;
+      border-color: var(--emerald);
+      box-shadow: 0 0 0 2px rgba(11, 110, 79, 0.15);
     }
 
+    /* Results Status Bar */
+    .results {
+      max-width: 1280px;
+      margin: 0 auto;
+      width: 100%;
+      padding: 22px var(--margin) 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .reset-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--ink-soft);
+      cursor: pointer;
+      transition: background-color 0.15s ease, border-color 0.15s ease;
+    }
+    .reset-btn:hover {
+      background: var(--surface);
+      border-color: var(--ink);
+      color: var(--ink);
+    }
+
+    /* University Cards Grid */
     .grid {
-      max-width: 1200px; margin: 0 auto; width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      width: 100%;
       padding: 0 var(--margin) clamp(72px, 9vw, 120px);
-      display: grid; grid-template-columns: 1fr; gap: 16px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
     }
     @media (min-width: 640px) { .grid { grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 1000px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 1024px) { .grid { grid-template-columns: repeat(3, 1fr); } }
 
     .card {
       background: var(--surface);
+      border: 1px solid var(--border);
       padding: 26px;
-      display: flex; flex-direction: column; gap: 10px;
-      min-height: 250px;
-      transition: background-color .15s;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      min-height: 270px;
+      transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
     }
-    .card:hover { background: var(--emerald-soft); }
-    .card__loc { font-size: 13px; color: var(--muted); font-weight: 500; }
+    .card:hover {
+      background: var(--emerald-soft);
+      border-color: var(--emerald);
+      transform: translateY(-2px);
+    }
+    .card__loc {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
     .card__name {
-      font-size: 19px; line-height: 1.25; letter-spacing: -0.02em; margin-top: 4px;
+      font-size: 20px;
+      line-height: 1.22;
+      letter-spacing: -0.02em;
+      margin-top: 2px;
     }
-    .card__program { font-size: 15px; color: var(--emerald); font-weight: 600; line-height: 1.4; }
+    .card__program {
+      font-size: 15px;
+      color: var(--emerald);
+      font-weight: 600;
+      line-height: 1.45;
+    }
     .card__rating {
-      margin-top: auto; padding-top: 14px;
-      display: flex; align-items: center; gap: 10px;
-      font-size: 14px; color: var(--ink-soft);
+      margin-top: auto;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--ink-soft);
     }
-    .card__rating .label { color: var(--muted); }
-    .stars { letter-spacing: 2px; color: var(--ink); }
+    .card__rating .label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .stars {
+      letter-spacing: 2px;
+      color: var(--emerald);
+    }
     .card__link {
-      margin-top: 14px; align-self: flex-start;
-      display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px;
-      background: var(--ink); color: var(--paper);
-      font: 600 14px/1 Inter, system-ui, sans-serif; text-decoration: none;
-      transition: background-color .15s;
+      margin-top: 12px;
+      align-self: stretch;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 44px;
+      padding: 0 18px;
+      background: var(--ink);
+      color: var(--paper);
+      font: 600 13.5px/1 'Inter', system-ui, sans-serif;
+      text-decoration: none;
+      transition: background-color 0.15s ease;
+    }
+    .card__link::after {
+      content: "→";
+      font-family: 'JetBrains Mono', monospace;
     }
     .card__link:hover { background: var(--emerald-deep); }
 
     .notice {
       grid-column: 1 / -1;
-      padding: 28px; background: var(--surface);
-      font-size: 15px; color: var(--muted);
+      padding: 32px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      font-size: 15px;
+      color: var(--muted);
     }
-    .notice--error { color: #9B1C1C; background: #FFF4F4; }
+    .notice--error {
+      color: #9B1C1C;
+      background: #FFF4F4;
+      border-color: #F5C2C2;
+    }
 
+    /* Footer */
     .foot { overflow: hidden; padding: 24px var(--margin) 0; margin-top: auto; }
+    .foot__inner { max-width: 1280px; margin: 0 auto; }
     .foot__name {
-      font-family: Montserrat, sans-serif; font-weight: 800;
-      font-size: 17.5vw; letter-spacing: -0.06em; line-height: 0.8;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 17.2vw;
+      letter-spacing: -0.06em;
+      line-height: 0.8;
       margin: 0 0 0 -0.04em;
+      user-select: none;
     }
     .foot__row {
-      display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px;
-      padding: 16px 0 24px; font-size: 13px; color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px 24px;
+      padding: 18px 0 26px;
+      border-top: 1px solid var(--border);
+      margin-top: 20px;
+      font-size: 13px;
+      color: var(--muted);
     }
-    .foot__row a { color: var(--ink); text-decoration: none; }
+    .foot__row a { color: var(--ink); text-decoration: none; font-weight: 500; }
     .foot__row a:hover { text-decoration: underline; text-underline-offset: 3px; }
   </style>
 </head>
 <body>
 
   <header class="site-head">
-    <a href="index.html" class="mark">GradIndex</a>
+    <a href="index.html" class="mark-group">
+      <span class="mark-dot" aria-hidden="true"></span>
+      <span class="mark">GradIndex</span>
+      <span class="mark-tag">EXPLORER</span>
+    </a>
     <nav class="site-nav" aria-label="Primary">
       <a href="courses.html" aria-current="page">Courses</a>
       <a href="about.html">About</a>
-      <a href="#exnorlabs">Contact</a>
+      <a href="about.html#exnorlabs">Contact</a>
     </nav>
   </header>
 
   <section class="intro">
     <div class="intro__inner">
       <div>
-        <a href="courses.html" class="intro__back">&larr; All courses</a>
+        <a href="courses.html" class="intro__back">&larr; All course tracks</a>
         <h1 id="track-title">Loading course…</h1>
       </div>
-      <p id="track-subtitle" class="intro__meta">Checking the index…</p>
+      <div class="intro__meta-box">
+        <span class="intro__meta-label">INDEX STATUS // VERIFIED</span>
+        <p id="track-subtitle" class="intro__meta">Checking the index…</p>
+      </div>
     </div>
   </section>
 
   <section class="filters" aria-label="Filter and sort programs">
     <div class="filters__grid">
       <div class="field">
-        <label for="search-input"><span>Search university or city</span></label>
-        <input id="search-input" type="search" class="field-input" placeholder="e.g. Waterloo, Salford, Dublin" autocomplete="off" />
+        <label for="search-input"><span>Search university, city, or employer</span></label>
+        <input id="search-input" type="search" class="field-input" placeholder="e.g. Waterloo, Salford, Dublin, Siemens, Intel" autocomplete="off" />
       </div>
       <div class="field">
         <label for="country-filter"><span>Country</span></label>
         <select id="country-filter" class="field-select">
-          <option value="ALL">All countries</option>
+          <option value="ALL">All countries (5)</option>
           <option value="USA">United States</option>
           <option value="UK">United Kingdom</option>
           <option value="Canada">Canada</option>
@@ -199,11 +424,11 @@
         </select>
       </div>
       <div class="field">
-        <label for="cost-sort"><span>Living cost</span></label>
+        <label for="cost-sort"><span>Living cost (USD/mo)</span></label>
         <select id="cost-sort" class="field-select">
           <option value="NONE">Default order</option>
-          <option value="ASC">Lowest first</option>
-          <option value="DESC">Highest first</option>
+          <option value="ASC">Lowest cost first</option>
+          <option value="DESC">Highest cost first</option>
         </select>
       </div>
       <div class="field">
@@ -219,6 +444,7 @@
 
   <div class="results">
     <span id="results-count" aria-live="polite">Showing 0 universities</span>
+    <button type="button" id="reset-filters-btn" class="reset-btn">Reset filters</button>
   </div>
 
   <main>
@@ -228,13 +454,30 @@
   </main>
 
   <footer class="foot">
-    <p class="foot__name" aria-hidden="true">GradIndex</p>
-    <div class="foot__row">
-      <span>A verified index of postgraduate programs, built by ExnorLab.</span>
-      <span>Data verified October 2026. <a href="index.html">Home</a></span>
+    <div class="foot__inner">
+      <p class="foot__name" aria-hidden="true">GradIndex</p>
+      <div class="foot__row">
+        <span>A verified index of postgraduate programs, built by ExnorLab.</span>
+        <span>Data verified October 2026 · <a href="index.html">Home</a> · <a href="courses.html">Courses</a></span>
+      </div>
     </div>
   </footer>
 
   <script src="assets/app.js"></script>
+  <script>
+    document.getElementById('reset-filters-btn')?.addEventListener('click', () => {
+      const search = document.getElementById('search-input');
+      const country = document.getElementById('country-filter');
+      const scholarship = document.getElementById('scholarship-filter');
+      const cost = document.getElementById('cost-sort');
+      const industry = document.getElementById('industry-sort');
+      if (search) search.value = '';
+      if (country) country.value = 'ALL';
+      if (scholarship) scholarship.value = 'ALL';
+      if (cost) cost.value = 'NONE';
+      if (industry) industry.value = 'NONE';
+      search?.dispatchEvent(new Event('input'));
+    });
+  </script>
 </body>
 </html>
